@@ -1,0 +1,23 @@
+{
+  "schema_version": "museumlive_benchmark_task_v1",
+  "task_count": 450,
+  "required_task_fields": [
+    "source_id",
+    "capability",
+    "task_id",
+    "language",
+    "session",
+    "branches"
+  ],
+  "branch_required_fields": [
+    "branch_id",
+    "user_events",
+    "slots"
+  ],
+  "time_unit": "seconds from source start",
+  "media": {
+    "frame_fps": 25,
+    "audio_hz": 16000,
+    "audio_channels": 1
+  }
+}

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,"Noto Sans CJK SC",sans-serif;fill:#222}.axis{stroke:#333;stroke-width:1}.grid{stroke:#ddd;stroke-width:1}.bar{stroke:#fff;stroke-width:1}</style>
+<text x="550.0" y="35" text-anchor="middle" font-size="24" font-weight="700">最近音频证据距离分层</text>
+<line class="grid" x1="90" y1="495.0" x2="1070" y2="495.0"/>
+<text x="78" y="500.0" text-anchor="end" font-size="14">0.0</text>
+<line class="grid" x1="90" y1="413.0" x2="1070" y2="413.0"/>
+<text x="78" y="418.0" text-anchor="end" font-size="14">1.0</text>
+<line class="grid" x1="90" y1="331.0" x2="1070" y2="331.0"/>
+<text x="78" y="336.0" text-anchor="end" font-size="14">2.0</text>
+<line class="grid" x1="90" y1="249.0" x2="1070" y2="249.0"/>
+<text x="78" y="254.0" text-anchor="end" font-size="14">3.0</text>
+<line class="grid" x1="90" y1="167.0" x2="1070" y2="167.0"/>
+<text x="78" y="172.0" text-anchor="end" font-size="14">4.0</text>
+<line class="grid" x1="90" y1="85.0" x2="1070" y2="85.0"/>
+<text x="78" y="90.0" text-anchor="end" font-size="14">5.0</text>
+<line class="axis" x1="90" y1="85" x2="90" y2="495"/>
+<line class="axis" x1="90" y1="495" x2="1070" y2="495"/>
+<text transform="translate(24 290.0) rotate(-90)" text-anchor="middle" font-size="16">0–5</text>
+<text x="212.5" y="523" text-anchor="middle" font-size="14">&lt;5s</text>
+<rect class="bar" x="128.5" y="429.4" width="40" height="65.6" fill="#4472C4"/>
+<text x="148.5" y="424.4" text-anchor="middle" font-size="12">0.80</text>
+<rect class="bar" x="170.5" y="399.06" width="40" height="95.94" fill="#ED7D31"/>
+<text x="190.5" y="394.06" text-anchor="middle" font-size="12">1.17</text>
+<rect class="bar" x="212.5" y="442.52" width="40" height="52.48" fill="#70AD47"/>
+<text x="232.5" y="437.52" text-anchor="middle" font-size="12">0.64</text>
+<rect class="bar" x="254.5" y="381.02" width="40" height="113.97999999999999" fill="#A64D79"/>
+<text x="274.5" y="376.02" text-anchor="middle" font-size="12">1.39</text>
+<text x="457.5" y="523" text-anchor="middle" font-size="14">5–15s</text>
+<rect class="bar" x="373.5" y="445.8" width="40" height="49.2" fill="#4472C4"/>
+<text x="393.5" y="440.8" text-anchor="middle" font-size="12">0.60</text>
+<rect class="bar" x="415.5" y="419.56" width="40" height="75.44" fill="#ED7D31"/>
+<text x="435.5" y="414.56" text-anchor="middle" font-size="12">0.92</text>
+<rect class="bar" x="457.5" y="458.1" width="40" height="36.9" fill="#70AD47"/>
+<text x="477.5" y="453.1" text-anchor="middle" font-size="12">0.45</text>
+<rect class="bar" x="499.5" y="398.24" width="40" height="96.75999999999999" fill="#A64D79"/>
+<text x="519.5" y="393.24" text-anchor="middle" font-size="12">1.18</text>
+<text x="702.5" y="523" text-anchor="middle" font-size="14">15–30s</text>
+<rect class="bar" x="618.5" y="452.36" width="40" height="42.64" fill="#4472C4"/>
+<text x="638.5" y="447.36" text-anchor="middle" font-size="12">0.52</text>
+<rect class="bar" x="660.5" y="422.84000000000003" width="40" height="72.16" fill="#ED7D31"/>
+<text x="680.5" y="417.84000000000003" text-anchor="middle" font-size="12">0.88</text>
+<rect class="bar" x="702.5" y="469.58" width="40" height="25.419999999999998" fill="#70AD47"/>
+<text x="722.5" y="464.58" text-anchor="middle" font-size="12">0.31</text>
+<rect class="bar" x="744.5" y="381.02" width="40" height="113.97999999999999" fill="#A64D79"/>
+<text x="764.5" y="376.02" text-anchor="middle" font-size="12">1.39</text>
+<text x="947.5" y="523" text-anchor="middle" font-size="14">≥30s</text>
+<rect class="bar" x="863.5" y="495" width="40" height="0" fill="#4472C4"/>
+<text x="883.5" y="490" text-anchor="middle" font-size="12">0.00</text>
+<rect class="bar" x="905.5" y="495" width="40" height="0" fill="#ED7D31"/>
+<text x="925.5" y="490" text-anchor="middle" font-size="12">0.00</text>
+<rect class="bar" x="947.5" y="495" width="40" height="0" fill="#70AD47"/>
+<text x="967.5" y="490" text-anchor="middle" font-size="12">0.00</text>
+<rect class="bar" x="989.5" y="495" width="40" height="0" fill="#A64D79"/>
+<text x="1009.5" y="490" text-anchor="middle" font-size="12">0.00</text>
+<rect x="90" y="565" width="16" height="16" fill="#4472C4"/>
+<text x="112" y="578" font-size="14">MiniCPM-o 4.5</text>
+<rect x="294" y="565" width="16" height="16" fill="#ED7D31"/>
+<text x="316" y="578" font-size="14">Venus</text>
+<rect x="411" y="565" width="16" height="16" fill="#70AD47"/>
+<text x="433" y="578" font-size="14">Gander</text>
+<rect x="528" y="565" width="16" height="16" fill="#A64D79"/>
+<text x="550" y="578" font-size="14">MOSS*</text>
+<text x="550.0" y="605" text-anchor="middle" font-size="13" fill="#555">≥30s 仅 2 个 slot，不能据此下稳定结论</text>
+</svg>

@@ -1,0 +1,20 @@
+{
+  "experiment11_cross_directions_per_model_track": 600,
+  "experiment11_pairs_per_model_track": 300,
+  "experiments": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "external_input_checksums_verified": true,
+  "models_per_track": 4,
+  "raw_api_cache_committed": false,
+  "status": "complete",
+  "tracks": [
+    "1fps",
+    "10fps"
+  ]
+}

@@ -1,0 +1,151 @@
+﻿entity,entity_label,analysis_condition,aggregation,judge_key,judge_family,judge_model,scope,n,mean,sd,exact_zero,exact_five,task_balanced_mean
+human_mean,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible,consensus,consensus,Five-judge consensus,,all,125,2.9547,1.4955,10,16,3.0568
+human_mean,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible,consensus,consensus,Five-judge consensus,,wait,15,4.8889,0.4157,0,14,
+human_mean,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible,consensus,consensus,Five-judge consensus,,non_wait,110,2.691,1.3922,10,2,
+human_mean,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible,consensus,consensus,Five-judge consensus,,speak,103,2.7595,1.4007,10,2,
+human_mean,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible,consensus,consensus,Five-judge consensus,,clarify,7,1.6819,0.7071,0,0,
+human_mean,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible,judge,qwen_primary,Qwen (primary),qwen/qwen3.8-omni-flash,all,125,2.8048,1.5726,12,16,2.9108
+human_mean,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible,judge,qwen_primary,Qwen (primary),qwen/qwen3.8-omni-flash,wait,15,4.8889,0.4157,0,14,
+human_mean,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible,judge,qwen_primary,Qwen (primary),qwen/qwen3.8-omni-flash,non_wait,110,2.5206,1.4538,12,2,
+human_mean,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible,judge,qwen_primary,Qwen (primary),qwen/qwen3.8-omni-flash,speak,103,2.589,1.4665,11,2,
+human_mean,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible,judge,qwen_primary,Qwen (primary),qwen/qwen3.8-omni-flash,clarify,7,1.5143,0.6987,1,0,
+human_mean,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible,judge,hy3,HY3,tencent/hy3,all,125,2.9835,1.4914,11,18,3.087
+human_mean,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible,judge,hy3,HY3,tencent/hy3,wait,15,4.8889,0.4157,0,14,
+human_mean,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible,judge,hy3,HY3,tencent/hy3,non_wait,110,2.7236,1.3934,11,4,
+human_mean,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible,judge,hy3,HY3,tencent/hy3,speak,103,2.7906,1.4051,11,4,
+human_mean,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible,judge,hy3,HY3,tencent/hy3,clarify,7,1.7381,0.6482,0,0,
+human_mean,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible,judge,deepseek,DeepSeek,deepseek/deepseek-v4.1-flash,all,125,2.9427,1.5271,11,16,3.046
+human_mean,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible,judge,deepseek,DeepSeek,deepseek/deepseek-v4.1-flash,wait,15,4.8889,0.4157,0,14,
+human_mean,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible,judge,deepseek,DeepSeek,deepseek/deepseek-v4.1-flash,non_wait,110,2.6773,1.4282,11,2,
+human_mean,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible,judge,deepseek,DeepSeek,deepseek/deepseek-v4.1-flash,speak,103,2.755,1.4317,11,2,
+human_mean,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible,judge,deepseek,DeepSeek,deepseek/deepseek-v4.1-flash,clarify,7,1.5333,0.7019,0,0,
+human_mean,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible,judge,glm,GLM,z-ai/glm-5.3-flash,all,125,3.0397,1.5299,11,16,3.1425
+human_mean,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible,judge,glm,GLM,z-ai/glm-5.3-flash,wait,15,4.8889,0.4157,0,14,
+human_mean,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible,judge,glm,GLM,z-ai/glm-5.3-flash,non_wait,110,2.7876,1.4513,11,2,
+human_mean,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible,judge,glm,GLM,z-ai/glm-5.3-flash,speak,103,2.8586,1.4569,11,2,
+human_mean,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible,judge,glm,GLM,z-ai/glm-5.3-flash,clarify,7,1.7429,0.8377,0,0,
+human_mean,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible,judge,kimi,Kimi,moonshotai/kimi-k3,all,125,3.0029,1.5189,12,18,3.0977
+human_mean,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible,judge,kimi,Kimi,moonshotai/kimi-k3,wait,15,4.8889,0.4157,0,14,
+human_mean,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible,judge,kimi,Kimi,moonshotai/kimi-k3,non_wait,110,2.7458,1.4307,12,4,
+human_mean,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible,judge,kimi,Kimi,moonshotai/kimi-k3,speak,103,2.8045,1.4376,11,4,
+human_mean,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible,judge,kimi,Kimi,moonshotai/kimi-k3,clarify,7,1.881,0.977,1,0,
+moss,MOSS,ai_judged_saved_model_response,consensus,consensus,Five-judge consensus,,all,125,2.0949,1.6338,27,6,2.1464
+moss,MOSS,ai_judged_saved_model_response,consensus,consensus,Five-judge consensus,,wait,15,1.6667,2.357,10,5,
+moss,MOSS,ai_judged_saved_model_response,consensus,consensus,Five-judge consensus,,non_wait,110,2.1533,1.4991,17,1,
+moss,MOSS,ai_judged_saved_model_response,consensus,consensus,Five-judge consensus,,speak,103,2.2373,1.4978,14,1,
+moss,MOSS,ai_judged_saved_model_response,consensus,consensus,Five-judge consensus,,clarify,7,0.9171,0.8222,3,0,
+moss,MOSS,ai_judged_saved_model_response,judge,qwen_primary,Qwen (primary),qwen/qwen3.8-omni-flash,all,125,1.8424,1.8385,48,8,1.9206
+moss,MOSS,ai_judged_saved_model_response,judge,qwen_primary,Qwen (primary),qwen/qwen3.8-omni-flash,wait,15,1.6667,2.357,10,5,
+moss,MOSS,ai_judged_saved_model_response,judge,qwen_primary,Qwen (primary),qwen/qwen3.8-omni-flash,non_wait,110,1.8664,1.7546,38,3,
+moss,MOSS,ai_judged_saved_model_response,judge,qwen_primary,Qwen (primary),qwen/qwen3.8-omni-flash,speak,103,1.9282,1.7814,35,3,
+moss,MOSS,ai_judged_saved_model_response,judge,qwen_primary,Qwen (primary),qwen/qwen3.8-omni-flash,clarify,7,0.9571,0.8942,3,0,
+moss,MOSS,ai_judged_saved_model_response,judge,hy3,HY3,tencent/hy3,all,125,2.2096,1.6527,30,9,2.2785
+moss,MOSS,ai_judged_saved_model_response,judge,hy3,HY3,tencent/hy3,wait,15,1.6667,2.357,10,5,
+moss,MOSS,ai_judged_saved_model_response,judge,hy3,HY3,tencent/hy3,non_wait,110,2.2836,1.5167,20,4,
+moss,MOSS,ai_judged_saved_model_response,judge,hy3,HY3,tencent/hy3,speak,103,2.3602,1.5097,17,4,
+moss,MOSS,ai_judged_saved_model_response,judge,hy3,HY3,tencent/hy3,clarify,7,1.1571,1.121,3,0,
+moss,MOSS,ai_judged_saved_model_response,judge,deepseek,DeepSeek,deepseek/deepseek-v4.1-flash,all,125,2.1384,1.6448,31,8,2.1841
+moss,MOSS,ai_judged_saved_model_response,judge,deepseek,DeepSeek,deepseek/deepseek-v4.1-flash,wait,15,1.6667,2.357,10,5,
+moss,MOSS,ai_judged_saved_model_response,judge,deepseek,DeepSeek,deepseek/deepseek-v4.1-flash,non_wait,110,2.2027,1.5107,21,3,
+moss,MOSS,ai_judged_saved_model_response,judge,deepseek,DeepSeek,deepseek/deepseek-v4.1-flash,speak,103,2.3107,1.4928,18,3,
+moss,MOSS,ai_judged_saved_model_response,judge,deepseek,DeepSeek,deepseek/deepseek-v4.1-flash,clarify,7,0.6143,0.6151,3,0,
+moss,MOSS,ai_judged_saved_model_response,judge,glm,GLM,z-ai/glm-5.3-flash,all,125,2.2056,1.8183,35,9,2.218
+moss,MOSS,ai_judged_saved_model_response,judge,glm,GLM,z-ai/glm-5.3-flash,wait,15,1.6667,2.357,10,5,
+moss,MOSS,ai_judged_saved_model_response,judge,glm,GLM,z-ai/glm-5.3-flash,non_wait,110,2.2791,1.7188,25,4,
+moss,MOSS,ai_judged_saved_model_response,judge,glm,GLM,z-ai/glm-5.3-flash,speak,103,2.3893,1.713,22,4,
+moss,MOSS,ai_judged_saved_model_response,judge,glm,GLM,z-ai/glm-5.3-flash,clarify,7,0.6571,0.663,3,0,
+moss,MOSS,ai_judged_saved_model_response,judge,kimi,Kimi,moonshotai/kimi-k3,all,125,2.0784,1.6569,31,9,2.1309
+moss,MOSS,ai_judged_saved_model_response,judge,kimi,Kimi,moonshotai/kimi-k3,wait,15,1.6667,2.357,10,5,
+moss,MOSS,ai_judged_saved_model_response,judge,kimi,Kimi,moonshotai/kimi-k3,non_wait,110,2.1345,1.5283,21,4,
+moss,MOSS,ai_judged_saved_model_response,judge,kimi,Kimi,moonshotai/kimi-k3,speak,103,2.1981,1.5312,18,4,
+moss,MOSS,ai_judged_saved_model_response,judge,kimi,Kimi,moonshotai/kimi-k3,clarify,7,1.2,1.1276,3,0,
+minicpm,MiniCPM,ai_judged_saved_model_response,consensus,consensus,Five-judge consensus,,all,125,1.6611,1.7947,47,12,1.6474
+minicpm,MiniCPM,ai_judged_saved_model_response,consensus,consensus,Five-judge consensus,,wait,15,3.3333,2.357,5,10,
+minicpm,MiniCPM,ai_judged_saved_model_response,consensus,consensus,Five-judge consensus,,non_wait,110,1.4331,1.5714,42,2,
+minicpm,MiniCPM,ai_judged_saved_model_response,consensus,consensus,Five-judge consensus,,speak,103,1.5212,1.5835,36,2,
+minicpm,MiniCPM,ai_judged_saved_model_response,consensus,consensus,Five-judge consensus,,clarify,7,0.1371,0.3359,6,0,
+minicpm,MiniCPM,ai_judged_saved_model_response,judge,qwen_primary,Qwen (primary),qwen/qwen3.8-omni-flash,all,125,1.528,1.8705,63,13,1.5117
+minicpm,MiniCPM,ai_judged_saved_model_response,judge,qwen_primary,Qwen (primary),qwen/qwen3.8-omni-flash,wait,15,3.3333,2.357,5,10,
+minicpm,MiniCPM,ai_judged_saved_model_response,judge,qwen_primary,Qwen (primary),qwen/qwen3.8-omni-flash,non_wait,110,1.2818,1.6472,58,3,
+minicpm,MiniCPM,ai_judged_saved_model_response,judge,qwen_primary,Qwen (primary),qwen/qwen3.8-omni-flash,speak,103,1.3689,1.6669,51,3,
+minicpm,MiniCPM,ai_judged_saved_model_response,judge,qwen_primary,Qwen (primary),qwen/qwen3.8-omni-flash,clarify,7,0.0,0.0,7,0,
+minicpm,MiniCPM,ai_judged_saved_model_response,judge,hy3,HY3,tencent/hy3,all,125,1.732,1.8405,54,13,1.7257
+minicpm,MiniCPM,ai_judged_saved_model_response,judge,hy3,HY3,tencent/hy3,wait,15,3.3333,2.357,5,10,
+minicpm,MiniCPM,ai_judged_saved_model_response,judge,hy3,HY3,tencent/hy3,non_wait,110,1.5136,1.6415,49,3,
+minicpm,MiniCPM,ai_judged_saved_model_response,judge,hy3,HY3,tencent/hy3,speak,103,1.6049,1.6538,43,3,
+minicpm,MiniCPM,ai_judged_saved_model_response,judge,hy3,HY3,tencent/hy3,clarify,7,0.1714,0.4199,6,0,
+minicpm,MiniCPM,ai_judged_saved_model_response,judge,deepseek,DeepSeek,deepseek/deepseek-v4.1-flash,all,125,1.7008,1.8371,53,12,1.6781
+minicpm,MiniCPM,ai_judged_saved_model_response,judge,deepseek,DeepSeek,deepseek/deepseek-v4.1-flash,wait,15,3.3333,2.357,5,10,
+minicpm,MiniCPM,ai_judged_saved_model_response,judge,deepseek,DeepSeek,deepseek/deepseek-v4.1-flash,non_wait,110,1.4782,1.6324,48,2,
+minicpm,MiniCPM,ai_judged_saved_model_response,judge,deepseek,DeepSeek,deepseek/deepseek-v4.1-flash,speak,103,1.567,1.6461,42,2,
+minicpm,MiniCPM,ai_judged_saved_model_response,judge,deepseek,DeepSeek,deepseek/deepseek-v4.1-flash,clarify,7,0.1714,0.4199,6,0,
+minicpm,MiniCPM,ai_judged_saved_model_response,judge,glm,GLM,z-ai/glm-5.3-flash,all,125,1.7088,1.8776,58,14,1.7189
+minicpm,MiniCPM,ai_judged_saved_model_response,judge,glm,GLM,z-ai/glm-5.3-flash,wait,15,3.3333,2.357,5,10,
+minicpm,MiniCPM,ai_judged_saved_model_response,judge,glm,GLM,z-ai/glm-5.3-flash,non_wait,110,1.4873,1.6851,53,4,
+minicpm,MiniCPM,ai_judged_saved_model_response,judge,glm,GLM,z-ai/glm-5.3-flash,speak,103,1.5767,1.7014,47,4,
+minicpm,MiniCPM,ai_judged_saved_model_response,judge,glm,GLM,z-ai/glm-5.3-flash,clarify,7,0.1714,0.4199,6,0,
+minicpm,MiniCPM,ai_judged_saved_model_response,judge,kimi,Kimi,moonshotai/kimi-k3,all,125,1.636,1.8237,51,12,1.6026
+minicpm,MiniCPM,ai_judged_saved_model_response,judge,kimi,Kimi,moonshotai/kimi-k3,wait,15,3.3333,2.357,5,10,
+minicpm,MiniCPM,ai_judged_saved_model_response,judge,kimi,Kimi,moonshotai/kimi-k3,non_wait,110,1.4045,1.6048,46,2,
+minicpm,MiniCPM,ai_judged_saved_model_response,judge,kimi,Kimi,moonshotai/kimi-k3,speak,103,1.4883,1.6211,40,2,
+minicpm,MiniCPM,ai_judged_saved_model_response,judge,kimi,Kimi,moonshotai/kimi-k3,clarify,7,0.1714,0.4199,6,0,
+gander,Gander,ai_judged_saved_model_response,consensus,consensus,Five-judge consensus,,all,125,1.2365,1.7971,71,9,1.24
+gander,Gander,ai_judged_saved_model_response,consensus,consensus,Five-judge consensus,,wait,15,2.6667,2.4944,7,8,
+gander,Gander,ai_judged_saved_model_response,consensus,consensus,Five-judge consensus,,non_wait,110,1.0415,1.5825,64,1,
+gander,Gander,ai_judged_saved_model_response,consensus,consensus,Five-judge consensus,,speak,103,1.0967,1.6148,59,1,
+gander,Gander,ai_judged_saved_model_response,consensus,consensus,Five-judge consensus,,clarify,7,0.2286,0.5279,5,0,
+gander,Gander,ai_judged_saved_model_response,judge,qwen_primary,Qwen (primary),qwen/qwen3.8-omni-flash,all,125,1.1728,1.8366,80,11,1.165
+gander,Gander,ai_judged_saved_model_response,judge,qwen_primary,Qwen (primary),qwen/qwen3.8-omni-flash,wait,15,2.6667,2.4944,7,8,
+gander,Gander,ai_judged_saved_model_response,judge,qwen_primary,Qwen (primary),qwen/qwen3.8-omni-flash,non_wait,110,0.9691,1.6244,73,3,
+gander,Gander,ai_judged_saved_model_response,judge,qwen_primary,Qwen (primary),qwen/qwen3.8-omni-flash,speak,103,1.0194,1.6632,68,3,
+gander,Gander,ai_judged_saved_model_response,judge,qwen_primary,Qwen (primary),qwen/qwen3.8-omni-flash,clarify,7,0.2286,0.4199,5,0,
+gander,Gander,ai_judged_saved_model_response,judge,hy3,HY3,tencent/hy3,all,125,1.2112,1.8059,79,11,1.2256
+gander,Gander,ai_judged_saved_model_response,judge,hy3,HY3,tencent/hy3,wait,15,2.6667,2.4944,7,8,
+gander,Gander,ai_judged_saved_model_response,judge,hy3,HY3,tencent/hy3,non_wait,110,1.0127,1.5903,72,3,
+gander,Gander,ai_judged_saved_model_response,judge,hy3,HY3,tencent/hy3,speak,103,1.066,1.6233,66,3,
+gander,Gander,ai_judged_saved_model_response,judge,hy3,HY3,tencent/hy3,clarify,7,0.2286,0.5599,6,0,
+gander,Gander,ai_judged_saved_model_response,judge,deepseek,DeepSeek,deepseek/deepseek-v4.1-flash,all,125,1.2688,1.8211,76,9,1.2772
+gander,Gander,ai_judged_saved_model_response,judge,deepseek,DeepSeek,deepseek/deepseek-v4.1-flash,wait,15,2.6667,2.4944,7,8,
+gander,Gander,ai_judged_saved_model_response,judge,deepseek,DeepSeek,deepseek/deepseek-v4.1-flash,non_wait,110,1.0782,1.6179,69,1,
+gander,Gander,ai_judged_saved_model_response,judge,deepseek,DeepSeek,deepseek/deepseek-v4.1-flash,speak,103,1.1359,1.6498,63,1,
+gander,Gander,ai_judged_saved_model_response,judge,deepseek,DeepSeek,deepseek/deepseek-v4.1-flash,clarify,7,0.2286,0.5599,6,0,
+gander,Gander,ai_judged_saved_model_response,judge,glm,GLM,z-ai/glm-5.3-flash,all,125,1.2704,1.8375,78,11,1.2756
+gander,Gander,ai_judged_saved_model_response,judge,glm,GLM,z-ai/glm-5.3-flash,wait,15,2.6667,2.4944,7,8,
+gander,Gander,ai_judged_saved_model_response,judge,glm,GLM,z-ai/glm-5.3-flash,non_wait,110,1.08,1.639,71,3,
+gander,Gander,ai_judged_saved_model_response,judge,glm,GLM,z-ai/glm-5.3-flash,speak,103,1.1379,1.6718,65,3,
+gander,Gander,ai_judged_saved_model_response,judge,glm,GLM,z-ai/glm-5.3-flash,clarify,7,0.2286,0.5599,6,0,
+gander,Gander,ai_judged_saved_model_response,judge,kimi,Kimi,moonshotai/kimi-k3,all,125,1.2592,1.8279,74,12,1.2569
+gander,Gander,ai_judged_saved_model_response,judge,kimi,Kimi,moonshotai/kimi-k3,wait,15,2.6667,2.4944,7,8,
+gander,Gander,ai_judged_saved_model_response,judge,kimi,Kimi,moonshotai/kimi-k3,non_wait,110,1.0673,1.6252,67,4,
+gander,Gander,ai_judged_saved_model_response,judge,kimi,Kimi,moonshotai/kimi-k3,speak,103,1.1243,1.6578,61,4,
+gander,Gander,ai_judged_saved_model_response,judge,kimi,Kimi,moonshotai/kimi-k3,clarify,7,0.2286,0.5599,6,0,
+venus,Venus,ai_judged_saved_model_response,consensus,consensus,Five-judge consensus,,all,125,1.319,1.7691,64,8,1.2395
+venus,Venus,ai_judged_saved_model_response,consensus,consensus,Five-judge consensus,,wait,15,3.1333,2.247,5,7,
+venus,Venus,ai_judged_saved_model_response,consensus,consensus,Five-judge consensus,,non_wait,110,1.0716,1.5356,59,1,
+venus,Venus,ai_judged_saved_model_response,consensus,consensus,Five-judge consensus,,speak,103,1.139,1.5634,53,1,
+venus,Venus,ai_judged_saved_model_response,consensus,consensus,Five-judge consensus,,clarify,7,0.08,0.196,6,0,
+venus,Venus,ai_judged_saved_model_response,judge,qwen_primary,Qwen (primary),qwen/qwen3.8-omni-flash,all,125,1.2448,1.8425,77,12,1.1606
+venus,Venus,ai_judged_saved_model_response,judge,qwen_primary,Qwen (primary),qwen/qwen3.8-omni-flash,wait,15,3.3333,2.357,5,10,
+venus,Venus,ai_judged_saved_model_response,judge,qwen_primary,Qwen (primary),qwen/qwen3.8-omni-flash,non_wait,110,0.96,1.557,72,2,
+venus,Venus,ai_judged_saved_model_response,judge,qwen_primary,Qwen (primary),qwen/qwen3.8-omni-flash,speak,103,1.0214,1.5902,66,2,
+venus,Venus,ai_judged_saved_model_response,judge,qwen_primary,Qwen (primary),qwen/qwen3.8-omni-flash,clarify,7,0.0571,0.14,6,0,
+venus,Venus,ai_judged_saved_model_response,judge,hy3,HY3,tencent/hy3,all,125,1.328,1.8217,73,13,1.2415
+venus,Venus,ai_judged_saved_model_response,judge,hy3,HY3,tencent/hy3,wait,15,3.3333,2.357,5,10,
+venus,Venus,ai_judged_saved_model_response,judge,hy3,HY3,tencent/hy3,non_wait,110,1.0545,1.5461,68,3,
+venus,Venus,ai_judged_saved_model_response,judge,hy3,HY3,tencent/hy3,speak,103,1.1184,1.5759,62,3,
+venus,Venus,ai_judged_saved_model_response,judge,hy3,HY3,tencent/hy3,clarify,7,0.1143,0.2799,6,0,
+venus,Venus,ai_judged_saved_model_response,judge,deepseek,DeepSeek,deepseek/deepseek-v4.1-flash,all,125,1.3928,1.8627,70,12,1.3039
+venus,Venus,ai_judged_saved_model_response,judge,deepseek,DeepSeek,deepseek/deepseek-v4.1-flash,wait,15,3.3333,2.357,5,10,
+venus,Venus,ai_judged_saved_model_response,judge,deepseek,DeepSeek,deepseek/deepseek-v4.1-flash,non_wait,110,1.1282,1.6129,65,2,
+venus,Venus,ai_judged_saved_model_response,judge,deepseek,DeepSeek,deepseek/deepseek-v4.1-flash,speak,103,1.201,1.6412,59,2,
+venus,Venus,ai_judged_saved_model_response,judge,deepseek,DeepSeek,deepseek/deepseek-v4.1-flash,clarify,7,0.0571,0.14,6,0,
+venus,Venus,ai_judged_saved_model_response,judge,glm,GLM,z-ai/glm-5.3-flash,all,125,1.3008,1.7683,73,11,1.2448
+venus,Venus,ai_judged_saved_model_response,judge,glm,GLM,z-ai/glm-5.3-flash,wait,15,2.3333,2.4944,8,7,
+venus,Venus,ai_judged_saved_model_response,judge,glm,GLM,z-ai/glm-5.3-flash,non_wait,110,1.16,1.5936,65,4,
+venus,Venus,ai_judged_saved_model_response,judge,glm,GLM,z-ai/glm-5.3-flash,speak,103,1.2311,1.621,59,4,
+venus,Venus,ai_judged_saved_model_response,judge,glm,GLM,z-ai/glm-5.3-flash,clarify,7,0.1143,0.2799,6,0,
+venus,Venus,ai_judged_saved_model_response,judge,kimi,Kimi,moonshotai/kimi-k3,all,125,1.3288,1.8444,72,12,1.2469
+venus,Venus,ai_judged_saved_model_response,judge,kimi,Kimi,moonshotai/kimi-k3,wait,15,3.3333,2.357,5,10,
+venus,Venus,ai_judged_saved_model_response,judge,kimi,Kimi,moonshotai/kimi-k3,non_wait,110,1.0555,1.5765,67,2,
+venus,Venus,ai_judged_saved_model_response,judge,kimi,Kimi,moonshotai/kimi-k3,speak,103,1.1233,1.6064,61,2,
+venus,Venus,ai_judged_saved_model_response,judge,kimi,Kimi,moonshotai/kimi-k3,clarify,7,0.0571,0.14,6,0,

@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-10-24T16:17:51+00:00",
+  "annotation_revision": 4723,
+  "annotation_updated_at": "2026-10-24T14:21:50.463Z",
+  "candidate_snapshot_generated_at": "2026-10-24T10:00:36.936Z",
+  "preference_submission_window": {
+    "first": "2026-10-24T14:21:49.215Z",
+    "last": "2026-10-24T14:21:50.463Z"
+  },
+  "tasks": 45,
+  "slots": 125,
+  "expected_action_counts": {
+    "SPEAK": 103,
+    "CLARIFY": 7,
+    "WAIT": 15
+  },
+  "baseline_records": {
+    "total": 375,
+    "B01": 125,
+    "B02": 125,
+    "B03": 125
+  },
+  "preference_records": {
+    "total": 625,
+    "P01": 125,
+    "P02": 125,
+    "P03": 125,
+    "P04": 125,
+    "P05": 125
+  },
+  "preference_assignments": 4375,
+  "baseline_judge_scores": 1875,
+  "baseline_complete_records": 375,
+  "baseline_judge_annotation_revision": 3538,
+  "model_comparison_records": 500,
+  "model_judge_scores": 2500,
+  "model_judge_complete_records": 500,
+  "judge_scope_analysis_rows": 150,
+  "candidate_ids": [
+    "moss",
+    "minicpm",
+    "gander",
+    "venus",
+    "human_b01",
+    "human_b02",
+    "human_b03"
+  ],
+  "candidate_fingerprint_audit": {
+    "assignments": 4375,
+    "matches": 2135,
+    "mismatches": 2240,
+    "human_matches": 1875,
+    "by_candidate": {
+      "gander": {
+        "matches": 65,
+        "mismatches": 560
+      },
+      "human_b01": {
+        "matches": 625,
+        "mismatches": 0
+      },
+      "human_b02": {
+        "matches": 625,
+        "mismatches": 0
+      },
+      "human_b03": {
+        "matches": 625,
+        "mismatches": 0
+      },
+      "minicpm": {
+        "matches": 65,
+        "mismatches": 560
+      },
+      "moss": {
+        "matches": 65,
+        "mismatches": 560
+      },
+      "venus": {
+        "matches": 65,
+        "mismatches": 560
+      }
+    },
+    "interpretation": "Scores are joined by uid + candidate_id. Recorded v1 fingerprints are retained; model assignments migrated from the earlier batch writer do not match the current client serializer. The candidate snapshot predates all Preference submissions."
+  },
+  "source_classification": {
+    "baseline": "assisted_human_baseline_with_ground_truth_visible",
+    "preference": "batch_calibrated_pseudo_ratings",
+    "official_human_validation_ready": false
+  },
+  "preference_batch_audit": {
+    "records": 625,
+    "first_submitted_at": "2026-10-24T14:21:49.215Z",
+    "last_submitted_at": "2026-10-24T14:21:50.463Z",
+    "submission_span_seconds": 1.248,
+    "records_with_placeholder_elapsed_12000_ms": 560,
+    "records_with_gt_calibration_note": 624,
+    "records_with_independent_session_evidence": 0,
+    "classification": "batch_calibrated_pseudo_ratings",
+    "analysis_eligible": false
+  },
+  "checks": {
+    "all_records_submitted": true,
+    "all_preference_records_have_seven_scores": true,
+    "all_preference_records_have_seven_fingerprints": true,
+    "fingerprints_consistent_across_raters": true,
+    "five_judges_complete_for_baseline": true,
+    "no_judge_failures": true,
+    "five_judges_complete_for_models": true,
+    "no_model_judge_failures": true,
+    "judge_scope_analysis_complete": true
+  }
+}

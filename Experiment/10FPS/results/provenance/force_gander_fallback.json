@@ -1,0 +1,24 @@
+{
+ "schema_version": 1,
+ "judge_id": "OM_V3_TASK_V319_K004_00254::resume::sl_main",
+ "original_failure": "OpenRouter provider data-inspection HTTP 400 after built-in retries",
+ "fallback_model": "offline fixed-rubric review (no external model)",
+ "fallback_score": 3.0,
+ "fallback_action": "correct",
+ "fallback_statuses": [
+  "partial",
+  "miss",
+  "miss",
+  "miss"
+ ],
+ "raw_evaluation_unchanged": true,
+ "external_retry_authorized": false,
+ "results_sha256": "3e2643da0f2a94aa5737b168932eb474fd050845ff16822d2006dbadeff48739",
+ "fallback_core": [
+  true,
+  false,
+  false,
+  true
+ ],
+ "fallback_coverage": 0.32
+}

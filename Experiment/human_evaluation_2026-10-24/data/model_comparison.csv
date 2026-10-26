@@ -1,0 +1,71 @@
+﻿entity,label,scope,capability,n,mean,sd,exact_zero,exact_five,task_balanced_mean,entity_label,analysis_condition
+human_mean,Assisted Human Baseline,all,,125,2.9547,1.4955,10,16,3.0568,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible
+human_mean,Assisted Human Baseline,wait,,15,4.8889,0.4157,0,14,,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible
+human_mean,Assisted Human Baseline,non_wait,,110,2.6910,1.3922,10,2,,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible
+human_mean,Assisted Human Baseline,speak,,103,2.7595,1.4007,10,2,,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible
+human_mean,Assisted Human Baseline,clarify,,7,1.6819,0.7071,0,0,,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible
+human_mean,Assisted Human Baseline,capability,constraint_update,10,3.1393,0.9581,0,0,,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible
+human_mean,Assisted Human Baseline,capability,context_correction,10,3.9140,0.7277,0,1,,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible
+human_mean,Assisted Human Baseline,capability,historical_reference,10,2.4320,0.4449,0,0,,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible
+human_mean,Assisted Human Baseline,capability,monitor_cancel,10,4.5633,0.6123,0,5,,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible
+human_mean,Assisted Human Baseline,capability,proactive_clarify,15,3.0351,1.3275,0,0,,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible
+human_mean,Assisted Human Baseline,capability,proactive_guidance,15,2.0956,1.5899,3,0,,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible
+human_mean,Assisted Human Baseline,capability,selective_attention,20,3.2500,2.1141,5,10,,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible
+human_mean,Assisted Human Baseline,capability,task_resume,20,2.1333,1.2635,2,0,,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible
+human_mean,Assisted Human Baseline,capability,temporal_update,15,2.9484,0.7801,0,0,,Assisted Human Baseline,assisted_baseline_with_ground_truth_visible
+moss,MOSS,all,,125,2.0949,1.6338,27,6,2.1464,MOSS,ai_judged_saved_model_response
+moss,MOSS,wait,,15,1.6667,2.3570,10,5,,MOSS,ai_judged_saved_model_response
+moss,MOSS,non_wait,,110,2.1533,1.4991,17,1,,MOSS,ai_judged_saved_model_response
+moss,MOSS,speak,,103,2.2373,1.4978,14,1,,MOSS,ai_judged_saved_model_response
+moss,MOSS,clarify,,7,0.9171,0.8222,3,0,,MOSS,ai_judged_saved_model_response
+moss,MOSS,capability,constraint_update,10,3.0420,1.5065,0,0,,MOSS,ai_judged_saved_model_response
+moss,MOSS,capability,context_correction,10,2.0820,1.4626,1,0,,MOSS,ai_judged_saved_model_response
+moss,MOSS,capability,historical_reference,10,2.1600,1.4361,2,0,,MOSS,ai_judged_saved_model_response
+moss,MOSS,capability,monitor_cancel,10,2.2640,2.3471,5,3,,MOSS,ai_judged_saved_model_response
+moss,MOSS,capability,proactive_clarify,15,1.2720,1.1055,5,0,,MOSS,ai_judged_saved_model_response
+moss,MOSS,capability,proactive_guidance,15,2.0627,1.5392,2,0,,MOSS,ai_judged_saved_model_response
+moss,MOSS,capability,selective_attention,20,1.9410,1.9206,8,3,,MOSS,ai_judged_saved_model_response
+moss,MOSS,capability,task_resume,20,2.0260,1.3613,3,0,,MOSS,ai_judged_saved_model_response
+moss,MOSS,capability,temporal_update,15,2.4680,1.3426,1,0,,MOSS,ai_judged_saved_model_response
+minicpm,MiniCPM,all,,125,1.6611,1.7947,47,12,1.6474,MiniCPM,ai_judged_saved_model_response
+minicpm,MiniCPM,wait,,15,3.3333,2.3570,5,10,,MiniCPM,ai_judged_saved_model_response
+minicpm,MiniCPM,non_wait,,110,1.4331,1.5714,42,2,,MiniCPM,ai_judged_saved_model_response
+minicpm,MiniCPM,speak,,103,1.5212,1.5835,36,2,,MiniCPM,ai_judged_saved_model_response
+minicpm,MiniCPM,clarify,,7,0.1371,0.3359,6,0,,MiniCPM,ai_judged_saved_model_response
+minicpm,MiniCPM,capability,constraint_update,10,0.8200,1.0095,6,0,,MiniCPM,ai_judged_saved_model_response
+minicpm,MiniCPM,capability,context_correction,10,1.1560,1.3178,4,0,,MiniCPM,ai_judged_saved_model_response
+minicpm,MiniCPM,capability,historical_reference,10,1.3840,1.3725,4,0,,MiniCPM,ai_judged_saved_model_response
+minicpm,MiniCPM,capability,monitor_cancel,10,2.8260,2.3615,4,5,,MiniCPM,ai_judged_saved_model_response
+minicpm,MiniCPM,capability,proactive_clarify,15,1.8667,1.7710,5,1,,MiniCPM,ai_judged_saved_model_response
+minicpm,MiniCPM,capability,proactive_guidance,15,1.4933,1.7637,6,0,,MiniCPM,ai_judged_saved_model_response
+minicpm,MiniCPM,capability,selective_attention,20,1.8900,2.1243,7,6,,MiniCPM,ai_judged_saved_model_response
+minicpm,MiniCPM,capability,task_resume,20,1.3440,1.6220,7,0,,MiniCPM,ai_judged_saved_model_response
+minicpm,MiniCPM,capability,temporal_update,15,2.0467,1.4964,4,0,,MiniCPM,ai_judged_saved_model_response
+gander,Gander,all,,125,1.2365,1.7971,71,9,1.2400,Gander,ai_judged_saved_model_response
+gander,Gander,wait,,15,2.6667,2.4944,7,8,,Gander,ai_judged_saved_model_response
+gander,Gander,non_wait,,110,1.0415,1.5825,64,1,,Gander,ai_judged_saved_model_response
+gander,Gander,speak,,103,1.0967,1.6148,59,1,,Gander,ai_judged_saved_model_response
+gander,Gander,clarify,,7,0.2286,0.5279,5,0,,Gander,ai_judged_saved_model_response
+gander,Gander,capability,constraint_update,10,1.3400,1.5788,5,0,,Gander,ai_judged_saved_model_response
+gander,Gander,capability,context_correction,10,0.7380,1.3093,6,0,,Gander,ai_judged_saved_model_response
+gander,Gander,capability,historical_reference,10,1.0560,1.0932,5,0,,Gander,ai_judged_saved_model_response
+gander,Gander,capability,monitor_cancel,10,1.5080,2.0257,6,2,,Gander,ai_judged_saved_model_response
+gander,Gander,capability,proactive_clarify,15,2.0693,1.9939,5,0,,Gander,ai_judged_saved_model_response
+gander,Gander,capability,proactive_guidance,15,1.3493,2.0199,7,1,,Gander,ai_judged_saved_model_response
+gander,Gander,capability,selective_attention,20,1.9450,2.1739,9,6,,Gander,ai_judged_saved_model_response
+gander,Gander,capability,task_resume,20,0.1280,0.4129,18,0,,Gander,ai_judged_saved_model_response
+gander,Gander,capability,temporal_update,15,1.0267,1.6400,10,0,,Gander,ai_judged_saved_model_response
+venus,Venus,all,,125,1.3190,1.7691,64,8,1.2395,Venus,ai_judged_saved_model_response
+venus,Venus,wait,,15,3.1333,2.2470,5,7,,Venus,ai_judged_saved_model_response
+venus,Venus,non_wait,,110,1.0716,1.5356,59,1,,Venus,ai_judged_saved_model_response
+venus,Venus,speak,,103,1.1390,1.5634,53,1,,Venus,ai_judged_saved_model_response
+venus,Venus,clarify,,7,0.0800,0.1960,6,0,,Venus,ai_judged_saved_model_response
+venus,Venus,capability,constraint_update,10,0.6180,1.1066,7,0,,Venus,ai_judged_saved_model_response
+venus,Venus,capability,context_correction,10,0.3400,0.8139,8,0,,Venus,ai_judged_saved_model_response
+venus,Venus,capability,historical_reference,10,1.0440,1.1314,5,0,,Venus,ai_judged_saved_model_response
+venus,Venus,capability,monitor_cancel,10,1.8100,2.2754,6,2,,Venus,ai_judged_saved_model_response
+venus,Venus,capability,proactive_clarify,15,1.3147,1.6603,7,0,,Venus,ai_judged_saved_model_response
+venus,Venus,capability,proactive_guidance,15,0.9227,1.5396,7,0,,Venus,ai_judged_saved_model_response
+venus,Venus,capability,selective_attention,20,2.2020,2.2217,8,5,,Venus,ai_judged_saved_model_response
+venus,Venus,capability,task_resume,20,1.1190,1.5063,9,0,,Venus,ai_judged_saved_model_response
+venus,Venus,capability,temporal_update,15,1.7853,1.7717,7,1,,Venus,ai_judged_saved_model_response

@@ -1,0 +1,15 @@
+Please evaluate the following video-based question-answer pair:
+
+Question: {question}
+Correct Answer: {answer}
+Predicted Answer: {pred}
+
+Evaluate the overall meaningful correctness of the answer to this question.
+Return only JSON with exactly these keys:
+{{"pred":"yes" or "no" or null,"score":an INTEGER from 0 to 5 or null,
+"reason":"brief Chinese reason","needs_qa_review":true or false,
+"qa_review_reason":"specific Chinese QA concern, or an empty string"}}
+Score 5 is a fully correct answer to the question. Do not deduct for unasked
+reference details or phrasing differences. Do not create per-question score points.
+If needs_qa_review is true, both score and pred MUST be null. Otherwise score and
+pred MUST be non-null, and qa_review_reason must be empty. No code fence or other text.

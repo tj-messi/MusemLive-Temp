@@ -1,0 +1,275 @@
+{
+  "schema_version": "capability_10p_distinct_video_v1",
+  "created_at": "2026-10-24T08:27:36.026Z",
+  "source": "all_tasks.json",
+  "target_per_capability": 5,
+  "constraint": "Every task within a capability uses a different source video; all 45 tasks use distinct videos.",
+  "task_ids": [
+    "OM_V3_CONS_V314_K010_00518",
+    "OM_V3_CONS_D023_K000_00284",
+    "OM_V3_CONS_V374_K000_00623",
+    "OM_V3_CONS_V314_K003_00085",
+    "OM_V3_CONS_V392_K001_00607",
+    "OM_V3_CONT_V060_K001_00716",
+    "OM_V3_CONT_V176_K000_00396",
+    "OM_V3_CONT_V314_K004_00438",
+    "OM_V3_CONT_V074_K001_00438",
+    "OM_V3_CONT_D006R02_K002_00148",
+    "OM_HR316a_N037_K001_00100_omni",
+    "OM_HR316a_N041_K001_00325_omni",
+    "OM_HR50a_V390_FAST_FULL_00055_omni",
+    "OM_HR316a_V314_K007_00595_omni",
+    "OM_HR316a_V314_K006_00460_omni",
+    "OM_V3_MONI_V141_K002_00195",
+    "OM_V3_MONI_V150_K006_00614",
+    "OM_V3_MONI_V426_K000_00215",
+    "OM_V3_MONI_V164_K001_00254",
+    "OM_V3_MONI_V216_K000_00749",
+    "OM_V3_PROA_V074_K006_00295",
+    "OM_V3_PROA_V394_K001_00023",
+    "OM_V3_PROA_V314_K009_00029",
+    "OM_V3_PROA_D032_K003_00231",
+    "OM_V3_PROA_V124_K001_00518",
+    "OM_PGV2_N008_K001_00697",
+    "OM_PGV2_V314_K005_00278",
+    "OM_PGV2_V060_K007_00216",
+    "OM_PGV2_V329_K000_00169",
+    "OM_PGV2_V314_K002_00027",
+    "OM_V3_SELE_V319_K003_00064",
+    "OM_V3_SELE_V060_K005_00452",
+    "OM_V3_SELE_D006R04_K002_00073",
+    "OM_V3_SELE_V173_K000_00563",
+    "OM_V3_SELE_V426_K001_00614",
+    "OM_V3_TASK_V060_K004_00621",
+    "OM_V3_TASK_N044_K001_00165",
+    "OM_V3_TASK_V124_K000_00514",
+    "OM_V3_TASK_V314_K001_00618",
+    "OM_V3_TASK_V145_K001_00314",
+    "OM_V3_TEMP_V314_K008_00294",
+    "OM_V3_TEMP_V311_K001_00261",
+    "OM_V3_TEMP_V320_K003_00304",
+    "OM_V3_TEMP_D009R01_K001_00300",
+    "OM_V3_TEMP_V060_K003_00297"
+  ],
+  "task_sources": [
+    {
+      "task_id": "OM_V3_CONS_V314_K010_00518",
+      "source_id": "V314_K010"
+    },
+    {
+      "task_id": "OM_V3_CONS_D023_K000_00284",
+      "source_id": "D023_K000"
+    },
+    {
+      "task_id": "OM_V3_CONS_V374_K000_00623",
+      "source_id": "V374_K000"
+    },
+    {
+      "task_id": "OM_V3_CONS_V314_K003_00085",
+      "source_id": "V314_K003"
+    },
+    {
+      "task_id": "OM_V3_CONS_V392_K001_00607",
+      "source_id": "V392_K001"
+    },
+    {
+      "task_id": "OM_V3_CONT_V060_K001_00716",
+      "source_id": "V060_K001"
+    },
+    {
+      "task_id": "OM_V3_CONT_V176_K000_00396",
+      "source_id": "V176_K000"
+    },
+    {
+      "task_id": "OM_V3_CONT_V314_K004_00438",
+      "source_id": "V314_K004"
+    },
+    {
+      "task_id": "OM_V3_CONT_V074_K001_00438",
+      "source_id": "V074_K001"
+    },
+    {
+      "task_id": "OM_V3_CONT_D006R02_K002_00148",
+      "source_id": "D006R02_K002"
+    },
+    {
+      "task_id": "OM_HR316a_N037_K001_00100_omni",
+      "source_id": "N037_K001"
+    },
+    {
+      "task_id": "OM_HR316a_N041_K001_00325_omni",
+      "source_id": "N041_K001"
+    },
+    {
+      "task_id": "OM_HR50a_V390_FAST_FULL_00055_omni",
+      "source_id": "V390_FAST_FULL"
+    },
+    {
+      "task_id": "OM_HR316a_V314_K007_00595_omni",
+      "source_id": "V314_K007"
+    },
+    {
+      "task_id": "OM_HR316a_V314_K006_00460_omni",
+      "source_id": "V314_K006"
+    },
+    {
+      "task_id": "OM_V3_MONI_V141_K002_00195",
+      "source_id": "V141_K002"
+    },
+    {
+      "task_id": "OM_V3_MONI_V150_K006_00614",
+      "source_id": "V150_K006"
+    },
+    {
+      "task_id": "OM_V3_MONI_V426_K000_00215",
+      "source_id": "V426_K000"
+    },
+    {
+      "task_id": "OM_V3_MONI_V164_K001_00254",
+      "source_id": "V164_K001"
+    },
+    {
+      "task_id": "OM_V3_MONI_V216_K000_00749",
+      "source_id": "V216_K000"
+    },
+    {
+      "task_id": "OM_V3_PROA_V074_K006_00295",
+      "source_id": "V074_K006"
+    },
+    {
+      "task_id": "OM_V3_PROA_V394_K001_00023",
+      "source_id": "V394_K001"
+    },
+    {
+      "task_id": "OM_V3_PROA_V314_K009_00029",
+      "source_id": "V314_K009"
+    },
+    {
+      "task_id": "OM_V3_PROA_D032_K003_00231",
+      "source_id": "D032_K003"
+    },
+    {
+      "task_id": "OM_V3_PROA_V124_K001_00518",
+      "source_id": "V124_K001"
+    },
+    {
+      "task_id": "OM_PGV2_N008_K001_00697",
+      "source_id": "N008_K001"
+    },
+    {
+      "task_id": "OM_PGV2_V314_K005_00278",
+      "source_id": "V314_K005"
+    },
+    {
+      "task_id": "OM_PGV2_V060_K007_00216",
+      "source_id": "V060_K007"
+    },
+    {
+      "task_id": "OM_PGV2_V329_K000_00169",
+      "source_id": "V329_K000"
+    },
+    {
+      "task_id": "OM_PGV2_V314_K002_00027",
+      "source_id": "V314_K002"
+    },
+    {
+      "task_id": "OM_V3_SELE_V319_K003_00064",
+      "source_id": "V319_K003"
+    },
+    {
+      "task_id": "OM_V3_SELE_V060_K005_00452",
+      "source_id": "V060_K005"
+    },
+    {
+      "task_id": "OM_V3_SELE_D006R04_K002_00073",
+      "source_id": "D006R04_K002"
+    },
+    {
+      "task_id": "OM_V3_SELE_V173_K000_00563",
+      "source_id": "V173_K000"
+    },
+    {
+      "task_id": "OM_V3_SELE_V426_K001_00614",
+      "source_id": "V426_K001"
+    },
+    {
+      "task_id": "OM_V3_TASK_V060_K004_00621",
+      "source_id": "V060_K004"
+    },
+    {
+      "task_id": "OM_V3_TASK_N044_K001_00165",
+      "source_id": "N044_K001"
+    },
+    {
+      "task_id": "OM_V3_TASK_V124_K000_00514",
+      "source_id": "V124_K000"
+    },
+    {
+      "task_id": "OM_V3_TASK_V314_K001_00618",
+      "source_id": "V314_K001"
+    },
+    {
+      "task_id": "OM_V3_TASK_V145_K001_00314",
+      "source_id": "V145_K001"
+    },
+    {
+      "task_id": "OM_V3_TEMP_V314_K008_00294",
+      "source_id": "V314_K008"
+    },
+    {
+      "task_id": "OM_V3_TEMP_V311_K001_00261",
+      "source_id": "V311_K001"
+    },
+    {
+      "task_id": "OM_V3_TEMP_V320_K003_00304",
+      "source_id": "V320_K003"
+    },
+    {
+      "task_id": "OM_V3_TEMP_D009R01_K001_00300",
+      "source_id": "D009R01_K001"
+    },
+    {
+      "task_id": "OM_V3_TEMP_V060_K003_00297",
+      "source_id": "V060_K003"
+    }
+  ],
+  "counts": {
+    "constraint_update": {
+      "tasks": 5,
+      "distinctSources": 5
+    },
+    "context_correction": {
+      "tasks": 5,
+      "distinctSources": 5
+    },
+    "historical_reference": {
+      "tasks": 5,
+      "distinctSources": 5
+    },
+    "monitor_cancel": {
+      "tasks": 5,
+      "distinctSources": 5
+    },
+    "proactive_clarify": {
+      "tasks": 5,
+      "distinctSources": 5
+    },
+    "proactive_guidance": {
+      "tasks": 5,
+      "distinctSources": 5
+    },
+    "selective_attention": {
+      "tasks": 5,
+      "distinctSources": 5
+    },
+    "task_resume": {
+      "tasks": 5,
+      "distinctSources": 5
+    },
+    "temporal_update": {
+      "tasks": 5,
+      "distinctSources": 5
+    }
+  },
+  "distinct_source_count": 45
+}

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,"Noto Sans CJK SC",sans-serif;fill:#222}.axis{stroke:#333;stroke-width:1}.grid{stroke:#ddd;stroke-width:1}.bar{stroke:#fff;stroke-width:1}</style>
+<text x="550.0" y="35" text-anchor="middle" font-size="24" font-weight="700">在线发言时间质量</text>
+<line class="grid" x1="90" y1="495.0" x2="1070" y2="495.0"/>
+<text x="78" y="500.0" text-anchor="end" font-size="14">0.0</text>
+<line class="grid" x1="90" y1="413.0" x2="1070" y2="413.0"/>
+<text x="78" y="418.0" text-anchor="end" font-size="14">0.2</text>
+<line class="grid" x1="90" y1="331.0" x2="1070" y2="331.0"/>
+<text x="78" y="336.0" text-anchor="end" font-size="14">0.4</text>
+<line class="grid" x1="90" y1="249.0" x2="1070" y2="249.0"/>
+<text x="78" y="254.0" text-anchor="end" font-size="14">0.6</text>
+<line class="grid" x1="90" y1="167.0" x2="1070" y2="167.0"/>
+<text x="78" y="172.0" text-anchor="end" font-size="14">0.8</text>
+<line class="grid" x1="90" y1="85.0" x2="1070" y2="85.0"/>
+<text x="78" y="90.0" text-anchor="end" font-size="14">1.0</text>
+<line class="axis" x1="90" y1="85" x2="90" y2="495"/>
+<line class="axis" x1="90" y1="495" x2="1070" y2="495"/>
+<text transform="translate(24 290.0) rotate(-90)" text-anchor="middle" font-size="16">比例</text>
+<text x="212.5" y="523" text-anchor="middle" font-size="14">MiniCPM-o 4.5</text>
+<rect class="bar" x="149.5" y="158.8" width="40" height="336.2" fill="#4472C4"/>
+<text x="169.5" y="153.8" text-anchor="middle" font-size="12">0.82</text>
+<rect class="bar" x="191.5" y="198.6750335313278" width="40" height="296.3249664686722" fill="#ED7D31"/>
+<text x="211.5" y="193.6750335313278" text-anchor="middle" font-size="12">0.72</text>
+<rect class="bar" x="233.5" y="179.99439861493028" width="40" height="315.0056013850697" fill="#70AD47"/>
+<text x="253.5" y="174.99439861493028" text-anchor="middle" font-size="12">0.77</text>
+<text x="457.5" y="523" text-anchor="middle" font-size="14">Venus</text>
+<rect class="bar" x="394.5" y="278.0727272727273" width="40" height="216.9272727272727" fill="#4472C4"/>
+<text x="414.5" y="273.0727272727273" text-anchor="middle" font-size="12">0.53</text>
+<rect class="bar" x="436.5" y="224.29487179487182" width="40" height="270.7051282051282" fill="#ED7D31"/>
+<text x="456.5" y="219.29487179487182" text-anchor="middle" font-size="12">0.66</text>
+<rect class="bar" x="478.5" y="254.1492072202732" width="40" height="240.8507927797268" fill="#70AD47"/>
+<text x="498.5" y="249.1492072202732" text-anchor="middle" font-size="12">0.59</text>
+<text x="702.5" y="523" text-anchor="middle" font-size="14">Gander</text>
+<rect class="bar" x="639.5" y="286.27272727272725" width="40" height="208.72727272727272" fill="#4472C4"/>
+<text x="659.5" y="281.27272727272725" text-anchor="middle" font-size="12">0.51</text>
+<rect class="bar" x="681.5" y="163.49368318756075" width="40" height="331.50631681243925" fill="#ED7D31"/>
+<text x="701.5" y="158.49368318756075" text-anchor="middle" font-size="12">0.81</text>
+<rect class="bar" x="723.5" y="238.83521965348928" width="40" height="256.1647803465107" fill="#70AD47"/>
+<text x="743.5" y="233.83521965348928" text-anchor="middle" font-size="12">0.62</text>
+<text x="947.5" y="523" text-anchor="middle" font-size="14">MOSS*</text>
+<rect class="bar" x="884.5" y="121.89999999999998" width="40" height="373.1" fill="#4472C4"/>
+<text x="904.5" y="116.89999999999998" text-anchor="middle" font-size="12">0.91</text>
+<rect class="bar" x="926.5" y="291.27193759971635" width="40" height="203.72806240028365" fill="#ED7D31"/>
+<text x="946.5" y="286.27193759971635" text-anchor="middle" font-size="12">0.50</text>
+<rect class="bar" x="968.5" y="231.45200351296762" width="40" height="263.5479964870324" fill="#70AD47"/>
+<text x="988.5" y="226.45200351296762" text-anchor="middle" font-size="12">0.64</text>
+<rect x="90" y="565" width="16" height="16" fill="#4472C4"/>
+<text x="112" y="578" font-size="14">事件召回</text>
+<rect x="207" y="565" width="16" height="16" fill="#ED7D31"/>
+<text x="229" y="578" font-size="14">时间精度</text>
+<rect x="324" y="565" width="16" height="16" fill="#70AD47"/>
+<text x="346" y="578" font-size="14">F1</text>
+</svg>

@@ -1,0 +1,68 @@
+{
+  "status": "passed",
+  "pdf": "Judge_展示版_直接转发.pdf",
+  "sha256": "a62267eb74f24b9c7ad13e9ae6196b06025b7f3b75843a0f264f171fbf94015f",
+  "pages": 9,
+  "layout": "A4 landscape, overview plus eight individual cases",
+  "all_pages_rendered_with": "Poppler pdftoppm",
+  "visual_inspection": "All nine pages inspected; no text or image clipping observed",
+  "cases": [
+    {
+      "page": 2,
+      "id": "N004_K002_sparse_P03_T1",
+      "score": 5,
+      "images": 2,
+      "original_qa_and_reason_present": true
+    },
+    {
+      "page": 3,
+      "id": "N005_K004_full_P05_T1",
+      "score": 0,
+      "images": 1,
+      "original_qa_and_reason_present": true
+    },
+    {
+      "page": 4,
+      "id": "N006_K003_sparse_P03_T1",
+      "score": 5,
+      "images": 1,
+      "original_qa_and_reason_present": true
+    },
+    {
+      "page": 5,
+      "id": "N006_K001_full_P04_T1",
+      "score": 0,
+      "images": 1,
+      "original_qa_and_reason_present": true
+    },
+    {
+      "page": 6,
+      "id": "N004_K006_sparse_P03_T1",
+      "score": 5,
+      "images": 1,
+      "original_qa_and_reason_present": true
+    },
+    {
+      "page": 7,
+      "id": "N004_K006_sparse_P02_T2",
+      "score": 0,
+      "images": 2,
+      "original_qa_and_reason_present": true
+    },
+    {
+      "page": 8,
+      "id": "N004_K001_full_P01_T2",
+      "score": 5,
+      "images": 1,
+      "original_qa_and_reason_present": true
+    },
+    {
+      "page": 9,
+      "id": "N006_K002_full_P06_T2",
+      "score": 0,
+      "images": 4,
+      "original_qa_and_reason_present": true
+    }
+  ],
+  "verified_at_utc": "2026-09-27T17:51:23.384311+00:00"
+}

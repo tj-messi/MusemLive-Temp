@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,"Noto Sans CJK SC",sans-serif;fill:#222}.axis{stroke:#333;stroke-width:1}.grid{stroke:#ddd;stroke-width:1}.bar{stroke:#fff;stroke-width:1}</style>
+<text x="550.0" y="35" text-anchor="middle" font-size="24" font-weight="700">上下文捷径基线与离线上界（用户提问）</text>
+<line class="grid" x1="90" y1="495.0" x2="1070" y2="495.0"/>
+<text x="78" y="500.0" text-anchor="end" font-size="14">0.0</text>
+<line class="grid" x1="90" y1="413.0" x2="1070" y2="413.0"/>
+<text x="78" y="418.0" text-anchor="end" font-size="14">1.0</text>
+<line class="grid" x1="90" y1="331.0" x2="1070" y2="331.0"/>
+<text x="78" y="336.0" text-anchor="end" font-size="14">2.0</text>
+<line class="grid" x1="90" y1="249.0" x2="1070" y2="249.0"/>
+<text x="78" y="254.0" text-anchor="end" font-size="14">3.0</text>
+<line class="grid" x1="90" y1="167.0" x2="1070" y2="167.0"/>
+<text x="78" y="172.0" text-anchor="end" font-size="14">4.0</text>
+<line class="grid" x1="90" y1="85.0" x2="1070" y2="85.0"/>
+<text x="78" y="90.0" text-anchor="end" font-size="14">5.0</text>
+<line class="axis" x1="90" y1="85" x2="90" y2="495"/>
+<line class="axis" x1="90" y1="495" x2="1070" y2="495"/>
+<text transform="translate(24 290.0) rotate(-90)" text-anchor="middle" font-size="16">0–5</text>
+<text x="160.0" y="523" text-anchor="middle" font-size="14">MiniCPM完整</text>
+<rect class="bar" x="139.0" y="435.96" width="40" height="59.04" fill="#4472C4"/>
+<text x="159.0" y="430.96" text-anchor="middle" font-size="12">0.72</text>
+<text x="300.0" y="523" text-anchor="middle" font-size="14">MiniCPM近30秒</text>
+<rect class="bar" x="279.0" y="439.24" width="40" height="55.760000000000005" fill="#4472C4"/>
+<text x="299.0" y="434.24" text-anchor="middle" font-size="12">0.68</text>
+<text x="440.0" y="523" text-anchor="middle" font-size="14">MiniCPM近3秒</text>
+<rect class="bar" x="419.0" y="376.92" width="40" height="118.08" fill="#4472C4"/>
+<text x="439.0" y="371.92" text-anchor="middle" font-size="12">1.44</text>
+<text x="580.0" y="523" text-anchor="middle" font-size="14">MOSS完整</text>
+<rect class="bar" x="559.0" y="390.04" width="40" height="104.96" fill="#4472C4"/>
+<text x="579.0" y="385.04" text-anchor="middle" font-size="12">1.28</text>
+<text x="720.0" y="523" text-anchor="middle" font-size="14">MOSS近30秒</text>
+<rect class="bar" x="699.0" y="388.4" width="40" height="106.6" fill="#4472C4"/>
+<text x="719.0" y="383.4" text-anchor="middle" font-size="12">1.30</text>
+<text x="860.0" y="523" text-anchor="middle" font-size="14">MOSS近3秒</text>
+<rect class="bar" x="839.0" y="396.6" width="40" height="98.4" fill="#4472C4"/>
+<text x="859.0" y="391.6" text-anchor="middle" font-size="12">1.20</text>
+<text x="1000.0" y="523" text-anchor="middle" font-size="14">离线上界</text>
+<rect class="bar" x="979.0" y="220.3" width="40" height="274.7" fill="#4472C4"/>
+<text x="999.0" y="215.3" text-anchor="middle" font-size="12">3.35</text>
+<rect x="90" y="565" width="16" height="16" fill="#4472C4"/>
+<text x="112" y="578" font-size="14">均分</text>
+</svg>

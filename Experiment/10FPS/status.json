@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "track": "10fps",
+  "captured_at": "2026-10-21T20:28:53+08:00",
+  "final": true,
+  "summary": {
+    "complete_runs": 13,
+    "scheduled_runs": 13,
+    "evaluated_branches": 11900,
+    "expected_branches": 11900,
+    "main_judge_panels": 13,
+    "recent30_judge_panels": 2,
+    "alternate_judge_panels": 16,
+    "aggregate_reports_complete": true
+  },
+  "active_runtime": null,
+  "completed_tail_rebalance": {
+    "run": "blind_moss",
+    "shard": 6,
+    "baseline_branches": 0,
+    "distributed_branches": 190,
+    "merged_branches": 190,
+    "assignments": {
+      "2": 190
+    },
+    "worker_retries": 0
+  },
+  "runs": [
+    {"name": "main_minicpm", "evaluated_branches": 900, "judge_complete": true, "state": "complete"},
+    {"name": "main_venus", "evaluated_branches": 900, "judge_complete": true, "state": "complete"},
+    {"name": "main_gander", "evaluated_branches": 900, "judge_complete": true, "state": "complete"},
+    {"name": "main_moss", "evaluated_branches": 900, "judge_complete": true, "state": "complete"},
+    {"name": "force_venus", "evaluated_branches": 900, "judge_complete": true, "state": "complete"},
+    {"name": "force_gander", "evaluated_branches": 900, "judge_complete": true, "state": "complete"},
+    {"name": "force_minicpm", "evaluated_branches": 900, "judge_complete": true, "state": "complete"},
+    {"name": "mute_minicpm", "evaluated_branches": 900, "judge_complete": true, "state": "complete"},
+    {"name": "black_minicpm", "evaluated_branches": 900, "judge_complete": true, "state": "complete"},
+    {"name": "notext_moss", "evaluated_branches": 900, "judge_complete": true, "state": "complete"},
+    {"name": "black_moss", "evaluated_branches": 900, "judge_complete": true, "state": "complete"},
+    {"name": "blind_minicpm", "evaluated_branches": 1000, "judge_complete": true, "state": "complete"},
+    {"name": "blind_moss", "evaluated_branches": 1000, "judge_complete": true, "state": "complete"}
+  ],
+  "recent30": {
+    "minicpm": {
+      "inference_slots": 1000,
+      "reused_formal_slots": 810,
+      "rerun_slots": 190,
+      "judge_complete": true,
+      "api_failed": 0,
+      "mean": 0.68
+    },
+    "moss": {
+      "inference_slots": 1000,
+      "reused_formal_slots": 810,
+      "rerun_slots": 190,
+      "judge_complete": true,
+      "api_failed": 0,
+      "mean": 1.3
+    }
+  },
+  "aggregate_stage": {
+    "alternate_judges": "complete_16_of_16",
+    "recent30_judges": "complete_2_of_2",
+    "offline_upper_bound": "complete_cached_and_rescored_locally",
+    "analyses": "complete",
+    "reports": "complete",
+    "figures": "complete_6_of_6",
+    "manifest": "complete"
+  },
+  "validation": {
+    "command": "python3 pipelines/10-20/postprocessing/verify_1_7.py",
+    "result": "COMPLETE: 16 run summaries, 16 alternate-judge panels, analyses, reports, figures and provenance are valid"
+  }
+}

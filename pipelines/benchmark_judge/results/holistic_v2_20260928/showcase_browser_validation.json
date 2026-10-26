@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "html_sha256": "02ac11fbaac9bc268f0c5fbcb0df7114c43e28404597bf8b06c7e8cd4a9767c1",
+  "normal_browser": {
+    "mean": "4.025",
+    "cases": 8,
+    "images": 13,
+    "all_content_matches_original": true,
+    "controls_hidden": false
+  },
+  "scripts_disabled": {
+    "mean": "4.025",
+    "cases": 8,
+    "images": 13,
+    "all_content_matches_original": true,
+    "controls_hidden": true
+  },
+  "scripts_removed": {
+    "mean": "4.025",
+    "cases": 8,
+    "images": 13,
+    "all_content_matches_original": true,
+    "controls_hidden": true
+  },
+  "missing_dialog_support_hides_dialog_controls": true,
+  "score_filters_and_keyboard_presentation": true,
+  "image_lightbox_preserves_original": true,
+  "viewport_widths_checked": [
+    1360,
+    390,
+    360
+  ],
+  "javascript_errors": [],
+  "external_requests": [],
+  "pdf_sha256": "a62267eb74f24b9c7ad13e9ae6196b06025b7f3b75843a0f264f171fbf94015f",
+  "scope": "Chrome desktop, simulated mobile viewports and script restrictions; actual recipient app not directly tested"
+}

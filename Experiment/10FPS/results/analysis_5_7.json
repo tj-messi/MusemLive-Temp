@@ -1,0 +1,478 @@
+{
+ "force_venus": {
+  "n_silent": 311,
+  "forced_mean_on_silent": 0.8,
+  "ge2": 0.2090032154340836,
+  "zero": 0.6752411575562701,
+  "still_silent": 0.38263665594855306,
+  "spoken_orig": 1.47,
+  "spoken_forcedrun": 1.41,
+  "uq_orig": 1.02,
+  "uq_forced": 1.22,
+  "paired": {
+   "n": 1000,
+   "delta": 0.204,
+   "ci95": [
+    0.108,
+    0.303
+   ]
+  },
+  "by_cap": {
+   "temporal_update": [
+    1.17,
+    1.43
+   ],
+   "task_resume": [
+    1.24,
+    1.3
+   ],
+   "context_correction": [
+    0.95,
+    0.97
+   ],
+   "proactive_clarify": [
+    1.25,
+    1.65
+   ],
+   "constraint_update": [
+    0.8,
+    1.01
+   ],
+   "historical_reference": [
+    0.36,
+    0.53
+   ],
+   "monitor_cancel": [
+    null,
+    null
+   ],
+   "selective_attention": [
+    0.89,
+    1.08
+   ],
+   "proactive_guidance": [
+    1.05,
+    1.39
+   ]
+  }
+ },
+ "force_gander": {
+  "n_silent": 675,
+  "forced_mean_on_silent": 1.29,
+  "ge2": 0.3333333333333333,
+  "zero": 0.5007407407407407,
+  "still_silent": 0.13925925925925925,
+  "spoken_orig": 1.61,
+  "spoken_forcedrun": 1.73,
+  "uq_orig": 0.52,
+  "uq_forced": 1.43,
+  "paired": {
+   "n": 1000,
+   "delta": 0.911,
+   "ci95": [
+    0.803,
+    1.029
+   ]
+  },
+  "by_cap": {
+   "temporal_update": [
+    0.76,
+    1.88
+   ],
+   "task_resume": [
+    0.24,
+    1.19
+   ],
+   "context_correction": [
+    0.26,
+    0.98
+   ],
+   "proactive_clarify": [
+    0.7,
+    1.98
+   ],
+   "constraint_update": [
+    0.56,
+    1.63
+   ],
+   "historical_reference": [
+    0.14,
+    0.34
+   ],
+   "monitor_cancel": [
+    null,
+    null
+   ],
+   "selective_attention": [
+    0.57,
+    1.24
+   ],
+   "proactive_guidance": [
+    1.04,
+    2.01
+   ]
+  }
+ },
+ "force_minicpm": {
+  "n_silent": 354,
+  "forced_mean_on_silent": 0.46,
+  "ge2": 0.096045197740113,
+  "zero": 0.7966101694915254,
+  "still_silent": 0.480225988700565,
+  "spoken_orig": 1.11,
+  "spoken_forcedrun": 1.01,
+  "uq_orig": 0.72,
+  "uq_forced": 0.81,
+  "paired": {
+   "n": 1000,
+   "delta": 0.097,
+   "ci95": [
+    0.002,
+    0.185
+   ]
+  },
+  "by_cap": {
+   "temporal_update": [
+    0.62,
+    0.85
+   ],
+   "task_resume": [
+    0.44,
+    0.67
+   ],
+   "context_correction": [
+    0.32,
+    0.58
+   ],
+   "proactive_clarify": [
+    1.59,
+    1.39
+   ],
+   "constraint_update": [
+    0.46,
+    0.66
+   ],
+   "historical_reference": [
+    0.21,
+    0.14
+   ],
+   "monitor_cancel": [
+    null,
+    null
+   ],
+   "selective_attention": [
+    0.51,
+    0.49
+   ],
+   "proactive_guidance": [
+    1.47,
+    1.56
+   ]
+  }
+ },
+ "minicpm_完整": {
+  "total": 0.97,
+  "uq": 0.72,
+  "SPEAK": 0.78,
+  "WAIT": 2.8,
+  "audio_pt": 0.08,
+  "visual_pt": 0.145,
+  "by_cap": {
+   "temporal_update": 0.62,
+   "task_resume": 0.44,
+   "context_correction": 0.32,
+   "proactive_clarify": 1.59,
+   "constraint_update": 0.46,
+   "historical_reference": 0.21,
+   "monitor_cancel": 1.88,
+   "selective_attention": 1.63,
+   "proactive_guidance": 1.21
+  },
+  "paired_vs_full": null
+ },
+ "minicpm_静音": {
+  "total": 1.13,
+  "uq": 0.83,
+  "SPEAK": 0.53,
+  "WAIT": 3.53,
+  "audio_pt": 0.082,
+  "visual_pt": 0.163,
+  "by_cap": {
+   "temporal_update": 0.88,
+   "task_resume": 0.53,
+   "context_correction": 0.51,
+   "proactive_clarify": 1.62,
+   "constraint_update": 0.61,
+   "historical_reference": 0.22,
+   "monitor_cancel": 1.91,
+   "selective_attention": 2.03,
+   "proactive_guidance": 1.35
+  },
+  "paired_vs_full": {
+   "n": 1250,
+   "delta": 0.158,
+   "ci95": [
+    0.054,
+    0.265
+   ]
+  }
+ },
+ "minicpm_黑屏": {
+  "total": 0.91,
+  "uq": 0.46,
+  "SPEAK": 0.45,
+  "WAIT": 4.23,
+  "audio_pt": 0.068,
+  "visual_pt": 0.102,
+  "by_cap": {
+   "temporal_update": 0.41,
+   "task_resume": 0.28,
+   "context_correction": 0.29,
+   "proactive_clarify": 1.12,
+   "constraint_update": 0.17,
+   "historical_reference": 0.05,
+   "monitor_cancel": 2.25,
+   "selective_attention": 2.29,
+   "proactive_guidance": 0.82
+  },
+  "paired_vs_full": {
+   "n": 1250,
+   "delta": -0.058,
+   "ci95": [
+    -0.164,
+    0.046
+   ]
+  }
+ },
+ "moss_完整（画面+转写）": {
+  "total": 1.61,
+  "uq": 1.28,
+  "SPEAK": 1.77,
+  "WAIT": 3.67,
+  "audio_pt": 0.33,
+  "visual_pt": 0.337,
+  "by_cap": {
+   "temporal_update": 1.41,
+   "task_resume": 1.28,
+   "context_correction": 1.41,
+   "proactive_clarify": 0.89,
+   "constraint_update": 1.2,
+   "historical_reference": 0.43,
+   "monitor_cancel": 2.58,
+   "selective_attention": 2.89,
+   "proactive_guidance": 1.78
+  },
+  "paired_vs_full": null
+ },
+ "moss_无现场转写": {
+  "total": 1.4,
+  "uq": 1.15,
+  "SPEAK": 1.17,
+  "WAIT": 3.23,
+  "audio_pt": 0.166,
+  "visual_pt": 0.328,
+  "by_cap": {
+   "temporal_update": 1.57,
+   "task_resume": 0.98,
+   "context_correction": 0.88,
+   "proactive_clarify": 0.81,
+   "constraint_update": 1.09,
+   "historical_reference": 0.51,
+   "monitor_cancel": 2.67,
+   "selective_attention": 2.03,
+   "proactive_guidance": 1.88
+  },
+  "paired_vs_full": {
+   "n": 1250,
+   "delta": -0.204,
+   "ci95": [
+    -0.323,
+    -0.095
+   ]
+  }
+ },
+ "moss_仅转写文字（黑屏）": {
+  "total": 0.64,
+  "uq": 0.03,
+  "SPEAK": 0.66,
+  "WAIT": 4.67,
+  "audio_pt": 0.803,
+  "visual_pt": 0.211,
+  "by_cap": {
+   "temporal_update": 0.0,
+   "task_resume": 0.0,
+   "context_correction": 0.09,
+   "proactive_clarify": 0.06,
+   "constraint_update": 0.11,
+   "historical_reference": 0.0,
+   "monitor_cancel": 2.66,
+   "selective_attention": 2.52,
+   "proactive_guidance": 0.0
+  },
+  "paired_vs_full": {
+   "n": 1250,
+   "delta": -0.97,
+   "ci95": [
+    -1.091,
+    -0.85
+   ]
+  }
+ },
+ "exp7": {
+  "MiniCPM 全双工": {
+   "all": 0.72,
+   "temporal_update": 0.62,
+   "task_resume": 0.44,
+   "context_correction": 0.32,
+   "proactive_clarify": 1.59,
+   "constraint_update": 0.46,
+   "historical_reference": 0.21,
+   "monitor_cancel": null,
+   "selective_attention": 0.51,
+   "proactive_guidance": 1.47
+  },
+  "MiniCPM 最近30秒": {
+   "all": 0.68,
+   "temporal_update": 0.6,
+   "task_resume": 0.4,
+   "context_correction": 0.3,
+   "proactive_clarify": 1.59,
+   "constraint_update": 0.4,
+   "historical_reference": 0.13,
+   "monitor_cancel": null,
+   "selective_attention": 0.44,
+   "proactive_guidance": 1.47
+  },
+  "MiniCPM 3秒盲基线": {
+   "all": 1.44,
+   "temporal_update": 2.07,
+   "task_resume": 1.73,
+   "context_correction": 1.21,
+   "proactive_clarify": 1.27,
+   "constraint_update": 1.33,
+   "historical_reference": 0.72,
+   "monitor_cancel": null,
+   "selective_attention": 1.18,
+   "proactive_guidance": 1.51
+  },
+  "MOSS 全双工": {
+   "all": 1.28,
+   "temporal_update": 1.41,
+   "task_resume": 1.28,
+   "context_correction": 1.41,
+   "proactive_clarify": 0.89,
+   "constraint_update": 1.2,
+   "historical_reference": 0.43,
+   "monitor_cancel": null,
+   "selective_attention": 1.99,
+   "proactive_guidance": 1.79
+  },
+  "MOSS 最近30秒": {
+   "all": 1.3,
+   "temporal_update": 1.51,
+   "task_resume": 1.3,
+   "context_correction": 1.36,
+   "proactive_clarify": 0.89,
+   "constraint_update": 1.23,
+   "historical_reference": 0.46,
+   "monitor_cancel": null,
+   "selective_attention": 1.99,
+   "proactive_guidance": 1.79
+  },
+  "MOSS 3秒盲基线": {
+   "all": 1.2,
+   "temporal_update": 2.1,
+   "task_resume": 1.33,
+   "context_correction": 0.79,
+   "proactive_clarify": 0.75,
+   "constraint_update": 0.66,
+   "historical_reference": 0.31,
+   "monitor_cancel": null,
+   "selective_attention": 1.56,
+   "proactive_guidance": 1.77
+  },
+  "Venus 全双工": {
+   "all": 1.02,
+   "temporal_update": 1.17,
+   "task_resume": 1.24,
+   "context_correction": 0.95,
+   "proactive_clarify": 1.25,
+   "constraint_update": 0.8,
+   "historical_reference": 0.36,
+   "monitor_cancel": null,
+   "selective_attention": 0.89,
+   "proactive_guidance": 1.05
+  },
+  "Gander 全双工": {
+   "all": 0.52,
+   "temporal_update": 0.76,
+   "task_resume": 0.24,
+   "context_correction": 0.26,
+   "proactive_clarify": 0.7,
+   "constraint_update": 0.56,
+   "historical_reference": 0.14,
+   "monitor_cancel": null,
+   "selective_attention": 0.57,
+   "proactive_guidance": 1.04
+  },
+  "qwen-omni 离线上界": {
+   "all": 3.35,
+   "temporal_update": 3.92,
+   "task_resume": 3.24,
+   "context_correction": 3.61,
+   "proactive_clarify": 3.02,
+   "constraint_update": 3.14,
+   "historical_reference": 3.16,
+   "monitor_cancel": null,
+   "selective_attention": 3.33,
+   "proactive_guidance": 3.39
+  },
+  "MiniCPM-o 4.5 最近30秒配对": {
+   "n": 1000,
+   "delta": -0.035,
+   "ci95": [
+    -0.067,
+    -0.009
+   ]
+  },
+  "MiniCPM-o 4.5 3秒配对": {
+   "n": 1000,
+   "delta": 0.723,
+   "ci95": [
+    0.593,
+    0.848
+   ]
+  },
+  "MOSS* 最近30秒配对": {
+   "n": 1000,
+   "delta": 0.017,
+   "ci95": [
+    -0.025,
+    0.057
+   ]
+  },
+  "MOSS* 3秒配对": {
+   "n": 1000,
+   "delta": -0.083,
+   "ci95": [
+    -0.201,
+    0.027
+   ]
+  }
+ },
+ "offline_reuse_provenance": {
+  "schema_version": 1,
+  "source_run": "external finalized 1 FPS experiment artifact",
+  "reuse_reason": "Offline upper-bound inputs are independent of online decision FPS after <=32-frame temporal downsampling; final450 branch set is identical and all 999 successful response end-times match the 10 FPS MiniCPM timelines.",
+  "formal_branches": 900,
+  "successful_timing_pairs_checked": 999,
+  "timing_mismatches": 0,
+  "cached_generation_errors": 1,
+  "error_policy": "Preserve the original empty response and score it as observed; no external retry was authorized.",
+  "source_eval_sha256": "fe3486b5222f2f9639227d481a611f326846c69df500ea980d276a7f3ee754e9",
+  "source_answers_sha256": "b027fc99133ab96d20aeb9a0a81acfde26c4799dbd5db0619e3771192068d24c",
+  "source_judge_results_sha256": "a4fdad24fb8de4a459c73ea7e231c1870ae758289df2b098dd648e3e3f062d8b",
+  "target_profile": "lenient_v3",
+  "external_api_calls": 0
+ }
+}

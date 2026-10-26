@@ -1,0 +1,101 @@
+{
+ "judge_profile": "lenient_v3",
+ "scoring": {
+  "w_action": 0.4,
+  "w_points": 0.6,
+  "pen_forbid": 0.75,
+  "pen_contra": 0.25,
+  "point_partial": 0.8,
+  "action_partial": 0.7,
+  "w_corr": 0.4,
+  "w_cc_action": 0.25,
+  "w_cc_points": 0.35,
+  "pen_reinforce": 0.5,
+  "corr_partial_must_correct": 0.6,
+  "corr_partial_must_follow": 0.5
+ },
+ "slots": 1000,
+ "scorable_ok": 1000,
+ "not_scorable": 0,
+ "api_failed": 0,
+ "mean": 0.68,
+ "hist": {
+  "[0,1)": 745,
+  "[1,2)": 94,
+  "[2,3)": 62,
+  "[3,4)": 44,
+  "[4,5]": 55
+ },
+ "exact_0": 728,
+ "exact_5": 17,
+ "per_cap": {
+  "constraint_update": {
+   "n": 100,
+   "mean": 0.4,
+   "point_hit_rate": 0.016,
+   "core_hit_rate": 0.018,
+   "action_correct": 0.13,
+   "not_scorable": 0
+  },
+  "context_correction": {
+   "n": 100,
+   "mean": 0.3,
+   "point_hit_rate": 0.014,
+   "core_hit_rate": 0.012,
+   "action_correct": 0.06,
+   "not_scorable": 0
+  },
+  "historical_reference": {
+   "n": 100,
+   "mean": 0.13,
+   "point_hit_rate": 0.003,
+   "core_hit_rate": 0.003,
+   "action_correct": 0.06,
+   "not_scorable": 0
+  },
+  "proactive_clarify": {
+   "n": 150,
+   "mean": 1.59,
+   "point_hit_rate": 0.16,
+   "core_hit_rate": 0.178,
+   "action_correct": 0.48,
+   "not_scorable": 0
+  },
+  "proactive_guidance": {
+   "n": 100,
+   "mean": 1.47,
+   "point_hit_rate": 0.107,
+   "core_hit_rate": 0.105,
+   "action_correct": 0.46,
+   "not_scorable": 0
+  },
+  "selective_attention": {
+   "n": 100,
+   "mean": 0.44,
+   "point_hit_rate": 0.004,
+   "core_hit_rate": 0.0,
+   "action_correct": 0.08,
+   "not_scorable": 0
+  },
+  "task_resume": {
+   "n": 200,
+   "mean": 0.4,
+   "point_hit_rate": 0.033,
+   "core_hit_rate": 0.037,
+   "action_correct": 0.115,
+   "not_scorable": 0
+  },
+  "temporal_update": {
+   "n": 150,
+   "mean": 0.6,
+   "point_hit_rate": 0.024,
+   "core_hit_rate": 0.036,
+   "action_correct": 0.18,
+   "not_scorable": 0
+  }
+ },
+ "spent_usd": 0.0706,
+ "calls": 79,
+ "reused_formal_judgments": 810,
+ "rerun_judgments": 190
+}

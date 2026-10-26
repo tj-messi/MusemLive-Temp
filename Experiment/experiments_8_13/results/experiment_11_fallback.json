@@ -1,0 +1,14 @@
+{
+  "experiment": 11,
+  "track": "10fps",
+  "model": "gander",
+  "judge_model": "qwen/qwen3.8-omni-flash",
+  "judge_profile": "strict_v2",
+  "target_id": "OM_V3_TASK_V319_K004_00254::resume::sl_main",
+  "candidate_id": "OM_V3_TASK_V319_K004_00254::restart::sl_main",
+  "provider_error": "data_inspection_failed",
+  "resolution": "The identical input text was represented with reversible Unicode escape notation and resubmitted to the same Judge model. The response, target rubric, point IDs, forbidden claims, prompt, and deterministic score rule were unchanged.",
+  "fallback_api_requests": 1,
+  "status": "complete",
+  "raw_cache_committed": false
+}

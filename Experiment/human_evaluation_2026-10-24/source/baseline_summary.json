@@ -1,0 +1,555 @@
+{
+  "schema_version": "human-baseline-judge-summary-v2",
+  "generated_at": "2026-10-24T14:18:38+00:00",
+  "dry_run": false,
+  "protocol": "museumlive_point_judge_lenient_v3",
+  "score_impl_version": "human_baseline_five_judge_v2.0.0",
+  "judge_families": [
+    "Qwen (primary)",
+    "HY3",
+    "DeepSeek",
+    "GLM",
+    "Kimi"
+  ],
+  "full_five_judge_cohort": true,
+  "complete": true,
+  "coverage": {
+    "submitted_records": 375,
+    "unique_slots": 125,
+    "expected_scores": 1875,
+    "successful_scores": 1875,
+    "failed_scores": 0,
+    "deterministic_jobs": 285,
+    "api_jobs": 1590,
+    "api_successes": 1590,
+    "complete_records": 375,
+    "incomplete_records": 0,
+    "recovered_empty_attribute_slots": 7
+  },
+  "annotator_activity": {
+    "annotation_records_revision": 3538,
+    "profiles": {
+      "B01": 125,
+      "B02": 125,
+      "B03": 125
+    }
+  },
+  "means": {
+    "five_judge_consensus": 2.9547,
+    "by_annotator": {
+      "B01": {
+        "n": 125,
+        "mean": 3.0274,
+        "sd": 1.5653
+      },
+      "B02": {
+        "n": 125,
+        "mean": 2.9451,
+        "sd": 1.5946
+      },
+      "B03": {
+        "n": 125,
+        "mean": 2.8917,
+        "sd": 1.67
+      }
+    },
+    "by_capability": {
+      "constraint_update": {
+        "n": 30,
+        "mean": 3.1393,
+        "sd": 1.0156
+      },
+      "context_correction": {
+        "n": 30,
+        "mean": 3.914,
+        "sd": 1.0646
+      },
+      "historical_reference": {
+        "n": 30,
+        "mean": 2.432,
+        "sd": 0.6762
+      },
+      "monitor_cancel": {
+        "n": 30,
+        "mean": 4.5633,
+        "sd": 0.6612
+      },
+      "proactive_clarify": {
+        "n": 45,
+        "mean": 3.0351,
+        "sd": 1.3621
+      },
+      "proactive_guidance": {
+        "n": 45,
+        "mean": 2.0956,
+        "sd": 1.646
+      },
+      "selective_attention": {
+        "n": 60,
+        "mean": 3.25,
+        "sd": 2.1863
+      },
+      "task_resume": {
+        "n": 60,
+        "mean": 2.1333,
+        "sd": 1.5786
+      },
+      "temporal_update": {
+        "n": 45,
+        "mean": 2.9484,
+        "sd": 1.0193
+      }
+    },
+    "by_annotator_capability": {
+      "B01": {
+        "constraint_update": {
+          "n": 10,
+          "mean": 2.992,
+          "sd": 0.9688
+        },
+        "context_correction": {
+          "n": 10,
+          "mean": 4.012,
+          "sd": 1.1106
+        },
+        "historical_reference": {
+          "n": 10,
+          "mean": 2.428,
+          "sd": 0.5219
+        },
+        "monitor_cancel": {
+          "n": 10,
+          "mean": 4.596,
+          "sd": 0.5182
+        },
+        "proactive_clarify": {
+          "n": 15,
+          "mean": 3.1653,
+          "sd": 1.3347
+        },
+        "proactive_guidance": {
+          "n": 15,
+          "mean": 2.2227,
+          "sd": 1.7246
+        },
+        "selective_attention": {
+          "n": 20,
+          "mean": 3.304,
+          "sd": 2.211
+        },
+        "task_resume": {
+          "n": 20,
+          "mean": 2.3,
+          "sd": 1.4107
+        },
+        "temporal_update": {
+          "n": 15,
+          "mean": 3.016,
+          "sd": 0.8254
+        }
+      },
+      "B02": {
+        "constraint_update": {
+          "n": 10,
+          "mean": 3.248,
+          "sd": 1.0383
+        },
+        "context_correction": {
+          "n": 10,
+          "mean": 3.652,
+          "sd": 0.9593
+        },
+        "historical_reference": {
+          "n": 10,
+          "mean": 2.428,
+          "sd": 0.9213
+        },
+        "monitor_cancel": {
+          "n": 10,
+          "mean": 4.658,
+          "sd": 0.495
+        },
+        "proactive_clarify": {
+          "n": 15,
+          "mean": 2.908,
+          "sd": 1.4472
+        },
+        "proactive_guidance": {
+          "n": 15,
+          "mean": 1.9813,
+          "sd": 1.5569
+        },
+        "selective_attention": {
+          "n": 20,
+          "mean": 3.077,
+          "sd": 2.2261
+        },
+        "task_resume": {
+          "n": 20,
+          "mean": 2.42,
+          "sd": 1.658
+        },
+        "temporal_update": {
+          "n": 15,
+          "mean": 3.0,
+          "sd": 0.6965
+        }
+      },
+      "B03": {
+        "constraint_update": {
+          "n": 10,
+          "mean": 3.178,
+          "sd": 1.0211
+        },
+        "context_correction": {
+          "n": 10,
+          "mean": 4.078,
+          "sd": 1.0684
+        },
+        "historical_reference": {
+          "n": 10,
+          "mean": 2.44,
+          "sd": 0.5004
+        },
+        "monitor_cancel": {
+          "n": 10,
+          "mean": 4.436,
+          "sd": 0.8786
+        },
+        "proactive_clarify": {
+          "n": 15,
+          "mean": 3.032,
+          "sd": 1.2873
+        },
+        "proactive_guidance": {
+          "n": 15,
+          "mean": 2.0827,
+          "sd": 1.6431
+        },
+        "selective_attention": {
+          "n": 20,
+          "mean": 3.369,
+          "sd": 2.1091
+        },
+        "task_resume": {
+          "n": 20,
+          "mean": 1.68,
+          "sd": 1.556
+        },
+        "temporal_update": {
+          "n": 15,
+          "mean": 2.8293,
+          "sd": 1.3889
+        }
+      }
+    },
+    "by_judge": {
+      "Qwen (primary)": {
+        "n": 375,
+        "mean": 2.8048,
+        "model": "qwen/qwen3.8-omni-flash",
+        "reasoning": {
+          "enabled": false
+        }
+      },
+      "HY3": {
+        "n": 375,
+        "mean": 2.9835,
+        "model": "tencent/hy3",
+        "reasoning": {
+          "effort": "low"
+        }
+      },
+      "DeepSeek": {
+        "n": 375,
+        "mean": 2.9427,
+        "model": "deepseek/deepseek-v4.1-flash",
+        "reasoning": {
+          "effort": "low"
+        }
+      },
+      "GLM": {
+        "n": 375,
+        "mean": 3.0397,
+        "model": "z-ai/glm-5.3-flash",
+        "reasoning": {
+          "effort": "low"
+        }
+      },
+      "Kimi": {
+        "n": 375,
+        "mean": 3.0029,
+        "model": "moonshotai/kimi-k3",
+        "reasoning": {
+          "effort": "low"
+        }
+      }
+    },
+    "by_judge_capability": {
+      "Qwen (primary)": {
+        "constraint_update": {
+          "n": 30,
+          "mean": 3.0433
+        },
+        "context_correction": {
+          "n": 30,
+          "mean": 3.9967
+        },
+        "historical_reference": {
+          "n": 30,
+          "mean": 2.1533
+        },
+        "monitor_cancel": {
+          "n": 30,
+          "mean": 4.3533
+        },
+        "proactive_clarify": {
+          "n": 45,
+          "mean": 2.84
+        },
+        "proactive_guidance": {
+          "n": 45,
+          "mean": 1.8489
+        },
+        "selective_attention": {
+          "n": 60,
+          "mean": 3.2
+        },
+        "task_resume": {
+          "n": 60,
+          "mean": 1.875
+        },
+        "temporal_update": {
+          "n": 45,
+          "mean": 2.8867
+        }
+      },
+      "HY3": {
+        "constraint_update": {
+          "n": 30,
+          "mean": 3.13
+        },
+        "context_correction": {
+          "n": 30,
+          "mean": 3.9667
+        },
+        "historical_reference": {
+          "n": 30,
+          "mean": 2.49
+        },
+        "monitor_cancel": {
+          "n": 30,
+          "mean": 4.5633
+        },
+        "proactive_clarify": {
+          "n": 45,
+          "mean": 3.12
+        },
+        "proactive_guidance": {
+          "n": 45,
+          "mean": 2.1311
+        },
+        "selective_attention": {
+          "n": 60,
+          "mean": 3.2567
+        },
+        "task_resume": {
+          "n": 60,
+          "mean": 2.1317
+        },
+        "temporal_update": {
+          "n": 45,
+          "mean": 2.9933
+        }
+      },
+      "DeepSeek": {
+        "constraint_update": {
+          "n": 30,
+          "mean": 3.04
+        },
+        "context_correction": {
+          "n": 30,
+          "mean": 3.9333
+        },
+        "historical_reference": {
+          "n": 30,
+          "mean": 2.46
+        },
+        "monitor_cancel": {
+          "n": 30,
+          "mean": 4.6133
+        },
+        "proactive_clarify": {
+          "n": 45,
+          "mean": 2.8378
+        },
+        "proactive_guidance": {
+          "n": 45,
+          "mean": 2.24
+        },
+        "selective_attention": {
+          "n": 60,
+          "mean": 3.2767
+        },
+        "task_resume": {
+          "n": 60,
+          "mean": 2.0933
+        },
+        "temporal_update": {
+          "n": 45,
+          "mean": 2.92
+        }
+      },
+      "GLM": {
+        "constraint_update": {
+          "n": 30,
+          "mean": 3.2633
+        },
+        "context_correction": {
+          "n": 30,
+          "mean": 3.9
+        },
+        "historical_reference": {
+          "n": 30,
+          "mean": 2.5367
+        },
+        "monitor_cancel": {
+          "n": 30,
+          "mean": 4.7633
+        },
+        "proactive_clarify": {
+          "n": 45,
+          "mean": 3.1289
+        },
+        "proactive_guidance": {
+          "n": 45,
+          "mean": 2.1578
+        },
+        "selective_attention": {
+          "n": 60,
+          "mean": 3.22
+        },
+        "task_resume": {
+          "n": 60,
+          "mean": 2.39
+        },
+        "temporal_update": {
+          "n": 45,
+          "mean": 2.9222
+        }
+      },
+      "Kimi": {
+        "constraint_update": {
+          "n": 30,
+          "mean": 3.22
+        },
+        "context_correction": {
+          "n": 30,
+          "mean": 3.7733
+        },
+        "historical_reference": {
+          "n": 30,
+          "mean": 2.52
+        },
+        "monitor_cancel": {
+          "n": 30,
+          "mean": 4.5233
+        },
+        "proactive_clarify": {
+          "n": 45,
+          "mean": 3.2489
+        },
+        "proactive_guidance": {
+          "n": 45,
+          "mean": 2.1
+        },
+        "selective_attention": {
+          "n": 60,
+          "mean": 3.2967
+        },
+        "task_resume": {
+          "n": 60,
+          "mean": 2.1767
+        },
+        "temporal_update": {
+          "n": 45,
+          "mean": 3.02
+        }
+      }
+    }
+  },
+  "score_distribution_one_decimal": {
+    "0.0": 271,
+    "0.2": 6,
+    "0.3": 3,
+    "0.5": 6,
+    "0.6": 2,
+    "0.7": 1,
+    "0.8": 18,
+    "0.9": 4,
+    "1.0": 7,
+    "1.1": 1,
+    "1.2": 25,
+    "1.4": 41,
+    "1.5": 24,
+    "1.6": 2,
+    "1.7": 1,
+    "1.8": 34,
+    "1.9": 20,
+    "2.0": 124,
+    "2.1": 2,
+    "2.2": 10,
+    "2.3": 3,
+    "2.4": 38,
+    "2.5": 23,
+    "2.6": 50,
+    "2.7": 5,
+    "2.8": 76,
+    "2.9": 20,
+    "3.0": 74,
+    "3.1": 8,
+    "3.2": 98,
+    "3.3": 9,
+    "3.4": 12,
+    "3.5": 80,
+    "3.6": 34,
+    "3.7": 32,
+    "3.8": 27,
+    "3.9": 65,
+    "4.0": 8,
+    "4.1": 5,
+    "4.2": 35,
+    "4.3": 1,
+    "4.4": 158,
+    "4.5": 19,
+    "4.6": 16,
+    "4.7": 27,
+    "4.8": 25,
+    "4.9": 24,
+    "5.0": 301
+  },
+  "score_sources": {
+    "api": 1590,
+    "deterministic": 285
+  },
+  "provenance": {
+    "annotation_data_sha256": "8133d0c4addf007a6428ca5da8e3f125c515f23be4d236d2b656b985daa4ad19",
+    "annotation_records_sha256": "1a6e221c4e11db4d12b021764909f20756293aa0ad98e8c3950a39f9b1a6d603",
+    "frozen_judge_sha256": "8e3b59e10fa760827886573d0b15d324b7460ba5909a3af0e37a4cb402da3104",
+    "rubric_sha256": "3f998b202dc885c433315cf5bc1401177ea6600ebb0fcda76e27da00764d017b",
+    "matcher_prompt_sha256": "50e74fab2c9dfd403d0c698e5c11c52fd531a8ae4fd6c5bad6b3a20aeccdd0a8",
+    "correction_addendum_sha256": "15135c90684a0ad1107ae751ed1f1b18506605bd201b0ad1eb6ef8056fb63bc5",
+    "temperature": 0,
+    "max_tokens": 3000,
+    "selection": {
+      "profiles": null,
+      "judges": null,
+      "smoke": false,
+      "limit": 0
+    },
+    "inputs": {
+      "data_tasks": 45,
+      "data_slots": 125
+    }
+  }
+}

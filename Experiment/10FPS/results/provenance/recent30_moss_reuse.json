@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "model": "moss",
+  "slots": 1000,
+  "reused_formal_outputs": 810,
+  "rerun_outputs": 190,
+  "reused_formal_judgments": 810,
+  "rerun_judgments": 190,
+  "visual_fps": 10,
+  "reason": "The 30-second truncation changed only 190 of 1,000 user-query slots. The other 810 retained identical model input, output, judge_id and rubric and therefore reused the formal output and judgment."
+}

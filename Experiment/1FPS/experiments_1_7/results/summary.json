@@ -1,0 +1,1775 @@
+{
+ "analysis_a": {
+  "exp1": {
+   "minicpm": {
+    "pre_onset": {
+     "share_of_responses": 0.1992619926199262,
+     "mean_pre": 1.45,
+     "strict_resp_rate": 0.651,
+     "strict_uq_joint": 1.08,
+     "strict_total": 1.41,
+     "total": 1.59
+    },
+    "all_speak": {
+     "n": 1100,
+     "resp_rate": 0.7972727272727272,
+     "cond": 1.6,
+     "joint": 1.28,
+     "cond_action_ok": 0.6590649942987458
+    },
+    "user_query": {
+     "n": 1000,
+     "resp_rate": 0.813,
+     "cond": 1.61,
+     "joint": 1.31,
+     "cond_action_ok": 0.6715867158671587
+    },
+    "visual_SPEAK": {
+     "n": 100,
+     "resp_rate": 0.64,
+     "cond": 1.46,
+     "joint": 0.94,
+     "cond_action_ok": 0.5
+    },
+    "visual_WAIT": {
+     "n": 150,
+     "false_alarm": 0.44666666666666666,
+     "joint": 3.9
+    },
+    "by_cap": {
+     "temporal_update": {
+      "resp_rate": 0.7466666666666667,
+      "cond": 2.1
+     },
+     "task_resume": {
+      "resp_rate": 0.84,
+      "cond": 1.69
+     },
+     "context_correction": {
+      "resp_rate": 0.7,
+      "cond": 1.86
+     },
+     "proactive_clarify": {
+      "resp_rate": 0.7533333333333333,
+      "cond": 1.85
+     },
+     "constraint_update": {
+      "resp_rate": 0.83,
+      "cond": 1.47
+     },
+     "historical_reference": {
+      "resp_rate": 0.87,
+      "cond": 1.12
+     },
+     "monitor_cancel": {
+      "resp_rate": 0.42,
+      "cond": 3.54
+     },
+     "selective_attention": {
+      "resp_rate": 0.87,
+      "cond": 1.28
+     },
+     "proactive_guidance": {
+      "resp_rate": 0.9066666666666666,
+      "cond": 1.05
+     }
+    }
+   },
+   "venus": {
+    "pre_onset": {
+     "share_of_responses": 0.2804123711340206,
+     "mean_pre": 1.33,
+     "strict_resp_rate": 0.349,
+     "strict_uq_joint": 0.61,
+     "strict_total": 1.01,
+     "total": 1.16
+    },
+    "all_speak": {
+     "n": 1100,
+     "resp_rate": 0.4918181818181818,
+     "cond": 1.67,
+     "joint": 0.82,
+     "cond_action_ok": 0.6432532347504621
+    },
+    "user_query": {
+     "n": 1000,
+     "resp_rate": 0.485,
+     "cond": 1.63,
+     "joint": 0.79,
+     "cond_action_ok": 0.6474226804123712
+    },
+    "visual_SPEAK": {
+     "n": 100,
+     "resp_rate": 0.56,
+     "cond": 1.94,
+     "joint": 1.09,
+     "cond_action_ok": 0.6071428571428571
+    },
+    "visual_WAIT": {
+     "n": 150,
+     "false_alarm": 0.3933333333333333,
+     "joint": 3.63
+    },
+    "by_cap": {
+     "temporal_update": {
+      "resp_rate": 0.4066666666666667,
+      "cond": 2.31
+     },
+     "task_resume": {
+      "resp_rate": 0.445,
+      "cond": 1.47
+     },
+     "context_correction": {
+      "resp_rate": 0.2,
+      "cond": 1.81
+     },
+     "proactive_clarify": {
+      "resp_rate": 0.6133333333333333,
+      "cond": 2.09
+     },
+     "constraint_update": {
+      "resp_rate": 0.5,
+      "cond": 1.5
+     },
+     "historical_reference": {
+      "resp_rate": 0.53,
+      "cond": 1.18
+     },
+     "monitor_cancel": {
+      "resp_rate": 0.52,
+      "cond": 3.32
+     },
+     "selective_attention": {
+      "resp_rate": 0.57,
+      "cond": 1.05
+     },
+     "proactive_guidance": {
+      "resp_rate": 0.62,
+      "cond": 1.25
+     }
+    }
+   },
+   "gander": {
+    "pre_onset": {
+     "share_of_responses": 0.056962025316455694,
+     "mean_pre": 1.41,
+     "strict_resp_rate": 0.447,
+     "strict_uq_joint": 0.87,
+     "strict_total": 1.21,
+     "total": 1.24
+    },
+    "all_speak": {
+     "n": 1100,
+     "resp_rate": 0.48363636363636364,
+     "cond": 1.86,
+     "joint": 0.9,
+     "cond_action_ok": 0.7105263157894737
+    },
+    "user_query": {
+     "n": 1000,
+     "resp_rate": 0.474,
+     "cond": 1.92,
+     "joint": 0.91,
+     "cond_action_ok": 0.7362869198312236
+    },
+    "visual_SPEAK": {
+     "n": 100,
+     "resp_rate": 0.58,
+     "cond": 1.44,
+     "joint": 0.83,
+     "cond_action_ok": 0.5
+    },
+    "visual_WAIT": {
+     "n": 150,
+     "false_alarm": 0.2733333333333333,
+     "joint": 3.7
+    },
+    "by_cap": {
+     "temporal_update": {
+      "resp_rate": 0.30666666666666664,
+      "cond": 1.82
+     },
+     "task_resume": {
+      "resp_rate": 0.295,
+      "cond": 1.89
+     },
+     "context_correction": {
+      "resp_rate": 0.42,
+      "cond": 1.45
+     },
+     "proactive_clarify": {
+      "resp_rate": 0.6,
+      "cond": 2.85
+     },
+     "constraint_update": {
+      "resp_rate": 0.54,
+      "cond": 1.85
+     },
+     "historical_reference": {
+      "resp_rate": 0.58,
+      "cond": 1.49
+     },
+     "monitor_cancel": {
+      "resp_rate": 0.46,
+      "cond": 3.18
+     },
+     "selective_attention": {
+      "resp_rate": 0.51,
+      "cond": 1.5
+     },
+     "proactive_guidance": {
+      "resp_rate": 0.7266666666666667,
+      "cond": 1.32
+     }
+    }
+   },
+   "moss": {
+    "pre_onset": {
+     "share_of_responses": 0.310010764262648,
+     "mean_pre": 1.73,
+     "strict_resp_rate": 0.641,
+     "strict_uq_joint": 1.51,
+     "strict_total": 1.54,
+     "total": 1.94
+    },
+    "all_speak": {
+     "n": 1100,
+     "resp_rate": 0.9172727272727272,
+     "cond": 2.22,
+     "joint": 2.04,
+     "cond_action_ok": 0.7413280475718533
+    },
+    "user_query": {
+     "n": 1000,
+     "resp_rate": 0.929,
+     "cond": 2.16,
+     "joint": 2.01,
+     "cond_action_ok": 0.728740581270183
+    },
+    "visual_SPEAK": {
+     "n": 100,
+     "resp_rate": 0.8,
+     "cond": 2.88,
+     "joint": 2.3,
+     "cond_action_ok": 0.8875
+    },
+    "visual_WAIT": {
+     "n": 150,
+     "false_alarm": 0.7733333333333333,
+     "joint": 1.2
+    },
+    "by_cap": {
+     "temporal_update": {
+      "resp_rate": 0.9333333333333333,
+      "cond": 2.46
+     },
+     "task_resume": {
+      "resp_rate": 0.935,
+      "cond": 2.1
+     },
+     "context_correction": {
+      "resp_rate": 0.96,
+      "cond": 1.61
+     },
+     "proactive_clarify": {
+      "resp_rate": 0.7866666666666666,
+      "cond": 2.07
+     },
+     "constraint_update": {
+      "resp_rate": 0.97,
+      "cond": 2.53
+     },
+     "historical_reference": {
+      "resp_rate": 1.0,
+      "cond": 1.61
+     },
+     "monitor_cancel": {
+      "resp_rate": 0.66,
+      "cond": 3.78
+     },
+     "selective_attention": {
+      "resp_rate": 0.92,
+      "cond": 2.61
+     },
+     "proactive_guidance": {
+      "resp_rate": 0.9733333333333334,
+      "cond": 2.28
+     }
+    }
+   }
+  },
+  "exp2": {
+   "minicpm": {
+    "uq_latency_med": 0.9000000000000057,
+    "uq_latency_p90": 1.5799999999999983,
+    "uq_within2s": 0.9646697388632872,
+    "uq_n": 651,
+    "barge_in_rate": 0.13714285714285715,
+    "interrupted_rate": 0.17238095238095238,
+    "overflow_med_s": 1.5,
+    "overflow_mean_s": 2.22,
+    "n_interrupted": 362,
+    "vis_latency_med": 1.6000000000000227,
+    "vis_hit": 64,
+    "vis_early": 2,
+    "turns": 1711,
+    "unsolicited_turns": 113,
+    "unsolicited_frac": 0.06604324956165984,
+    "unsolicited_per_min": 0.23490281675501506,
+    "speak_frac": 0.26740117104944044,
+    "event_recall": 0.82,
+    "time_precision": 0.722743820655298,
+    "f1": 0.7683063448416335,
+    "baseline_always_speak": {
+     "recall": 1.0,
+     "precision": 0.368036961201239,
+     "f1": 0.5380511954561153
+    }
+   },
+   "venus": {
+    "uq_latency_med": 0.3400000000000034,
+    "uq_latency_p90": 1.8199999999999932,
+    "uq_within2s": 0.9169054441260746,
+    "uq_n": 349,
+    "barge_in_rate": 0.10238095238095238,
+    "interrupted_rate": 0.09714285714285714,
+    "overflow_med_s": 2.5,
+    "overflow_mean_s": 3.25,
+    "n_interrupted": 204,
+    "vis_latency_med": 1.0,
+    "vis_hit": 56,
+    "vis_early": 4,
+    "turns": 980,
+    "unsolicited_turns": 32,
+    "unsolicited_frac": 0.0326530612244898,
+    "unsolicited_per_min": 0.06745362563237774,
+    "speak_frac": 0.19083754918493537,
+    "event_recall": 0.5290909090909091,
+    "time_precision": 0.6602564102564102,
+    "f1": 0.5874409579993336,
+    "baseline_always_speak": {
+     "recall": 1.0,
+     "precision": 0.3726404976404976,
+     "f1": 0.5429542524514591
+    }
+   },
+   "gander": {
+    "uq_latency_med": 1.6399999999999864,
+    "uq_latency_p90": 2.519999999999982,
+    "uq_within2s": 0.7651006711409396,
+    "uq_n": 447,
+    "barge_in_rate": 0.011904761904761904,
+    "interrupted_rate": 0.029523809523809525,
+    "overflow_med_s": 1.0,
+    "overflow_mean_s": 1.17,
+    "n_interrupted": 62,
+    "vis_latency_med": 2.0,
+    "vis_hit": 58,
+    "vis_early": 6,
+    "turns": 733,
+    "unsolicited_turns": 41,
+    "unsolicited_frac": 0.05593451568894952,
+    "unsolicited_per_min": 0.08686440677966102,
+    "speak_frac": 0.08877118644067797,
+    "event_recall": 0.509090909090909,
+    "time_precision": 0.8085519922254616,
+    "f1": 0.6247921471866116,
+    "baseline_always_speak": {
+     "recall": 1.0,
+     "precision": 0.3746757457846952,
+     "f1": 0.5451114518221488
+    }
+   },
+   "moss": {
+    "uq_latency_med": 0.15999999999996817,
+    "uq_latency_p90": 0.9000000000000057,
+    "uq_within2s": 0.968798751950078,
+    "uq_n": 641,
+    "barge_in_rate": 0.25666666666666665,
+    "interrupted_rate": 0.20142857142857143,
+    "overflow_med_s": 1.5,
+    "overflow_mean_s": 2.6,
+    "n_interrupted": 423,
+    "vis_latency_med": 1.6000000000000227,
+    "vis_hit": 80,
+    "vis_early": 11,
+    "turns": 3390,
+    "unsolicited_turns": 427,
+    "unsolicited_frac": 0.12595870206489676,
+    "unsolicited_per_min": 0.8909135167089751,
+    "speak_frac": 0.28949473171749485,
+    "event_recall": 0.91,
+    "time_precision": 0.4968977131714235,
+    "f1": 0.6427999914317862,
+    "baseline_always_speak": {
+     "recall": 1.0,
+     "precision": 0.3751781660771789,
+     "f1": 0.5456429942418426
+    }
+   }
+  },
+  "exp3": {
+   "evidence_gap": {
+    "<5s": {
+     "minicpm": {
+      "n": 284,
+      "mean": 1.41
+     },
+     "venus": {
+      "n": 284,
+      "mean": 0.88
+     },
+     "gander": {
+      "n": 284,
+      "mean": 0.89
+     },
+     "moss": {
+      "n": 284,
+      "mean": 2.41
+     }
+    },
+    "5–15s": {
+     "minicpm": {
+      "n": 151,
+      "mean": 1.27
+     },
+     "venus": {
+      "n": 151,
+      "mean": 0.64
+     },
+     "gander": {
+      "n": 151,
+      "mean": 0.89
+     },
+     "moss": {
+      "n": 151,
+      "mean": 1.83
+     }
+    },
+    "15–30s": {
+     "minicpm": {
+      "n": 34,
+      "mean": 1.23
+     },
+     "venus": {
+      "n": 34,
+      "mean": 0.49
+     },
+     "gander": {
+      "n": 34,
+      "mean": 0.96
+     },
+     "moss": {
+      "n": 34,
+      "mean": 2.31
+     }
+    },
+    "≥30s": {
+     "minicpm": {
+      "n": 2,
+      "mean": 0.0
+     },
+     "venus": {
+      "n": 2,
+      "mean": 0.0
+     },
+     "gander": {
+      "n": 2,
+      "mean": 1.75
+     },
+     "moss": {
+      "n": 2,
+      "mean": 2.15
+     }
+    }
+   },
+   "session_len": {
+    "15–30s": {
+     "minicpm": {
+      "n": 511,
+      "mean": 1.3
+     },
+     "venus": {
+      "n": 511,
+      "mean": 0.78
+     },
+     "gander": {
+      "n": 511,
+      "mean": 0.76
+     },
+     "moss": {
+      "n": 511,
+      "mean": 2.12
+     }
+    },
+    "≥30s": {
+     "minicpm": {
+      "n": 301,
+      "mean": 1.29
+     },
+     "venus": {
+      "n": 301,
+      "mean": 0.67
+     },
+     "gander": {
+      "n": 301,
+      "mean": 0.69
+     },
+     "moss": {
+      "n": 301,
+      "mean": 1.94
+     }
+    },
+    "<15s": {
+     "minicpm": {
+      "n": 288,
+      "mean": 1.23
+     },
+     "venus": {
+      "n": 288,
+      "mean": 1.05
+     },
+     "gander": {
+      "n": 288,
+      "mean": 1.38
+     },
+     "moss": {
+      "n": 288,
+      "mean": 1.99
+     }
+    }
+   },
+   "video_pos": {
+    "<5min": {
+     "minicpm": {
+      "n": 572,
+      "mean": 1.29
+     },
+     "venus": {
+      "n": 572,
+      "mean": 0.88
+     },
+     "gander": {
+      "n": 572,
+      "mean": 0.83
+     },
+     "moss": {
+      "n": 572,
+      "mean": 2.14
+     }
+    },
+    "5–20min": {
+     "minicpm": {
+      "n": 528,
+      "mean": 1.27
+     },
+     "venus": {
+      "n": 528,
+      "mean": 0.75
+     },
+     "gander": {
+      "n": 528,
+      "mean": 0.97
+     },
+     "moss": {
+      "n": 528,
+      "mean": 1.92
+     }
+    }
+   },
+   "video_duration": {
+    "10–15min": {
+     "minicpm": {
+      "n": 970,
+      "mean": 1.24
+     },
+     "venus": {
+      "n": 970,
+      "mean": 0.79
+     },
+     "gander": {
+      "n": 970,
+      "mean": 0.91
+     },
+     "moss": {
+      "n": 970,
+      "mean": 2.02
+     }
+    },
+    "5–10min": {
+     "minicpm": {
+      "n": 115,
+      "mean": 1.54
+     },
+     "venus": {
+      "n": 115,
+      "mean": 1.08
+     },
+     "gander": {
+      "n": 115,
+      "mean": 0.94
+     },
+     "moss": {
+      "n": 115,
+      "mean": 2.18
+     }
+    },
+    "<5min": {
+     "minicpm": {
+      "n": 12,
+      "mean": 1.88
+     },
+     "venus": {
+      "n": 12,
+      "mean": 1.03
+     },
+     "gander": {
+      "n": 12,
+      "mean": 0.26
+     },
+     "moss": {
+      "n": 12,
+      "mean": 2.46
+     }
+    },
+    "≥15min": {
+     "minicpm": {
+      "n": 3,
+      "mean": 0.4
+     },
+     "venus": {
+      "n": 3,
+      "mean": 0.6
+     },
+     "gander": {
+      "n": 3,
+      "mean": 0.8
+     },
+     "moss": {
+      "n": 3,
+      "mean": 1.43
+     }
+    }
+   },
+   "video_set": {
+    "50": {
+     "minicpm": {
+      "n": 237,
+      "mean": 1.17
+     },
+     "venus": {
+      "n": 237,
+      "mean": 0.88
+     },
+     "gander": {
+      "n": 237,
+      "mean": 0.85
+     },
+     "moss": {
+      "n": 237,
+      "mean": 1.7
+     }
+    },
+    "316": {
+     "minicpm": {
+      "n": 863,
+      "mean": 1.31
+     },
+     "venus": {
+      "n": 863,
+      "mean": 0.8
+     },
+     "gander": {
+      "n": 863,
+      "mean": 0.91
+     },
+     "moss": {
+      "n": 863,
+      "mean": 2.13
+     }
+    }
+   },
+   "language": {
+    "zh": {
+     "minicpm": {
+      "n": 934,
+      "mean": 1.21
+     },
+     "venus": {
+      "n": 934,
+      "mean": 0.79
+     },
+     "gander": {
+      "n": 934,
+      "mean": 0.8
+     },
+     "moss": {
+      "n": 934,
+      "mean": 2.05
+     }
+    },
+    "en": {
+     "minicpm": {
+      "n": 166,
+      "mean": 1.66
+     },
+     "venus": {
+      "n": 166,
+      "mean": 0.99
+     },
+     "gander": {
+      "n": 166,
+      "mean": 1.45
+     },
+     "moss": {
+      "n": 166,
+      "mean": 1.95
+     }
+    }
+   },
+   "prior_user_turns": {
+    "2": {
+     "minicpm": {
+      "n": 500,
+      "mean": 1.26
+     },
+     "venus": {
+      "n": 500,
+      "mean": 0.66
+     },
+     "gander": {
+      "n": 500,
+      "mean": 0.87
+     },
+     "moss": {
+      "n": 500,
+      "mean": 2.02
+     }
+    },
+    "0": {
+     "minicpm": {
+      "n": 200,
+      "mean": 1.22
+     },
+     "venus": {
+      "n": 200,
+      "mean": 1.15
+     },
+     "gander": {
+      "n": 200,
+      "mean": 1.34
+     },
+     "moss": {
+      "n": 200,
+      "mean": 1.85
+     }
+    },
+    "1": {
+     "minicpm": {
+      "n": 400,
+      "mean": 1.34
+     },
+     "venus": {
+      "n": 400,
+      "mean": 0.86
+     },
+     "gander": {
+      "n": 400,
+      "mean": 0.72
+     },
+     "moss": {
+      "n": 400,
+      "mean": 2.15
+     }
+    }
+   },
+   "point_modality": {
+    "视觉": {
+     "minicpm": {
+      "n": 1252,
+      "mean": 0.246
+     },
+     "venus": {
+      "n": 792,
+      "mean": 0.251
+     },
+     "gander": {
+      "n": 749,
+      "mean": 0.373
+     },
+     "moss": {
+      "n": 1428,
+      "mean": 0.364
+     }
+    },
+    "音频": {
+     "minicpm": {
+      "n": 867,
+      "mean": 0.228
+     },
+     "venus": {
+      "n": 501,
+      "mean": 0.231
+     },
+     "gander": {
+      "n": 544,
+      "mean": 0.236
+     },
+     "moss": {
+      "n": 1030,
+      "mean": 0.395
+     }
+    }
+   }
+  },
+  "exp4": {
+   "judges": [
+    "qwen",
+    "tencent_hy3",
+    "deepseek_deepseek-v4-pro",
+    "z-ai_glm-5.2",
+    "moonshotai_kimi-k2.6"
+   ],
+   "mean": {
+    "qwen": {
+     "minicpm": 1.59,
+     "venus": 1.16,
+     "gander": 1.24,
+     "moss": 1.94
+    },
+    "tencent_hy3": {
+     "minicpm": 1.3,
+     "venus": 0.96,
+     "gander": 1.1,
+     "moss": 1.63
+    },
+    "deepseek_deepseek-v4-pro": {
+     "minicpm": 1.04,
+     "venus": 0.81,
+     "gander": 0.9,
+     "moss": 1.3
+    },
+    "z-ai_glm-5.2": {
+     "minicpm": 1.21,
+     "venus": 0.93,
+     "gander": 1.01,
+     "moss": 1.57
+    },
+    "moonshotai_kimi-k2.6": {
+     "minicpm": 1.21,
+     "venus": 0.9,
+     "gander": 1.03,
+     "moss": 1.49
+    }
+   },
+   "rank": {
+    "qwen": [
+     "moss",
+     "minicpm",
+     "gander",
+     "venus"
+    ],
+    "tencent_hy3": [
+     "moss",
+     "minicpm",
+     "gander",
+     "venus"
+    ],
+    "deepseek_deepseek-v4-pro": [
+     "moss",
+     "minicpm",
+     "gander",
+     "venus"
+    ],
+    "z-ai_glm-5.2": [
+     "moss",
+     "minicpm",
+     "gander",
+     "venus"
+    ],
+    "moonshotai_kimi-k2.6": [
+     "moss",
+     "minicpm",
+     "gander",
+     "venus"
+    ]
+   },
+   "kendall_vs_qwen": {
+    "tencent_hy3": 1.0,
+    "deepseek_deepseek-v4-pro": 1.0,
+    "z-ai_glm-5.2": 1.0,
+    "moonshotai_kimi-k2.6": 1.0
+   },
+   "slot_r_vs_qwen_answered": {
+    "tencent_hy3": 0.86,
+    "deepseek_deepseek-v4-pro": 0.8,
+    "z-ai_glm-5.2": 0.855,
+    "moonshotai_kimi-k2.6": 0.806
+   },
+   "coverage": {
+    "qwen": {
+     "minicpm": 1250,
+     "venus": 1250,
+     "gander": 1250,
+     "moss": 1250
+    },
+    "tencent_hy3": {
+     "minicpm": 1250,
+     "venus": 1250,
+     "gander": 1250,
+     "moss": 1250
+    },
+    "deepseek_deepseek-v4-pro": {
+     "minicpm": 1250,
+     "venus": 1250,
+     "gander": 1250,
+     "moss": 1250
+    },
+    "z-ai_glm-5.2": {
+     "minicpm": 1250,
+     "venus": 1250,
+     "gander": 1250,
+     "moss": 1250
+    },
+    "moonshotai_kimi-k2.6": {
+     "minicpm": 1250,
+     "venus": 1250,
+     "gander": 1250,
+     "moss": 1250
+    }
+   },
+   "self_pref_hy3": {
+    "delta_vs_qwen": {
+     "minicpm": -0.387,
+     "venus": -0.413,
+     "gander": -0.297,
+     "moss": -0.337
+    },
+    "gander_minus_others": 0.082
+   },
+   "bootstrap": {
+    "qwen": {
+     "ci95": {
+      "minicpm": [
+       1.48,
+       1.7
+      ],
+      "venus": [
+       1.05,
+       1.26
+      ],
+      "gander": [
+       1.12,
+       1.35
+      ],
+      "moss": [
+       1.82,
+       2.05
+      ]
+     },
+     "separability": {
+      "minicpm>venus": 1.0,
+      "minicpm>gander": 1.0,
+      "minicpm>moss": 0.0,
+      "venus>minicpm": 0.0,
+      "venus>gander": 0.077,
+      "venus>moss": 0.0,
+      "gander>minicpm": 0.0,
+      "gander>venus": 0.922,
+      "gander>moss": 0.0,
+      "moss>minicpm": 1.0,
+      "moss>venus": 1.0,
+      "moss>gander": 1.0
+     }
+    },
+    "tencent_hy3": {
+     "ci95": {
+      "minicpm": [
+       1.2,
+       1.41
+      ],
+      "venus": [
+       0.86,
+       1.05
+      ],
+      "gander": [
+       0.99,
+       1.21
+      ],
+      "moss": [
+       1.52,
+       1.74
+      ]
+     },
+     "separability": {
+      "minicpm>venus": 1.0,
+      "minicpm>gander": 1.0,
+      "minicpm>moss": 0.0,
+      "venus>minicpm": 0.0,
+      "venus>gander": 0.003,
+      "venus>moss": 0.0,
+      "gander>minicpm": 0.0,
+      "gander>venus": 0.997,
+      "gander>moss": 0.0,
+      "moss>minicpm": 1.0,
+      "moss>venus": 1.0,
+      "moss>gander": 1.0
+     }
+    },
+    "deepseek_deepseek-v4-pro": {
+     "ci95": {
+      "minicpm": [
+       0.93,
+       1.14
+      ],
+      "venus": [
+       0.71,
+       0.91
+      ],
+      "gander": [
+       0.79,
+       1.0
+      ],
+      "moss": [
+       1.19,
+       1.41
+      ]
+     },
+     "separability": {
+      "minicpm>venus": 1.0,
+      "minicpm>gander": 0.997,
+      "minicpm>moss": 0.0,
+      "venus>minicpm": 0.0,
+      "venus>gander": 0.035,
+      "venus>moss": 0.0,
+      "gander>minicpm": 0.004,
+      "gander>venus": 0.965,
+      "gander>moss": 0.0,
+      "moss>minicpm": 1.0,
+      "moss>venus": 1.0,
+      "moss>gander": 1.0
+     }
+    },
+    "z-ai_glm-5.2": {
+     "ci95": {
+      "minicpm": [
+       1.1,
+       1.31
+      ],
+      "venus": [
+       0.83,
+       1.03
+      ],
+      "gander": [
+       0.9,
+       1.12
+      ],
+      "moss": [
+       1.45,
+       1.68
+      ]
+     },
+     "separability": {
+      "minicpm>venus": 1.0,
+      "minicpm>gander": 1.0,
+      "minicpm>moss": 0.0,
+      "venus>minicpm": 0.0,
+      "venus>gander": 0.062,
+      "venus>moss": 0.0,
+      "gander>minicpm": 0.0,
+      "gander>venus": 0.938,
+      "gander>moss": 0.0,
+      "moss>minicpm": 1.0,
+      "moss>venus": 1.0,
+      "moss>gander": 1.0
+     }
+    },
+    "moonshotai_kimi-k2.6": {
+     "ci95": {
+      "minicpm": [
+       1.1,
+       1.31
+      ],
+      "venus": [
+       0.8,
+       0.99
+      ],
+      "gander": [
+       0.91,
+       1.14
+      ],
+      "moss": [
+       1.37,
+       1.61
+      ]
+     },
+     "separability": {
+      "minicpm>venus": 1.0,
+      "minicpm>gander": 0.999,
+      "minicpm>moss": 0.0,
+      "venus>minicpm": 0.0,
+      "venus>gander": 0.004,
+      "venus>moss": 0.0,
+      "gander>minicpm": 0.002,
+      "gander>venus": 0.996,
+      "gander>moss": 0.0,
+      "moss>minicpm": 1.0,
+      "moss>venus": 1.0,
+      "moss>gander": 1.0
+     }
+    }
+   }
+  }
+ },
+ "analysis_b": {
+  "force_venus": {
+   "n_silent": 515,
+   "forced_mean_on_silent": 1.21,
+   "ge2": 0.2757281553398058,
+   "zero": 0.5106796116504855,
+   "still_silent": 0.17475728155339806,
+   "spoken_orig": 1.63,
+   "spoken_forcedrun": 1.52,
+   "uq_orig": 0.79,
+   "uq_forced": 1.36,
+   "paired": {
+    "n": 1000,
+    "delta": 0.565,
+    "ci95": [
+     0.457,
+     0.677
+    ]
+   },
+   "by_cap": {
+    "temporal_update": [
+     0.94,
+     2.15
+    ],
+    "task_resume": [
+     0.66,
+     0.93
+    ],
+    "context_correction": [
+     0.36,
+     1.32
+    ],
+    "proactive_clarify": [
+     1.28,
+     1.61
+    ],
+    "constraint_update": [
+     0.75,
+     1.01
+    ],
+    "historical_reference": [
+     0.63,
+     1.08
+    ],
+    "monitor_cancel": [
+     null,
+     null
+    ],
+    "selective_attention": [
+     0.6,
+     1.1
+    ],
+    "proactive_guidance": [
+     0.94,
+     1.56
+    ]
+   }
+  },
+  "force_gander": {
+   "n_silent": 526,
+   "forced_mean_on_silent": 1.5,
+   "ge2": 0.3574144486692015,
+   "zero": 0.4296577946768061,
+   "still_silent": 0.08365019011406843,
+   "spoken_orig": 1.92,
+   "spoken_forcedrun": 1.82,
+   "uq_orig": 0.91,
+   "uq_forced": 1.65,
+   "paired": {
+    "n": 1000,
+    "delta": 0.742,
+    "ci95": [
+     0.614,
+     0.873
+    ]
+   },
+   "by_cap": {
+    "temporal_update": [
+     0.56,
+     2.39
+    ],
+    "task_resume": [
+     0.56,
+     1.51
+    ],
+    "context_correction": [
+     0.61,
+     1.27
+    ],
+    "proactive_clarify": [
+     1.71,
+     1.96
+    ],
+    "constraint_update": [
+     1.0,
+     1.67
+    ],
+    "historical_reference": [
+     0.86,
+     1.17
+    ],
+    "monitor_cancel": [
+     null,
+     null
+    ],
+    "selective_attention": [
+     0.76,
+     1.03
+    ],
+    "proactive_guidance": [
+     1.34,
+     1.81
+    ]
+   }
+  },
+  "force_minicpm": {
+   "n_silent": 187,
+   "forced_mean_on_silent": 1.06,
+   "ge2": 0.23529411764705882,
+   "zero": 0.5401069518716578,
+   "still_silent": 0.18181818181818182,
+   "spoken_orig": 1.61,
+   "spoken_forcedrun": 1.51,
+   "uq_orig": 1.31,
+   "uq_forced": 1.42,
+   "paired": {
+    "n": 1000,
+    "delta": 0.11,
+    "ci95": [
+     0.01,
+     0.214
+    ]
+   },
+   "by_cap": {
+    "temporal_update": [
+     1.57,
+     1.93
+    ],
+    "task_resume": [
+     1.42,
+     1.31
+    ],
+    "context_correction": [
+     1.3,
+     1.65
+    ],
+    "proactive_clarify": [
+     1.39,
+     1.42
+    ],
+    "constraint_update": [
+     1.22,
+     1.29
+    ],
+    "historical_reference": [
+     0.98,
+     1.17
+    ],
+    "monitor_cancel": [
+     null,
+     null
+    ],
+    "selective_attention": [
+     1.11,
+     1.2
+    ],
+    "proactive_guidance": [
+     1.24,
+     1.27
+    ]
+   }
+  },
+  "minicpm_完整": {
+   "total": 1.59,
+   "uq": 1.31,
+   "SPEAK": 0.94,
+   "WAIT": 3.9,
+   "audio_pt": 0.228,
+   "visual_pt": 0.246,
+   "by_cap": {
+    "temporal_update": 1.57,
+    "task_resume": 1.42,
+    "context_correction": 1.3,
+    "proactive_clarify": 1.39,
+    "constraint_update": 1.22,
+    "historical_reference": 0.98,
+    "monitor_cancel": 2.44,
+    "selective_attention": 2.63,
+    "proactive_guidance": 0.95
+   },
+   "paired_vs_full": null
+  },
+  "minicpm_静音": {
+   "total": 1.79,
+   "uq": 1.56,
+   "SPEAK": 0.66,
+   "WAIT": 4.13,
+   "audio_pt": 0.208,
+   "visual_pt": 0.265,
+   "by_cap": {
+    "temporal_update": 2.07,
+    "task_resume": 1.24,
+    "context_correction": 1.56,
+    "proactive_clarify": 1.75,
+    "constraint_update": 1.49,
+    "historical_reference": 1.32,
+    "monitor_cancel": 2.47,
+    "selective_attention": 2.74,
+    "proactive_guidance": 1.24
+   },
+   "paired_vs_full": {
+    "n": 1250,
+    "delta": 0.2,
+    "ci95": [
+     0.094,
+     0.308
+    ]
+   }
+  },
+  "minicpm_黑屏": {
+   "total": 1.28,
+   "uq": 0.86,
+   "SPEAK": 0.71,
+   "WAIT": 4.4,
+   "audio_pt": 0.153,
+   "visual_pt": 0.123,
+   "by_cap": {
+    "temporal_update": 1.04,
+    "task_resume": 0.83,
+    "context_correction": 0.82,
+    "proactive_clarify": 0.95,
+    "constraint_update": 0.92,
+    "historical_reference": 0.73,
+    "monitor_cancel": 2.59,
+    "selective_attention": 2.72,
+    "proactive_guidance": 0.54
+   },
+   "paired_vs_full": {
+    "n": 1250,
+    "delta": -0.318,
+    "ci95": [
+     -0.418,
+     -0.216
+    ]
+   }
+  },
+  "moss_完整（画面+转写）": {
+   "total": 1.94,
+   "uq": 2.01,
+   "SPEAK": 2.3,
+   "WAIT": 1.2,
+   "audio_pt": 0.395,
+   "visual_pt": 0.364,
+   "by_cap": {
+    "temporal_update": 2.29,
+    "task_resume": 1.96,
+    "context_correction": 1.54,
+    "proactive_clarify": 1.62,
+    "constraint_update": 2.46,
+    "historical_reference": 1.61,
+    "monitor_cancel": 2.05,
+    "selective_attention": 1.7,
+    "proactive_guidance": 2.22
+   },
+   "paired_vs_full": null
+  },
+  "moss_无现场转写": {
+   "total": 1.77,
+   "uq": 1.77,
+   "SPEAK": 1.29,
+   "WAIT": 2.07,
+   "audio_pt": 0.185,
+   "visual_pt": 0.38,
+   "by_cap": {
+    "temporal_update": 2.06,
+    "task_resume": 1.75,
+    "context_correction": 1.39,
+    "proactive_clarify": 1.45,
+    "constraint_update": 1.42,
+    "historical_reference": 1.4,
+    "monitor_cancel": 2.38,
+    "selective_attention": 1.56,
+    "proactive_guidance": 2.43
+   },
+   "paired_vs_full": {
+    "n": 1250,
+    "delta": -0.166,
+    "ci95": [
+     -0.286,
+     -0.034
+    ]
+   }
+  },
+  "moss_仅转写文字（黑屏）": {
+   "total": 1.52,
+   "uq": 1.21,
+   "SPEAK": 1.37,
+   "WAIT": 3.63,
+   "audio_pt": 0.359,
+   "visual_pt": 0.141,
+   "by_cap": {
+    "temporal_update": 1.39,
+    "task_resume": 1.43,
+    "context_correction": 1.07,
+    "proactive_clarify": 0.64,
+    "constraint_update": 1.39,
+    "historical_reference": 0.9,
+    "monitor_cancel": 2.37,
+    "selective_attention": 2.84,
+    "proactive_guidance": 1.11
+   },
+   "paired_vs_full": {
+    "n": 1250,
+    "delta": -0.419,
+    "ci95": [
+     -0.574,
+     -0.262
+    ]
+   }
+  },
+  "exp7": {
+   "MiniCPM 全双工": {
+    "all": 1.31,
+    "temporal_update": 1.57,
+    "task_resume": 1.42,
+    "context_correction": 1.3,
+    "proactive_clarify": 1.39,
+    "constraint_update": 1.22,
+    "historical_reference": 0.98,
+    "monitor_cancel": null,
+    "selective_attention": 1.11,
+    "proactive_guidance": 1.24
+   },
+   "MiniCPM 最近30秒": {
+    "all": 1.27,
+    "temporal_update": 1.56,
+    "task_resume": 1.43,
+    "context_correction": 1.25,
+    "proactive_clarify": 1.39,
+    "constraint_update": 1.29,
+    "historical_reference": 0.54,
+    "monitor_cancel": null,
+    "selective_attention": 1.11,
+    "proactive_guidance": 1.24
+   },
+   "MiniCPM 3秒盲基线": {
+    "all": 1.18,
+    "temporal_update": 1.56,
+    "task_resume": 1.39,
+    "context_correction": 0.98,
+    "proactive_clarify": 1.15,
+    "constraint_update": 1.25,
+    "historical_reference": 0.46,
+    "monitor_cancel": null,
+    "selective_attention": 1.09,
+    "proactive_guidance": 1.15
+   },
+   "MOSS 全双工": {
+    "all": 2.01,
+    "temporal_update": 2.29,
+    "task_resume": 1.96,
+    "context_correction": 1.54,
+    "proactive_clarify": 1.62,
+    "constraint_update": 2.46,
+    "historical_reference": 1.61,
+    "monitor_cancel": null,
+    "selective_attention": 2.4,
+    "proactive_guidance": 2.28
+   },
+   "MOSS 最近30秒": {
+    "all": 1.93,
+    "temporal_update": 2.46,
+    "task_resume": 1.95,
+    "context_correction": 1.57,
+    "proactive_clarify": 1.62,
+    "constraint_update": 2.37,
+    "historical_reference": 0.68,
+    "monitor_cancel": null,
+    "selective_attention": 2.41,
+    "proactive_guidance": 2.28
+   },
+   "MOSS 3秒盲基线": {
+    "all": 1.79,
+    "temporal_update": 2.89,
+    "task_resume": 1.94,
+    "context_correction": 1.43,
+    "proactive_clarify": 1.34,
+    "constraint_update": 1.28,
+    "historical_reference": 0.68,
+    "monitor_cancel": null,
+    "selective_attention": 1.93,
+    "proactive_guidance": 2.32
+   },
+   "Venus 全双工": {
+    "all": 0.79,
+    "temporal_update": 0.94,
+    "task_resume": 0.66,
+    "context_correction": 0.36,
+    "proactive_clarify": 1.28,
+    "constraint_update": 0.75,
+    "historical_reference": 0.63,
+    "monitor_cancel": null,
+    "selective_attention": 0.6,
+    "proactive_guidance": 0.94
+   },
+   "Gander 全双工": {
+    "all": 0.91,
+    "temporal_update": 0.56,
+    "task_resume": 0.56,
+    "context_correction": 0.61,
+    "proactive_clarify": 1.71,
+    "constraint_update": 1.0,
+    "historical_reference": 0.86,
+    "monitor_cancel": null,
+    "selective_attention": 0.76,
+    "proactive_guidance": 1.34
+   },
+   "qwen-omni 离线上界": {
+    "all": 3.15,
+    "temporal_update": 3.74,
+    "task_resume": 3.0,
+    "context_correction": 3.39,
+    "proactive_clarify": 2.91,
+    "constraint_update": 2.9,
+    "historical_reference": 3.0,
+    "monitor_cancel": null,
+    "selective_attention": 3.11,
+    "proactive_guidance": 3.14
+   },
+   "MiniCPM-o 4.5 最近30秒配对": {
+    "n": 1000,
+    "delta": -0.043,
+    "ci95": [
+     -0.085,
+     -0.002
+    ]
+   },
+   "MiniCPM-o 4.5 3秒配对": {
+    "n": 1000,
+    "delta": -0.135,
+    "ci95": [
+     -0.237,
+     -0.028
+    ]
+   },
+   "MOSS* 最近30秒配对": {
+    "n": 1000,
+    "delta": -0.076,
+    "ci95": [
+     -0.134,
+     -0.022
+    ]
+   },
+   "MOSS* 3秒配对": {
+    "n": 1000,
+    "delta": -0.224,
+    "ci95": [
+     -0.354,
+     -0.085
+    ]
+   }
+  }
+ },
+ "checks": {
+  "force_venus": {
+   "slots": 1250,
+   "scorable_ok": 1250,
+   "api_failed": 0,
+   "mean": 1.58
+  },
+  "force_gander": {
+   "slots": 1250,
+   "scorable_ok": 1250,
+   "api_failed": 0,
+   "mean": 1.82
+  },
+  "force_minicpm": {
+   "slots": 1250,
+   "scorable_ok": 1250,
+   "api_failed": 0,
+   "mean": 1.69
+  },
+  "blind_minicpm": {
+   "slots": 1000,
+   "scorable_ok": 1000,
+   "api_failed": 0,
+   "mean": 1.18
+  },
+  "blind_moss": {
+   "slots": 1000,
+   "scorable_ok": 1000,
+   "api_failed": 0,
+   "mean": 1.79
+  },
+  "recent30_minicpm": {
+   "slots": 1000,
+   "scorable_ok": 1000,
+   "api_failed": 0,
+   "mean": 1.27
+  },
+  "recent30_moss": {
+   "slots": 1000,
+   "scorable_ok": 1000,
+   "api_failed": 0,
+   "mean": 1.93
+  },
+  "mute_minicpm": {
+   "slots": 1250,
+   "scorable_ok": 1250,
+   "api_failed": 0,
+   "mean": 1.79
+  },
+  "black_minicpm": {
+   "slots": 1250,
+   "scorable_ok": 1250,
+   "api_failed": 0,
+   "mean": 1.28
+  },
+  "notext_moss": {
+   "slots": 1250,
+   "scorable_ok": 1250,
+   "api_failed": 0,
+   "mean": 1.77
+  },
+  "black_moss": {
+   "slots": 1250,
+   "scorable_ok": 1250,
+   "api_failed": 0,
+   "mean": 1.52
+  },
+  "offline_qwen_omni": {
+   "slots": 1250,
+   "scorable_ok": 1250,
+   "api_failed": 0,
+   "mean": 3.12
+  }
+ },
+ "alternate_judges": {
+  "tencent_hy3": {
+   "minicpm": {
+    "slots": 1250,
+    "scorable_ok": 1250,
+    "api_failed": 0,
+    "mean": 1.3
+   },
+   "venus": {
+    "slots": 1250,
+    "scorable_ok": 1250,
+    "api_failed": 0,
+    "mean": 0.96
+   },
+   "gander": {
+    "slots": 1250,
+    "scorable_ok": 1250,
+    "api_failed": 0,
+    "mean": 1.1
+   },
+   "moss": {
+    "slots": 1250,
+    "scorable_ok": 1250,
+    "api_failed": 0,
+    "mean": 1.63
+   }
+  },
+  "deepseek_deepseek-v4-pro": {
+   "minicpm": {
+    "slots": 1250,
+    "scorable_ok": 1250,
+    "api_failed": 0,
+    "mean": 1.04
+   },
+   "venus": {
+    "slots": 1250,
+    "scorable_ok": 1250,
+    "api_failed": 0,
+    "mean": 0.81
+   },
+   "gander": {
+    "slots": 1250,
+    "scorable_ok": 1250,
+    "api_failed": 0,
+    "mean": 0.9
+   },
+   "moss": {
+    "slots": 1250,
+    "scorable_ok": 1250,
+    "api_failed": 0,
+    "mean": 1.3
+   }
+  },
+  "z-ai_glm-5.2": {
+   "minicpm": {
+    "slots": 1250,
+    "scorable_ok": 1250,
+    "api_failed": 0,
+    "mean": 1.21
+   },
+   "venus": {
+    "slots": 1250,
+    "scorable_ok": 1250,
+    "api_failed": 0,
+    "mean": 0.93
+   },
+   "gander": {
+    "slots": 1250,
+    "scorable_ok": 1250,
+    "api_failed": 0,
+    "mean": 1.01
+   },
+   "moss": {
+    "slots": 1250,
+    "scorable_ok": 1250,
+    "api_failed": 0,
+    "mean": 1.57
+   }
+  },
+  "moonshotai_kimi-k2.6": {
+   "minicpm": {
+    "slots": 1250,
+    "scorable_ok": 1250,
+    "api_failed": 0,
+    "mean": 1.21
+   },
+   "venus": {
+    "slots": 1250,
+    "scorable_ok": 1250,
+    "api_failed": 0,
+    "mean": 0.9
+   },
+   "gander": {
+    "slots": 1250,
+    "scorable_ok": 1250,
+    "api_failed": 0,
+    "mean": 1.03
+   },
+   "moss": {
+    "slots": 1250,
+    "scorable_ok": 1250,
+    "api_failed": 0,
+    "mean": 1.49
+   }
+  }
+ },
+ "figures": [
+  "context_baselines.svg",
+  "evidence_distance.svg",
+  "judge_stability.svg",
+  "modality_ablation.svg",
+  "response_decomposition.svg",
+  "timing_f1.svg"
+ ]
+}

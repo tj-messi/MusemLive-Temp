@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,"Noto Sans CJK SC",sans-serif;fill:#222}.grid{stroke:#ddd}.axis{stroke:#333}</style>
+<text x="550.0" y="35" text-anchor="middle" font-size="24" font-weight="700">不同 Judge 下的模型均分</text>
+<line class="grid" x1="90" y1="500.0" x2="1060" y2="500.0"/>
+<text x="78" y="505.0" text-anchor="end" font-size="14">0.0</text>
+<line class="grid" x1="90" y1="417.0" x2="1060" y2="417.0"/>
+<text x="78" y="422.0" text-anchor="end" font-size="14">0.5</text>
+<line class="grid" x1="90" y1="334.0" x2="1060" y2="334.0"/>
+<text x="78" y="339.0" text-anchor="end" font-size="14">1.0</text>
+<line class="grid" x1="90" y1="251.0" x2="1060" y2="251.0"/>
+<text x="78" y="256.0" text-anchor="end" font-size="14">1.5</text>
+<line class="grid" x1="90" y1="168.0" x2="1060" y2="168.0"/>
+<text x="78" y="173.0" text-anchor="end" font-size="14">2.0</text>
+<line class="grid" x1="90" y1="85.0" x2="1060" y2="85.0"/>
+<text x="78" y="90.0" text-anchor="end" font-size="14">2.5</text>
+<text x="90.0" y="530" text-anchor="middle" font-size="13">Qwen</text>
+<text x="332.5" y="530" text-anchor="middle" font-size="13">HY3</text>
+<text x="575.0" y="530" text-anchor="middle" font-size="13">DeepSeek</text>
+<text x="817.5" y="530" text-anchor="middle" font-size="13">GLM</text>
+<text x="1060.0" y="530" text-anchor="middle" font-size="13">Kimi</text>
+<polyline points="90.0,339.0 332.5,372.2 575.0,403.7 817.5,358.9 1060.0,377.2" fill="none" stroke="#4472C4" stroke-width="3"/>
+<circle cx="90.0" cy="338.98" r="5" fill="#4472C4"/>
+<text x="90.0" y="328.98" text-anchor="middle" font-size="12">0.97</text>
+<circle cx="332.5" cy="372.18" r="5" fill="#4472C4"/>
+<text x="332.5" y="362.18" text-anchor="middle" font-size="12">0.77</text>
+<circle cx="575.0" cy="403.72" r="5" fill="#4472C4"/>
+<text x="575.0" y="393.72" text-anchor="middle" font-size="12">0.58</text>
+<circle cx="817.5" cy="358.9" r="5" fill="#4472C4"/>
+<text x="817.5" y="348.9" text-anchor="middle" font-size="12">0.85</text>
+<circle cx="1060.0" cy="377.15999999999997" r="5" fill="#4472C4"/>
+<text x="1060.0" y="367.15999999999997" text-anchor="middle" font-size="12">0.74</text>
+<polyline points="90.0,297.5 332.5,347.3 575.0,400.4 817.5,335.7 1060.0,355.6" fill="none" stroke="#ED7D31" stroke-width="3"/>
+<circle cx="90.0" cy="297.48" r="5" fill="#ED7D31"/>
+<text x="90.0" y="287.48" text-anchor="middle" font-size="12">1.22</text>
+<circle cx="332.5" cy="347.28" r="5" fill="#ED7D31"/>
+<text x="332.5" y="337.28" text-anchor="middle" font-size="12">0.92</text>
+<circle cx="575.0" cy="400.4" r="5" fill="#ED7D31"/>
+<text x="575.0" y="390.4" text-anchor="middle" font-size="12">0.60</text>
+<circle cx="817.5" cy="335.65999999999997" r="5" fill="#ED7D31"/>
+<text x="817.5" y="325.65999999999997" text-anchor="middle" font-size="12">0.99</text>
+<circle cx="1060.0" cy="355.58" r="5" fill="#ED7D31"/>
+<text x="1060.0" y="345.58" text-anchor="middle" font-size="12">0.87</text>
+<polyline points="90.0,352.3 332.5,377.2 575.0,397.1 817.5,373.8 1060.0,380.5" fill="none" stroke="#70AD47" stroke-width="3"/>
+<circle cx="90.0" cy="352.26" r="5" fill="#70AD47"/>
+<text x="90.0" y="342.26" text-anchor="middle" font-size="12">0.89</text>
+<circle cx="332.5" cy="377.15999999999997" r="5" fill="#70AD47"/>
+<text x="332.5" y="367.15999999999997" text-anchor="middle" font-size="12">0.74</text>
+<circle cx="575.0" cy="397.08" r="5" fill="#70AD47"/>
+<text x="575.0" y="387.08" text-anchor="middle" font-size="12">0.62</text>
+<circle cx="817.5" cy="373.84000000000003" r="5" fill="#70AD47"/>
+<text x="817.5" y="363.84000000000003" text-anchor="middle" font-size="12">0.76</text>
+<circle cx="1060.0" cy="380.48" r="5" fill="#70AD47"/>
+<text x="1060.0" y="370.48" text-anchor="middle" font-size="12">0.72</text>
+<polyline points="90.0,232.7 332.5,274.2 575.0,320.7 817.5,269.3 1060.0,280.9" fill="none" stroke="#A64D79" stroke-width="3"/>
+<circle cx="90.0" cy="232.73999999999995" r="5" fill="#A64D79"/>
+<text x="90.0" y="222.73999999999995" text-anchor="middle" font-size="12">1.61</text>
+<circle cx="332.5" cy="274.23999999999995" r="5" fill="#A64D79"/>
+<text x="332.5" y="264.23999999999995" text-anchor="middle" font-size="12">1.36</text>
+<circle cx="575.0" cy="320.71999999999997" r="5" fill="#A64D79"/>
+<text x="575.0" y="310.71999999999997" text-anchor="middle" font-size="12">1.08</text>
+<circle cx="817.5" cy="269.26000000000005" r="5" fill="#A64D79"/>
+<text x="817.5" y="259.26000000000005" text-anchor="middle" font-size="12">1.39</text>
+<circle cx="1060.0" cy="280.88" r="5" fill="#A64D79"/>
+<text x="1060.0" y="270.88" text-anchor="middle" font-size="12">1.32</text>
+<line x1="90" y1="578" x2="114" y2="578" stroke="#4472C4" stroke-width="4"/>
+<text x="120" y="583" font-size="14">MiniCPM-o 4.5</text>
+<line x1="302" y1="578" x2="326" y2="578" stroke="#ED7D31" stroke-width="4"/>
+<text x="332" y="583" font-size="14">Venus</text>
+<line x1="432" y1="578" x2="456" y2="578" stroke="#70AD47" stroke-width="4"/>
+<text x="462" y="583" font-size="14">Gander</text>
+<line x1="562" y1="578" x2="586" y2="578" stroke="#A64D79" stroke-width="4"/>
+<text x="592" y="583" font-size="14">MOSS*</text>
+</svg>

@@ -1,0 +1,129 @@
+{
+ "constraint_update": {
+  "selected": 50,
+  "target": 50,
+  "pool": 189,
+  "batch": {
+   "null": 50
+  },
+  "language": {
+   "zh": 42,
+   "en": 8
+  },
+  "videos": 39,
+  "points_judge_mean": 1.97
+ },
+ "context_correction": {
+  "selected": 50,
+  "target": 50,
+  "pool": 157,
+  "batch": {
+   "null": 50
+  },
+  "language": {
+   "zh": 41,
+   "en": 9
+  },
+  "videos": 42,
+  "points_judge_mean": 1.84
+ },
+ "historical_reference": {
+  "selected": 50,
+  "target": 50,
+  "pool": 214,
+  "batch": {
+   "null": 50
+  },
+  "language": {
+   "zh": 48,
+   "en": 2
+  },
+  "videos": 41,
+  "points_judge_mean": 1.4
+ },
+ "monitor_cancel": {
+  "selected": 50,
+  "target": 50,
+  "pool": 177,
+  "batch": {
+   "null": 50
+  },
+  "language": {
+   "zh": 43,
+   "en": 7
+  },
+  "videos": 45,
+  "points_judge_mean": 2.43
+ },
+ "proactive_clarify": {
+  "selected": 50,
+  "target": 50,
+  "pool": 232,
+  "batch": {
+   "null": 50
+  },
+  "language": {
+   "en": 18,
+   "zh": 32
+  },
+  "videos": 44,
+  "points_judge_mean": 1.87
+ },
+ "proactive_guidance": {
+  "selected": 50,
+  "target": 50,
+  "pool": 166,
+  "batch": {
+   "null": 50
+  },
+  "language": {
+   "zh": 50
+  },
+  "videos": 36,
+  "points_judge_mean": 1.1
+ },
+ "selective_attention": {
+  "selected": 50,
+  "target": 50,
+  "pool": 197,
+  "batch": {
+   "null": 50
+  },
+  "language": {
+   "zh": 41,
+   "en": 9
+  },
+  "videos": 39,
+  "points_judge_mean": 2.6
+ },
+ "task_resume": {
+  "selected": 50,
+  "target": 50,
+  "pool": 214,
+  "batch": {
+   "null": 50
+  },
+  "language": {
+   "zh": 40,
+   "en": 10
+  },
+  "videos": 46,
+  "points_judge_mean": 2.12
+ },
+ "temporal_update": {
+  "selected": 50,
+  "target": 50,
+  "pool": 209,
+  "batch": {
+   "null": 50
+  },
+  "language": {
+   "zh": 47,
+   "en": 3
+  },
+  "videos": 39,
+  "points_judge_mean": 2.12
+ },
+ "_total": 450,
+ "_unknown_task_ids": []
+}

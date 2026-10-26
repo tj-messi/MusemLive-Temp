@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-10-21T20:22:00+08:00",
+  "affected_slots": 22,
+  "provider_reroute_slots": 20,
+  "compact_json_slots": 17,
+  "raw_evaluation_unchanged": true,
+  "rubric_unchanged": true,
+  "scoring_unchanged": true,
+  "policy": "Retry the same Judge model after provider-side JSON truncation. Prefer a full-schema response from another endpoint for the same model; if free-text reason/evidence fields still truncate, request the same action/point/forbidden/correction labels with a compact JSON schema. Deterministic scoring is unchanged.",
+  "panels": [
+    {
+      "judge": "deepseek/deepseek-v4-pro",
+      "model": "minicpm",
+      "affected_slots": 2,
+      "provider_reroute_slots": 2,
+      "compact_json_slots": 0,
+      "fallback_provider": "DeepInfra",
+      "judge_ids": [
+        "OM_V3_SELE_V314_K003_00016::focus::sl_quiet",
+        "OM_V3_TASK_V392_K001_00542::resume::sl_side"
+      ]
+    },
+    {
+      "judge": "tencent/hy3",
+      "model": "minicpm",
+      "affected_slots": 18,
+      "provider_reroute_slots": 18,
+      "compact_json_slots": 15,
+      "fallback_provider": "GMICloud",
+      "compact_json_judge_ids": [
+        "OM_HR316a_N037_K001_00280_omni::rebind::sl_recall_appearance",
+        "OM_HR316a_V314_K004_00482_omni::rebind::sl_recall_appearance",
+        "OM_HR50a_D003_K001_00145_omni::keep_alias::sl_recall_appearance",
+        "OM_HR50a_V060_K003_00302_omni::rebind::sl_recall_appearance",
+        "OM_V3_CONS_N008_K001_00227::update_constraint::sl_main",
+        "OM_V3_CONT_V074_K001_00438::correction::sl_main",
+        "OM_V3_CONT_V314_K000_00571::correction::sl_main",
+        "OM_V3_CONT_V314_K009_00554::no_correction::sl_main",
+        "OM_V3_SELE_V060_K003_00481::ask_distractor::sl_main",
+        "OM_V3_SELE_V211_K003_00585::focus::sl_main",
+        "OM_V3_TASK_N008_K000_00014::restart::sl_main",
+        "OM_V3_TASK_N008_K000_00014::resume::sl_main",
+        "OM_V3_TASK_V074_K005_00314::resume::sl_main",
+        "OM_V3_TASK_V124_K001_00236::restart::sl_main",
+        "OM_V3_TASK_V314_K001_00618::resume::sl_main"
+      ]
+    },
+    {
+      "judge": "tencent/hy3",
+      "model": "gander",
+      "affected_slots": 2,
+      "provider_reroute_slots": 0,
+      "compact_json_slots": 2,
+      "fallback_provider": "GMICloud",
+      "compact_json_judge_ids": [
+        "OM_HR50a_D003_K001_00145_omni::keep_alias::sl_recall_appearance",
+        "OM_V3_TASK_V060_K004_00621::restart::sl_main"
+      ]
+    }
+  ]
+}

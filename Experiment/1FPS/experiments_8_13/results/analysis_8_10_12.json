@@ -1,0 +1,1756 @@
+{
+  "experiment10": {
+    "definition": "content-independent action calibration over SPEAK/WAIT/CLARIFY",
+    "models": {
+      "gander": {
+        "action_accuracy": 0.3912,
+        "confusion": {
+          "CLARIFY": {
+            "CLARIFY": 1,
+            "SPEAK": 19,
+            "WAIT": 52
+          },
+          "SPEAK": {
+            "CLARIFY": 1,
+            "OTHER": 107,
+            "SPEAK": 403,
+            "WAIT": 517
+          },
+          "WAIT": {
+            "OTHER": 3,
+            "SPEAK": 38,
+            "WAIT": 109
+          }
+        },
+        "dual_conditions": {
+          "clarify_ambiguous_specific": {
+            "both_action_success": 0.0,
+            "left_action_success": 0.0,
+            "left_condition": "ambiguous",
+            "left_only": 0,
+            "n": 50,
+            "neither": 11,
+            "right_action_success": 0.78,
+            "right_condition": "specific",
+            "right_only": 39
+          },
+          "guidance_needed_direct": {
+            "both_action_success": 0.06,
+            "left_action_success": 0.08,
+            "left_condition": "need_guidance",
+            "left_only": 1,
+            "n": 50,
+            "neither": 15,
+            "right_action_success": 0.68,
+            "right_condition": "no_guidance",
+            "right_only": 31
+          },
+          "monitor_keep_cancel": {
+            "both_action_success": 0.04,
+            "left_action_success": 0.44,
+            "left_condition": "keep_monitor",
+            "left_only": 20,
+            "n": 50,
+            "neither": 3,
+            "post_cancel_substantive_false_alert": 0.46,
+            "right_action_success": 0.54,
+            "right_condition": "cancel_monitor",
+            "right_only": 25
+          }
+        },
+        "label": "Gander",
+        "macro_action_f1": 0.2773,
+        "per_class": {
+          "CLARIFY": {
+            "f1": 0.027,
+            "precision": 0.5,
+            "recall": 0.0139,
+            "support": 72
+          },
+          "SPEAK": {
+            "f1": 0.5417,
+            "precision": 0.8761,
+            "recall": 0.392,
+            "support": 1028
+          },
+          "WAIT": {
+            "f1": 0.2633,
+            "precision": 0.1608,
+            "recall": 0.7267,
+            "support": 150
+          }
+        },
+        "source_cluster_ci": {
+          "bootstrap_reps": 2000,
+          "ci95": [
+            0.3593,
+            0.4331
+          ],
+          "mean": 0.3939,
+          "n_sources": 129,
+          "n_tasks": 450,
+          "seed": 20261021
+        }
+      },
+      "minicpm": {
+        "action_accuracy": 0.556,
+        "confusion": {
+          "CLARIFY": {
+            "OTHER": 2,
+            "SPEAK": 41,
+            "WAIT": 29
+          },
+          "SPEAK": {
+            "CLARIFY": 1,
+            "OTHER": 125,
+            "SPEAK": 639,
+            "WAIT": 263
+          },
+          "WAIT": {
+            "OTHER": 1,
+            "SPEAK": 32,
+            "WAIT": 117
+          }
+        },
+        "dual_conditions": {
+          "clarify_ambiguous_specific": {
+            "both_action_success": 0.0,
+            "left_action_success": 0.0,
+            "left_condition": "ambiguous",
+            "left_only": 0,
+            "n": 50,
+            "neither": 10,
+            "right_action_success": 0.8,
+            "right_condition": "specific",
+            "right_only": 40
+          },
+          "guidance_needed_direct": {
+            "both_action_success": 0.08,
+            "left_action_success": 0.08,
+            "left_condition": "need_guidance",
+            "left_only": 0,
+            "n": 50,
+            "neither": 8,
+            "right_action_success": 0.84,
+            "right_condition": "no_guidance",
+            "right_only": 38
+          },
+          "monitor_keep_cancel": {
+            "both_action_success": 0.16,
+            "left_action_success": 0.42,
+            "left_condition": "keep_monitor",
+            "left_only": 13,
+            "n": 50,
+            "neither": 3,
+            "post_cancel_substantive_false_alert": 0.32,
+            "right_action_success": 0.68,
+            "right_condition": "cancel_monitor",
+            "right_only": 26
+          }
+        },
+        "label": "MiniCPM-o 4.5",
+        "macro_action_f1": 0.3844,
+        "per_class": {
+          "CLARIFY": {
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 72
+          },
+          "SPEAK": {
+            "f1": 0.7345,
+            "precision": 0.8975,
+            "recall": 0.6216,
+            "support": 1028
+          },
+          "WAIT": {
+            "f1": 0.4186,
+            "precision": 0.2861,
+            "recall": 0.78,
+            "support": 150
+          }
+        },
+        "source_cluster_ci": {
+          "bootstrap_reps": 2000,
+          "ci95": [
+            0.5187,
+            0.5909
+          ],
+          "mean": 0.5544,
+          "n_sources": 129,
+          "n_tasks": 450,
+          "seed": 20261021
+        }
+      },
+      "moss": {
+        "action_accuracy": 0.6272,
+        "confusion": {
+          "CLARIFY": {
+            "OTHER": 7,
+            "SPEAK": 42,
+            "WAIT": 23
+          },
+          "SPEAK": {
+            "OTHER": 148,
+            "SPEAK": 804,
+            "WAIT": 76
+          },
+          "WAIT": {
+            "OTHER": 4,
+            "SPEAK": 110,
+            "WAIT": 36
+          }
+        },
+        "dual_conditions": {
+          "clarify_ambiguous_specific": {
+            "both_action_success": 0.0,
+            "left_action_success": 0.0,
+            "left_condition": "ambiguous",
+            "left_only": 0,
+            "n": 50,
+            "neither": 14,
+            "right_action_success": 0.72,
+            "right_condition": "specific",
+            "right_only": 36
+          },
+          "guidance_needed_direct": {
+            "both_action_success": 0.52,
+            "left_action_success": 0.62,
+            "left_condition": "need_guidance",
+            "left_only": 5,
+            "n": 50,
+            "neither": 5,
+            "right_action_success": 0.8,
+            "right_condition": "no_guidance",
+            "right_only": 14
+          },
+          "monitor_keep_cancel": {
+            "both_action_success": 0.06,
+            "left_action_success": 0.66,
+            "left_condition": "keep_monitor",
+            "left_only": 30,
+            "n": 50,
+            "neither": 4,
+            "post_cancel_substantive_false_alert": 0.68,
+            "right_action_success": 0.32,
+            "right_condition": "cancel_monitor",
+            "right_only": 13
+          }
+        },
+        "label": "MOSS*",
+        "macro_action_f1": 0.3544,
+        "per_class": {
+          "CLARIFY": {
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 72
+          },
+          "SPEAK": {
+            "f1": 0.8105,
+            "precision": 0.841,
+            "recall": 0.7821,
+            "support": 1028
+          },
+          "WAIT": {
+            "f1": 0.2526,
+            "precision": 0.2667,
+            "recall": 0.24,
+            "support": 150
+          }
+        },
+        "source_cluster_ci": {
+          "bootstrap_reps": 2000,
+          "ci95": [
+            0.6072,
+            0.6641
+          ],
+          "mean": 0.635,
+          "n_sources": 129,
+          "n_tasks": 450,
+          "seed": 20261021
+        }
+      },
+      "venus": {
+        "action_accuracy": 0.3656,
+        "confusion": {
+          "CLARIFY": {
+            "OTHER": 1,
+            "SPEAK": 34,
+            "WAIT": 37
+          },
+          "SPEAK": {
+            "CLARIFY": 2,
+            "OTHER": 85,
+            "SPEAK": 375,
+            "WAIT": 566
+          },
+          "WAIT": {
+            "OTHER": 1,
+            "SPEAK": 38,
+            "WAIT": 111
+          }
+        },
+        "dual_conditions": {
+          "clarify_ambiguous_specific": {
+            "both_action_success": 0.0,
+            "left_action_success": 0.0,
+            "left_condition": "ambiguous",
+            "left_only": 0,
+            "n": 50,
+            "neither": 14,
+            "right_action_success": 0.72,
+            "right_condition": "specific",
+            "right_only": 36
+          },
+          "guidance_needed_direct": {
+            "both_action_success": 0.08,
+            "left_action_success": 0.12,
+            "left_condition": "need_guidance",
+            "left_only": 2,
+            "n": 50,
+            "neither": 23,
+            "right_action_success": 0.5,
+            "right_condition": "no_guidance",
+            "right_only": 21
+          },
+          "monitor_keep_cancel": {
+            "both_action_success": 0.12,
+            "left_action_success": 0.48,
+            "left_condition": "keep_monitor",
+            "left_only": 18,
+            "n": 50,
+            "neither": 5,
+            "post_cancel_substantive_false_alert": 0.46,
+            "right_action_success": 0.54,
+            "right_condition": "cancel_monitor",
+            "right_only": 21
+          }
+        },
+        "label": "Venus",
+        "macro_action_f1": 0.2551,
+        "per_class": {
+          "CLARIFY": {
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 72
+          },
+          "SPEAK": {
+            "f1": 0.5085,
+            "precision": 0.8389,
+            "recall": 0.3648,
+            "support": 1028
+          },
+          "WAIT": {
+            "f1": 0.2569,
+            "precision": 0.1555,
+            "recall": 0.74,
+            "support": 150
+          }
+        },
+        "source_cluster_ci": {
+          "bootstrap_reps": 2000,
+          "ci95": [
+            0.3306,
+            0.3949
+          ],
+          "mean": 0.3611,
+          "n_sources": 129,
+          "n_tasks": 450,
+          "seed": 20261021
+        }
+      }
+    }
+  },
+  "experiment11": {
+    "status": "generated_by_run_swap_judge.py"
+  },
+  "experiment12": {
+    "definition": "For each required SPEAK/CLARIFY slot with normalized strict_v2 quality q, an in-window response contributes soft TP=q, FP=1-q, FN=1-q; silence contributes FN=1; an early/late response contributes FP=1 and FN=1. A substantive response in a WAIT slot and each unmatched model turn add FP=1.",
+    "formal_window": {
+      "user_query": "response onset from 0.5 s before TTS end through 6.0 s after TTS end",
+      "visual_event": "response onset from slot start through 3.0 s after slot end"
+    },
+    "models": {
+      "gander": {
+        "invalid_early_or_late_attempts": 29,
+        "label": "Gander",
+        "quality_time_f1": 0.2214,
+        "quality_time_precision": 0.309,
+        "quality_time_recall": 0.1725,
+        "quality_time_soft_fn": 910.26,
+        "quality_time_soft_fp": 424.26,
+        "quality_time_soft_tp": 189.74,
+        "required_slots": 1100,
+        "unmatched_turns": 41,
+        "wait_slots": 150,
+        "window_sensitivity": {
+          "formal": {
+            "counted_speaking_bins": 2058,
+            "event_recall": 0.5091,
+            "required_events": 1100,
+            "speaking_time_precision": 0.8086,
+            "timing_f1": 0.6248
+          },
+          "medium": {
+            "counted_speaking_bins": 2210,
+            "event_recall": 0.4836,
+            "required_events": 1100,
+            "speaking_time_precision": 0.5615,
+            "timing_f1": 0.5197
+          },
+          "tight": {
+            "counted_speaking_bins": 2386,
+            "event_recall": 0.3764,
+            "required_events": 1100,
+            "speaking_time_precision": 0.2125,
+            "timing_f1": 0.2716
+          }
+        }
+      },
+      "minicpm": {
+        "invalid_early_or_late_attempts": 169,
+        "label": "MiniCPM-o 4.5",
+        "quality_time_f1": 0.2177,
+        "quality_time_precision": 0.2259,
+        "quality_time_recall": 0.2101,
+        "quality_time_soft_fn": 868.92,
+        "quality_time_soft_fp": 791.92,
+        "quality_time_soft_tp": 231.08,
+        "required_slots": 1100,
+        "unmatched_turns": 113,
+        "wait_slots": 150,
+        "window_sensitivity": {
+          "formal": {
+            "counted_speaking_bins": 5219,
+            "event_recall": 0.82,
+            "required_events": 1100,
+            "speaking_time_precision": 0.7227,
+            "timing_f1": 0.7683
+          },
+          "medium": {
+            "counted_speaking_bins": 5552,
+            "event_recall": 0.8055,
+            "required_events": 1100,
+            "speaking_time_precision": 0.4836,
+            "timing_f1": 0.6044
+          },
+          "tight": {
+            "counted_speaking_bins": 6211,
+            "event_recall": 0.7755,
+            "required_events": 1100,
+            "speaking_time_precision": 0.2246,
+            "timing_f1": 0.3483
+          }
+        }
+      },
+      "moss": {
+        "invalid_early_or_late_attempts": 292,
+        "label": "MOSS*",
+        "quality_time_f1": 0.2617,
+        "quality_time_precision": 0.2237,
+        "quality_time_recall": 0.3152,
+        "quality_time_soft_fn": 753.3,
+        "quality_time_soft_fp": 1203.3,
+        "quality_time_soft_tp": 346.7,
+        "required_slots": 1100,
+        "unmatched_turns": 427,
+        "wait_slots": 150,
+        "window_sensitivity": {
+          "formal": {
+            "counted_speaking_bins": 5641,
+            "event_recall": 0.91,
+            "required_events": 1100,
+            "speaking_time_precision": 0.4969,
+            "timing_f1": 0.6428
+          },
+          "medium": {
+            "counted_speaking_bins": 6188,
+            "event_recall": 0.8991,
+            "required_events": 1100,
+            "speaking_time_precision": 0.3253,
+            "timing_f1": 0.4778
+          },
+          "tight": {
+            "counted_speaking_bins": 6623,
+            "event_recall": 0.8882,
+            "required_events": 1100,
+            "speaking_time_precision": 0.2203,
+            "timing_f1": 0.353
+          }
+        }
+      },
+      "venus": {
+        "invalid_early_or_late_attempts": 145,
+        "label": "Venus",
+        "quality_time_f1": 0.1646,
+        "quality_time_precision": 0.2302,
+        "quality_time_recall": 0.1281,
+        "quality_time_soft_fn": 959.1,
+        "quality_time_soft_fp": 471.1,
+        "quality_time_soft_tp": 140.9,
+        "required_slots": 1100,
+        "unmatched_turns": 32,
+        "wait_slots": 150,
+        "window_sensitivity": {
+          "formal": {
+            "counted_speaking_bins": 3432,
+            "event_recall": 0.5291,
+            "required_events": 1100,
+            "speaking_time_precision": 0.6603,
+            "timing_f1": 0.5874
+          },
+          "medium": {
+            "counted_speaking_bins": 3924,
+            "event_recall": 0.5091,
+            "required_events": 1100,
+            "speaking_time_precision": 0.4312,
+            "timing_f1": 0.4669
+          },
+          "tight": {
+            "counted_speaking_bins": 4468,
+            "event_recall": 0.4891,
+            "required_events": 1100,
+            "speaking_time_precision": 0.2184,
+            "timing_f1": 0.302
+          }
+        }
+      }
+    },
+    "window_sensitivity_definition": "Timing-only event recall and speaking-bin precision under tight, medium, and formal windows; saved response content and Judge labels are unchanged."
+  },
+  "experiment8": {
+    "definition": "geometric mean of normalized strict_v2 slot scores over every multi-slot branch",
+    "models": {
+      "gander": {
+        "by_chain": {
+          "proactive_clarify/ambiguous": {
+            "branch_id": "ambiguous",
+            "capability": "proactive_clarify",
+            "final_failure_given_first_strict": null,
+            "final_mean_0_5": 2.45,
+            "final_strict_rate": 0.22,
+            "first_mean_0_5": 0.096,
+            "first_strict_rate": 0.0,
+            "missed_final_rate": 0.22,
+            "n": 50,
+            "soft_chain_0_1": 0.0145,
+            "strict_chain_rate": 0.0
+          },
+          "proactive_guidance/need_guidance": {
+            "branch_id": "need_guidance",
+            "capability": "proactive_guidance",
+            "final_failure_given_first_strict": null,
+            "final_mean_0_5": 0.204,
+            "final_strict_rate": 0.0,
+            "first_mean_0_5": 0.164,
+            "first_strict_rate": 0.0,
+            "missed_final_rate": 0.3,
+            "n": 50,
+            "soft_chain_0_1": 0.0186,
+            "strict_chain_rate": 0.0
+          },
+          "selective_attention/ask_distractor": {
+            "branch_id": "ask_distractor",
+            "capability": "selective_attention",
+            "final_failure_given_first_strict": 0.9512,
+            "final_mean_0_5": 1.178,
+            "final_strict_rate": 0.04,
+            "first_mean_0_5": 4.1,
+            "first_strict_rate": 0.82,
+            "missed_final_rate": 0.54,
+            "n": 50,
+            "soft_chain_0_1": 0.257,
+            "strict_chain_rate": 0.04
+          },
+          "selective_attention/focus": {
+            "branch_id": "focus",
+            "capability": "selective_attention",
+            "final_failure_given_first_strict": 0.9767,
+            "final_mean_0_5": 0.35,
+            "final_strict_rate": 0.02,
+            "first_mean_0_5": 4.3,
+            "first_strict_rate": 0.86,
+            "missed_final_rate": 0.44,
+            "n": 50,
+            "soft_chain_0_1": 0.1083,
+            "strict_chain_rate": 0.02
+          },
+          "task_resume/restart": {
+            "branch_id": "restart",
+            "capability": "task_resume",
+            "final_failure_given_first_strict": 1.0,
+            "final_mean_0_5": 0.72,
+            "final_strict_rate": 0.02,
+            "first_mean_0_5": 0.334,
+            "first_strict_rate": 0.04,
+            "missed_final_rate": 0.6,
+            "n": 50,
+            "soft_chain_0_1": 0.0304,
+            "strict_chain_rate": 0.0
+          },
+          "task_resume/resume": {
+            "branch_id": "resume",
+            "capability": "task_resume",
+            "final_failure_given_first_strict": 1.0,
+            "final_mean_0_5": 0.93,
+            "final_strict_rate": 0.04,
+            "first_mean_0_5": 0.246,
+            "first_strict_rate": 0.02,
+            "missed_final_rate": 0.5,
+            "n": 50,
+            "soft_chain_0_1": 0.0,
+            "strict_chain_rate": 0.0
+          },
+          "temporal_update/ask_twice": {
+            "branch_id": "ask_twice",
+            "capability": "temporal_update",
+            "final_failure_given_first_strict": null,
+            "final_mean_0_5": 0.65,
+            "final_strict_rate": 0.02,
+            "first_mean_0_5": 0.37,
+            "first_strict_rate": 0.0,
+            "missed_final_rate": 0.66,
+            "n": 50,
+            "soft_chain_0_1": 0.0486,
+            "strict_chain_rate": 0.0
+          }
+        },
+        "eligible_chains": 350,
+        "label": "Gander",
+        "soft_chain_0_1": 0.0682,
+        "source_cluster_ci": {
+          "bootstrap_reps": 2000,
+          "ci95": [
+            0.0382,
+            0.0753
+          ],
+          "mean": 0.0559,
+          "n_sources": 111,
+          "n_tasks": 250,
+          "seed": 20261021
+        },
+        "strict_chain_rate": 0.0086
+      },
+      "minicpm": {
+        "by_chain": {
+          "proactive_clarify/ambiguous": {
+            "branch_id": "ambiguous",
+            "capability": "proactive_clarify",
+            "final_failure_given_first_strict": null,
+            "final_mean_0_5": 1.774,
+            "final_strict_rate": 0.16,
+            "first_mean_0_5": 0.102,
+            "first_strict_rate": 0.0,
+            "missed_final_rate": 0.16,
+            "n": 50,
+            "soft_chain_0_1": 0.0223,
+            "strict_chain_rate": 0.0
+          },
+          "proactive_guidance/need_guidance": {
+            "branch_id": "need_guidance",
+            "capability": "proactive_guidance",
+            "final_failure_given_first_strict": null,
+            "final_mean_0_5": 0.386,
+            "final_strict_rate": 0.0,
+            "first_mean_0_5": 0.156,
+            "first_strict_rate": 0.0,
+            "missed_final_rate": 0.14,
+            "n": 50,
+            "soft_chain_0_1": 0.0241,
+            "strict_chain_rate": 0.0
+          },
+          "selective_attention/ask_distractor": {
+            "branch_id": "ask_distractor",
+            "capability": "selective_attention",
+            "final_failure_given_first_strict": 0.8462,
+            "final_mean_0_5": 2.09,
+            "final_strict_rate": 0.14,
+            "first_mean_0_5": 3.9,
+            "first_strict_rate": 0.78,
+            "missed_final_rate": 0.12,
+            "n": 50,
+            "soft_chain_0_1": 0.4449,
+            "strict_chain_rate": 0.12
+          },
+          "selective_attention/focus": {
+            "branch_id": "focus",
+            "capability": "selective_attention",
+            "final_failure_given_first_strict": 1.0,
+            "final_mean_0_5": 0.134,
+            "final_strict_rate": 0.0,
+            "first_mean_0_5": 4.4,
+            "first_strict_rate": 0.88,
+            "missed_final_rate": 0.14,
+            "n": 50,
+            "soft_chain_0_1": 0.0418,
+            "strict_chain_rate": 0.0
+          },
+          "task_resume/restart": {
+            "branch_id": "restart",
+            "capability": "task_resume",
+            "final_failure_given_first_strict": 0.8571,
+            "final_mean_0_5": 1.686,
+            "final_strict_rate": 0.12,
+            "first_mean_0_5": 1.694,
+            "first_strict_rate": 0.28,
+            "missed_final_rate": 0.1,
+            "n": 50,
+            "soft_chain_0_1": 0.22,
+            "strict_chain_rate": 0.04
+          },
+          "task_resume/resume": {
+            "branch_id": "resume",
+            "capability": "task_resume",
+            "final_failure_given_first_strict": 1.0,
+            "final_mean_0_5": 0.808,
+            "final_strict_rate": 0.0,
+            "first_mean_0_5": 1.498,
+            "first_strict_rate": 0.16,
+            "missed_final_rate": 0.12,
+            "n": 50,
+            "soft_chain_0_1": 0.1021,
+            "strict_chain_rate": 0.0
+          },
+          "temporal_update/ask_twice": {
+            "branch_id": "ask_twice",
+            "capability": "temporal_update",
+            "final_failure_given_first_strict": 0.5,
+            "final_mean_0_5": 1.59,
+            "final_strict_rate": 0.1,
+            "first_mean_0_5": 1.532,
+            "first_strict_rate": 0.08,
+            "missed_final_rate": 0.28,
+            "n": 50,
+            "soft_chain_0_1": 0.248,
+            "strict_chain_rate": 0.04
+          }
+        },
+        "eligible_chains": 350,
+        "label": "MiniCPM-o 4.5",
+        "soft_chain_0_1": 0.1576,
+        "source_cluster_ci": {
+          "bootstrap_reps": 2000,
+          "ci95": [
+            0.1146,
+            0.1673
+          ],
+          "mean": 0.1397,
+          "n_sources": 111,
+          "n_tasks": 250,
+          "seed": 20261021
+        },
+        "strict_chain_rate": 0.0286
+      },
+      "moss": {
+        "by_chain": {
+          "proactive_clarify/ambiguous": {
+            "branch_id": "ambiguous",
+            "capability": "proactive_clarify",
+            "final_failure_given_first_strict": null,
+            "final_mean_0_5": 2.018,
+            "final_strict_rate": 0.22,
+            "first_mean_0_5": 0.27,
+            "first_strict_rate": 0.0,
+            "missed_final_rate": 0.14,
+            "n": 50,
+            "soft_chain_0_1": 0.0436,
+            "strict_chain_rate": 0.0
+          },
+          "proactive_guidance/need_guidance": {
+            "branch_id": "need_guidance",
+            "capability": "proactive_guidance",
+            "final_failure_given_first_strict": null,
+            "final_mean_0_5": 2.106,
+            "final_strict_rate": 0.14,
+            "first_mean_0_5": 1.544,
+            "first_strict_rate": 0.0,
+            "missed_final_rate": 0.06,
+            "n": 50,
+            "soft_chain_0_1": 0.2406,
+            "strict_chain_rate": 0.0
+          },
+          "selective_attention/ask_distractor": {
+            "branch_id": "ask_distractor",
+            "capability": "selective_attention",
+            "final_failure_given_first_strict": 0.7,
+            "final_mean_0_5": 2.482,
+            "final_strict_rate": 0.22,
+            "first_mean_0_5": 1.0,
+            "first_strict_rate": 0.2,
+            "missed_final_rate": 0.1,
+            "n": 50,
+            "soft_chain_0_1": 0.1324,
+            "strict_chain_rate": 0.06
+          },
+          "selective_attention/focus": {
+            "branch_id": "focus",
+            "capability": "selective_attention",
+            "final_failure_given_first_strict": 0.8,
+            "final_mean_0_5": 2.312,
+            "final_strict_rate": 0.16,
+            "first_mean_0_5": 1.0,
+            "first_strict_rate": 0.2,
+            "missed_final_rate": 0.06,
+            "n": 50,
+            "soft_chain_0_1": 0.1327,
+            "strict_chain_rate": 0.04
+          },
+          "task_resume/restart": {
+            "branch_id": "restart",
+            "capability": "task_resume",
+            "final_failure_given_first_strict": 0.75,
+            "final_mean_0_5": 1.572,
+            "final_strict_rate": 0.08,
+            "first_mean_0_5": 1.786,
+            "first_strict_rate": 0.24,
+            "missed_final_rate": 0.06,
+            "n": 50,
+            "soft_chain_0_1": 0.2288,
+            "strict_chain_rate": 0.06
+          },
+          "task_resume/resume": {
+            "branch_id": "resume",
+            "capability": "task_resume",
+            "final_failure_given_first_strict": 0.8182,
+            "final_mean_0_5": 2.502,
+            "final_strict_rate": 0.26,
+            "first_mean_0_5": 1.996,
+            "first_strict_rate": 0.22,
+            "missed_final_rate": 0.04,
+            "n": 50,
+            "soft_chain_0_1": 0.3038,
+            "strict_chain_rate": 0.04
+          },
+          "temporal_update/ask_twice": {
+            "branch_id": "ask_twice",
+            "capability": "temporal_update",
+            "final_failure_given_first_strict": 0.5,
+            "final_mean_0_5": 2.394,
+            "final_strict_rate": 0.26,
+            "first_mean_0_5": 2.44,
+            "first_strict_rate": 0.28,
+            "missed_final_rate": 0.08,
+            "n": 50,
+            "soft_chain_0_1": 0.4181,
+            "strict_chain_rate": 0.14
+          }
+        },
+        "eligible_chains": 350,
+        "label": "MOSS*",
+        "soft_chain_0_1": 0.2143,
+        "source_cluster_ci": {
+          "bootstrap_reps": 2000,
+          "ci95": [
+            0.1826,
+            0.2607
+          ],
+          "mean": 0.2202,
+          "n_sources": 111,
+          "n_tasks": 250,
+          "seed": 20261021
+        },
+        "strict_chain_rate": 0.0486
+      },
+      "venus": {
+        "by_chain": {
+          "proactive_clarify/ambiguous": {
+            "branch_id": "ambiguous",
+            "capability": "proactive_clarify",
+            "final_failure_given_first_strict": null,
+            "final_mean_0_5": 1.124,
+            "final_strict_rate": 0.1,
+            "first_mean_0_5": 0.112,
+            "first_strict_rate": 0.0,
+            "missed_final_rate": 0.52,
+            "n": 50,
+            "soft_chain_0_1": 0.0074,
+            "strict_chain_rate": 0.0
+          },
+          "proactive_guidance/need_guidance": {
+            "branch_id": "need_guidance",
+            "capability": "proactive_guidance",
+            "final_failure_given_first_strict": null,
+            "final_mean_0_5": 0.446,
+            "final_strict_rate": 0.0,
+            "first_mean_0_5": 0.166,
+            "first_strict_rate": 0.0,
+            "missed_final_rate": 0.4,
+            "n": 50,
+            "soft_chain_0_1": 0.0401,
+            "strict_chain_rate": 0.0
+          },
+          "selective_attention/ask_distractor": {
+            "branch_id": "ask_distractor",
+            "capability": "selective_attention",
+            "final_failure_given_first_strict": 0.925,
+            "final_mean_0_5": 1.092,
+            "final_strict_rate": 0.08,
+            "first_mean_0_5": 4.0,
+            "first_strict_rate": 0.8,
+            "missed_final_rate": 0.44,
+            "n": 50,
+            "soft_chain_0_1": 0.2457,
+            "strict_chain_rate": 0.06
+          },
+          "selective_attention/focus": {
+            "branch_id": "focus",
+            "capability": "selective_attention",
+            "final_failure_given_first_strict": 1.0,
+            "final_mean_0_5": 0.11,
+            "final_strict_rate": 0.0,
+            "first_mean_0_5": 4.2,
+            "first_strict_rate": 0.84,
+            "missed_final_rate": 0.42,
+            "n": 50,
+            "soft_chain_0_1": 0.0332,
+            "strict_chain_rate": 0.0
+          },
+          "task_resume/restart": {
+            "branch_id": "restart",
+            "capability": "task_resume",
+            "final_failure_given_first_strict": 1.0,
+            "final_mean_0_5": 0.346,
+            "final_strict_rate": 0.0,
+            "first_mean_0_5": 1.012,
+            "first_strict_rate": 0.1,
+            "missed_final_rate": 0.64,
+            "n": 50,
+            "soft_chain_0_1": 0.0517,
+            "strict_chain_rate": 0.0
+          },
+          "task_resume/resume": {
+            "branch_id": "resume",
+            "capability": "task_resume",
+            "final_failure_given_first_strict": 1.0,
+            "final_mean_0_5": 0.242,
+            "final_strict_rate": 0.0,
+            "first_mean_0_5": 1.024,
+            "first_strict_rate": 0.12,
+            "missed_final_rate": 0.6,
+            "n": 50,
+            "soft_chain_0_1": 0.055,
+            "strict_chain_rate": 0.0
+          },
+          "temporal_update/ask_twice": {
+            "branch_id": "ask_twice",
+            "capability": "temporal_update",
+            "final_failure_given_first_strict": 1.0,
+            "final_mean_0_5": 0.772,
+            "final_strict_rate": 0.04,
+            "first_mean_0_5": 1.064,
+            "first_strict_rate": 0.06,
+            "missed_final_rate": 0.66,
+            "n": 50,
+            "soft_chain_0_1": 0.1004,
+            "strict_chain_rate": 0.0
+          }
+        },
+        "eligible_chains": 350,
+        "label": "Venus",
+        "soft_chain_0_1": 0.0762,
+        "source_cluster_ci": {
+          "bootstrap_reps": 2000,
+          "ci95": [
+            0.0488,
+            0.09
+          ],
+          "mean": 0.0681,
+          "n_sources": 111,
+          "n_tasks": 250,
+          "seed": 20261021
+        },
+        "strict_chain_rate": 0.0086
+      }
+    }
+  },
+  "experiment9": {
+    "definition": "two-level geometric mean across diagnostic slots and the two counterfactual branches",
+    "models": {
+      "gander": {
+        "by_capability": {
+          "constraint_update": {
+            "both": 0,
+            "left_branch": [
+              "keep_constraint"
+            ],
+            "left_only": 8,
+            "n": 50,
+            "neither": 40,
+            "right_branch": [
+              "update_constraint"
+            ],
+            "right_only": 2,
+            "soft_cjcs_0_1": 0.0893,
+            "strict_pair_success": 0.0
+          },
+          "context_correction": {
+            "both": 1,
+            "left_branch": [
+              "correction"
+            ],
+            "left_only": 4,
+            "n": 50,
+            "neither": 45,
+            "right_branch": [
+              "no_correction"
+            ],
+            "right_only": 0,
+            "soft_cjcs_0_1": 0.0572,
+            "strict_pair_success": 0.02
+          },
+          "historical_reference": {
+            "both": 0,
+            "left_branch": [
+              "keep_alias"
+            ],
+            "left_only": 2,
+            "n": 50,
+            "neither": 48,
+            "right_branch": [
+              "cancel",
+              "rebind"
+            ],
+            "right_only": 0,
+            "soft_cjcs_0_1": 0.0687,
+            "strict_pair_success": 0.0
+          },
+          "monitor_cancel": {
+            "both": 1,
+            "left_branch": [
+              "keep_monitor"
+            ],
+            "left_only": 7,
+            "n": 50,
+            "neither": 16,
+            "right_branch": [
+              "cancel_monitor"
+            ],
+            "right_only": 26,
+            "soft_cjcs_0_1": 0.031,
+            "strict_pair_success": 0.02
+          },
+          "proactive_clarify": {
+            "both": 0,
+            "left_branch": [
+              "ambiguous"
+            ],
+            "left_only": 0,
+            "n": 50,
+            "neither": 33,
+            "right_branch": [
+              "specific"
+            ],
+            "right_only": 17,
+            "soft_cjcs_0_1": 0.0202,
+            "strict_pair_success": 0.0
+          },
+          "proactive_guidance": {
+            "both": 0,
+            "left_branch": [
+              "need_guidance"
+            ],
+            "left_only": 0,
+            "n": 50,
+            "neither": 32,
+            "right_branch": [
+              "no_guidance"
+            ],
+            "right_only": 18,
+            "soft_cjcs_0_1": 0.0239,
+            "strict_pair_success": 0.0
+          },
+          "selective_attention": {
+            "both": 0,
+            "left_branch": [
+              "focus"
+            ],
+            "left_only": 1,
+            "n": 50,
+            "neither": 47,
+            "right_branch": [
+              "ask_distractor"
+            ],
+            "right_only": 2,
+            "soft_cjcs_0_1": 0.0477,
+            "strict_pair_success": 0.0
+          },
+          "task_resume": {
+            "both": 0,
+            "left_branch": [
+              "resume"
+            ],
+            "left_only": 2,
+            "n": 50,
+            "neither": 47,
+            "right_branch": [
+              "restart"
+            ],
+            "right_only": 1,
+            "soft_cjcs_0_1": 0.1295,
+            "strict_pair_success": 0.0
+          },
+          "temporal_update": {
+            "both": 1,
+            "left_branch": [
+              "ask_twice"
+            ],
+            "left_only": 0,
+            "n": 50,
+            "neither": 48,
+            "right_branch": [
+              "ask_late"
+            ],
+            "right_only": 1,
+            "soft_cjcs_0_1": 0.0819,
+            "strict_pair_success": 0.02
+          }
+        },
+        "label": "Gander",
+        "overall": {
+          "both": 3,
+          "left_branch": [
+            "ambiguous",
+            "ask_twice",
+            "correction",
+            "focus",
+            "keep_alias",
+            "keep_constraint",
+            "keep_monitor",
+            "need_guidance",
+            "resume"
+          ],
+          "left_only": 24,
+          "n": 450,
+          "neither": 356,
+          "right_branch": [
+            "ask_distractor",
+            "ask_late",
+            "cancel",
+            "cancel_monitor",
+            "no_correction",
+            "no_guidance",
+            "rebind",
+            "restart",
+            "specific",
+            "update_constraint"
+          ],
+          "right_only": 67,
+          "soft_cjcs_0_1": 0.061,
+          "strict_pair_success": 0.0067
+        },
+        "soft_source_cluster_ci": {
+          "bootstrap_reps": 2000,
+          "ci95": [
+            0.0448,
+            0.0793
+          ],
+          "mean": 0.061,
+          "n_sources": 129,
+          "n_tasks": 450,
+          "seed": 20261021
+        },
+        "strict_source_cluster_ci": {
+          "bootstrap_reps": 2000,
+          "ci95": [
+            0.0,
+            0.0148
+          ],
+          "mean": 0.0067,
+          "n_sources": 129,
+          "n_tasks": 450,
+          "seed": 20261021
+        }
+      },
+      "minicpm": {
+        "by_capability": {
+          "constraint_update": {
+            "both": 0,
+            "left_branch": [
+              "keep_constraint"
+            ],
+            "left_only": 6,
+            "n": 50,
+            "neither": 39,
+            "right_branch": [
+              "update_constraint"
+            ],
+            "right_only": 5,
+            "soft_cjcs_0_1": 0.1546,
+            "strict_pair_success": 0.0
+          },
+          "context_correction": {
+            "both": 1,
+            "left_branch": [
+              "correction"
+            ],
+            "left_only": 11,
+            "n": 50,
+            "neither": 36,
+            "right_branch": [
+              "no_correction"
+            ],
+            "right_only": 2,
+            "soft_cjcs_0_1": 0.1439,
+            "strict_pair_success": 0.02
+          },
+          "historical_reference": {
+            "both": 0,
+            "left_branch": [
+              "keep_alias"
+            ],
+            "left_only": 0,
+            "n": 50,
+            "neither": 50,
+            "right_branch": [
+              "cancel",
+              "rebind"
+            ],
+            "right_only": 0,
+            "soft_cjcs_0_1": 0.0996,
+            "strict_pair_success": 0.0
+          },
+          "monitor_cancel": {
+            "both": 3,
+            "left_branch": [
+              "keep_monitor"
+            ],
+            "left_only": 4,
+            "n": 50,
+            "neither": 12,
+            "right_branch": [
+              "cancel_monitor"
+            ],
+            "right_only": 31,
+            "soft_cjcs_0_1": 0.1392,
+            "strict_pair_success": 0.06
+          },
+          "proactive_clarify": {
+            "both": 0,
+            "left_branch": [
+              "ambiguous"
+            ],
+            "left_only": 0,
+            "n": 50,
+            "neither": 40,
+            "right_branch": [
+              "specific"
+            ],
+            "right_only": 10,
+            "soft_cjcs_0_1": 0.0315,
+            "strict_pair_success": 0.0
+          },
+          "proactive_guidance": {
+            "both": 0,
+            "left_branch": [
+              "need_guidance"
+            ],
+            "left_only": 0,
+            "n": 50,
+            "neither": 39,
+            "right_branch": [
+              "no_guidance"
+            ],
+            "right_only": 11,
+            "soft_cjcs_0_1": 0.0173,
+            "strict_pair_success": 0.0
+          },
+          "selective_attention": {
+            "both": 0,
+            "left_branch": [
+              "focus"
+            ],
+            "left_only": 0,
+            "n": 50,
+            "neither": 44,
+            "right_branch": [
+              "ask_distractor"
+            ],
+            "right_only": 6,
+            "soft_cjcs_0_1": 0.0297,
+            "strict_pair_success": 0.0
+          },
+          "task_resume": {
+            "both": 0,
+            "left_branch": [
+              "resume"
+            ],
+            "left_only": 0,
+            "n": 50,
+            "neither": 44,
+            "right_branch": [
+              "restart"
+            ],
+            "right_only": 6,
+            "soft_cjcs_0_1": 0.1189,
+            "strict_pair_success": 0.0
+          },
+          "temporal_update": {
+            "both": 1,
+            "left_branch": [
+              "ask_twice"
+            ],
+            "left_only": 4,
+            "n": 50,
+            "neither": 45,
+            "right_branch": [
+              "ask_late"
+            ],
+            "right_only": 0,
+            "soft_cjcs_0_1": 0.248,
+            "strict_pair_success": 0.02
+          }
+        },
+        "label": "MiniCPM-o 4.5",
+        "overall": {
+          "both": 5,
+          "left_branch": [
+            "ambiguous",
+            "ask_twice",
+            "correction",
+            "focus",
+            "keep_alias",
+            "keep_constraint",
+            "keep_monitor",
+            "need_guidance",
+            "resume"
+          ],
+          "left_only": 25,
+          "n": 450,
+          "neither": 349,
+          "right_branch": [
+            "ask_distractor",
+            "ask_late",
+            "cancel",
+            "cancel_monitor",
+            "no_correction",
+            "no_guidance",
+            "rebind",
+            "restart",
+            "specific",
+            "update_constraint"
+          ],
+          "right_only": 71,
+          "soft_cjcs_0_1": 0.1092,
+          "strict_pair_success": 0.0111
+        },
+        "soft_source_cluster_ci": {
+          "bootstrap_reps": 2000,
+          "ci95": [
+            0.0903,
+            0.1304
+          ],
+          "mean": 0.1092,
+          "n_sources": 129,
+          "n_tasks": 450,
+          "seed": 20261021
+        },
+        "strict_source_cluster_ci": {
+          "bootstrap_reps": 2000,
+          "ci95": [
+            0.0023,
+            0.0219
+          ],
+          "mean": 0.0111,
+          "n_sources": 129,
+          "n_tasks": 450,
+          "seed": 20261021
+        }
+      },
+      "moss": {
+        "by_capability": {
+          "constraint_update": {
+            "both": 4,
+            "left_branch": [
+              "keep_constraint"
+            ],
+            "left_only": 9,
+            "n": 50,
+            "neither": 27,
+            "right_branch": [
+              "update_constraint"
+            ],
+            "right_only": 10,
+            "soft_cjcs_0_1": 0.3568,
+            "strict_pair_success": 0.08
+          },
+          "context_correction": {
+            "both": 3,
+            "left_branch": [
+              "correction"
+            ],
+            "left_only": 15,
+            "n": 50,
+            "neither": 32,
+            "right_branch": [
+              "no_correction"
+            ],
+            "right_only": 0,
+            "soft_cjcs_0_1": 0.1751,
+            "strict_pair_success": 0.06
+          },
+          "historical_reference": {
+            "both": 0,
+            "left_branch": [
+              "keep_alias"
+            ],
+            "left_only": 2,
+            "n": 50,
+            "neither": 47,
+            "right_branch": [
+              "cancel",
+              "rebind"
+            ],
+            "right_only": 1,
+            "soft_cjcs_0_1": 0.1841,
+            "strict_pair_success": 0.0
+          },
+          "monitor_cancel": {
+            "both": 1,
+            "left_branch": [
+              "keep_monitor"
+            ],
+            "left_only": 16,
+            "n": 50,
+            "neither": 18,
+            "right_branch": [
+              "cancel_monitor"
+            ],
+            "right_only": 15,
+            "soft_cjcs_0_1": 0.0492,
+            "strict_pair_success": 0.02
+          },
+          "proactive_clarify": {
+            "both": 0,
+            "left_branch": [
+              "ambiguous"
+            ],
+            "left_only": 0,
+            "n": 50,
+            "neither": 33,
+            "right_branch": [
+              "specific"
+            ],
+            "right_only": 17,
+            "soft_cjcs_0_1": 0.037,
+            "strict_pair_success": 0.0
+          },
+          "proactive_guidance": {
+            "both": 0,
+            "left_branch": [
+              "need_guidance"
+            ],
+            "left_only": 0,
+            "n": 50,
+            "neither": 30,
+            "right_branch": [
+              "no_guidance"
+            ],
+            "right_only": 20,
+            "soft_cjcs_0_1": 0.2594,
+            "strict_pair_success": 0.0
+          },
+          "selective_attention": {
+            "both": 1,
+            "left_branch": [
+              "focus"
+            ],
+            "left_only": 1,
+            "n": 50,
+            "neither": 46,
+            "right_branch": [
+              "ask_distractor"
+            ],
+            "right_only": 2,
+            "soft_cjcs_0_1": 0.1117,
+            "strict_pair_success": 0.02
+          },
+          "task_resume": {
+            "both": 0,
+            "left_branch": [
+              "resume"
+            ],
+            "left_only": 13,
+            "n": 50,
+            "neither": 33,
+            "right_branch": [
+              "restart"
+            ],
+            "right_only": 4,
+            "soft_cjcs_0_1": 0.3089,
+            "strict_pair_success": 0.0
+          },
+          "temporal_update": {
+            "both": 6,
+            "left_branch": [
+              "ask_twice"
+            ],
+            "left_only": 7,
+            "n": 50,
+            "neither": 34,
+            "right_branch": [
+              "ask_late"
+            ],
+            "right_only": 3,
+            "soft_cjcs_0_1": 0.3718,
+            "strict_pair_success": 0.12
+          }
+        },
+        "label": "MOSS*",
+        "overall": {
+          "both": 15,
+          "left_branch": [
+            "ambiguous",
+            "ask_twice",
+            "correction",
+            "focus",
+            "keep_alias",
+            "keep_constraint",
+            "keep_monitor",
+            "need_guidance",
+            "resume"
+          ],
+          "left_only": 63,
+          "n": 450,
+          "neither": 300,
+          "right_branch": [
+            "ask_distractor",
+            "ask_late",
+            "cancel",
+            "cancel_monitor",
+            "no_correction",
+            "no_guidance",
+            "rebind",
+            "restart",
+            "specific",
+            "update_constraint"
+          ],
+          "right_only": 72,
+          "soft_cjcs_0_1": 0.206,
+          "strict_pair_success": 0.0333
+        },
+        "soft_source_cluster_ci": {
+          "bootstrap_reps": 2000,
+          "ci95": [
+            0.1815,
+            0.2335
+          ],
+          "mean": 0.206,
+          "n_sources": 129,
+          "n_tasks": 450,
+          "seed": 20261021
+        },
+        "strict_source_cluster_ci": {
+          "bootstrap_reps": 2000,
+          "ci95": [
+            0.0165,
+            0.0518
+          ],
+          "mean": 0.0333,
+          "n_sources": 129,
+          "n_tasks": 450,
+          "seed": 20261021
+        }
+      },
+      "venus": {
+        "by_capability": {
+          "constraint_update": {
+            "both": 0,
+            "left_branch": [
+              "keep_constraint"
+            ],
+            "left_only": 3,
+            "n": 50,
+            "neither": 45,
+            "right_branch": [
+              "update_constraint"
+            ],
+            "right_only": 2,
+            "soft_cjcs_0_1": 0.0494,
+            "strict_pair_success": 0.0
+          },
+          "context_correction": {
+            "both": 0,
+            "left_branch": [
+              "correction"
+            ],
+            "left_only": 2,
+            "n": 50,
+            "neither": 48,
+            "right_branch": [
+              "no_correction"
+            ],
+            "right_only": 0,
+            "soft_cjcs_0_1": 0.0126,
+            "strict_pair_success": 0.0
+          },
+          "historical_reference": {
+            "both": 0,
+            "left_branch": [
+              "keep_alias"
+            ],
+            "left_only": 0,
+            "n": 50,
+            "neither": 50,
+            "right_branch": [
+              "cancel",
+              "rebind"
+            ],
+            "right_only": 0,
+            "soft_cjcs_0_1": 0.0704,
+            "strict_pair_success": 0.0
+          },
+          "monitor_cancel": {
+            "both": 0,
+            "left_branch": [
+              "keep_monitor"
+            ],
+            "left_only": 7,
+            "n": 50,
+            "neither": 16,
+            "right_branch": [
+              "cancel_monitor"
+            ],
+            "right_only": 27,
+            "soft_cjcs_0_1": 0.1015,
+            "strict_pair_success": 0.0
+          },
+          "proactive_clarify": {
+            "both": 0,
+            "left_branch": [
+              "ambiguous"
+            ],
+            "left_only": 0,
+            "n": 50,
+            "neither": 32,
+            "right_branch": [
+              "specific"
+            ],
+            "right_only": 18,
+            "soft_cjcs_0_1": 0.0249,
+            "strict_pair_success": 0.0
+          },
+          "proactive_guidance": {
+            "both": 0,
+            "left_branch": [
+              "need_guidance"
+            ],
+            "left_only": 0,
+            "n": 50,
+            "neither": 38,
+            "right_branch": [
+              "no_guidance"
+            ],
+            "right_only": 12,
+            "soft_cjcs_0_1": 0.0421,
+            "strict_pair_success": 0.0
+          },
+          "selective_attention": {
+            "both": 0,
+            "left_branch": [
+              "focus"
+            ],
+            "left_only": 0,
+            "n": 50,
+            "neither": 47,
+            "right_branch": [
+              "ask_distractor"
+            ],
+            "right_only": 3,
+            "soft_cjcs_0_1": 0.0098,
+            "strict_pair_success": 0.0
+          },
+          "task_resume": {
+            "both": 0,
+            "left_branch": [
+              "resume"
+            ],
+            "left_only": 0,
+            "n": 50,
+            "neither": 50,
+            "right_branch": [
+              "restart"
+            ],
+            "right_only": 0,
+            "soft_cjcs_0_1": 0.0177,
+            "strict_pair_success": 0.0
+          },
+          "temporal_update": {
+            "both": 0,
+            "left_branch": [
+              "ask_twice"
+            ],
+            "left_only": 2,
+            "n": 50,
+            "neither": 43,
+            "right_branch": [
+              "ask_late"
+            ],
+            "right_only": 5,
+            "soft_cjcs_0_1": 0.0641,
+            "strict_pair_success": 0.0
+          }
+        },
+        "label": "Venus",
+        "overall": {
+          "both": 0,
+          "left_branch": [
+            "ambiguous",
+            "ask_twice",
+            "correction",
+            "focus",
+            "keep_alias",
+            "keep_constraint",
+            "keep_monitor",
+            "need_guidance",
+            "resume"
+          ],
+          "left_only": 14,
+          "n": 450,
+          "neither": 369,
+          "right_branch": [
+            "ask_distractor",
+            "ask_late",
+            "cancel",
+            "cancel_monitor",
+            "no_correction",
+            "no_guidance",
+            "rebind",
+            "restart",
+            "specific",
+            "update_constraint"
+          ],
+          "right_only": 67,
+          "soft_cjcs_0_1": 0.0436,
+          "strict_pair_success": 0.0
+        },
+        "soft_source_cluster_ci": {
+          "bootstrap_reps": 2000,
+          "ci95": [
+            0.0317,
+            0.0557
+          ],
+          "mean": 0.0436,
+          "n_sources": 129,
+          "n_tasks": 450,
+          "seed": 20261021
+        },
+        "strict_source_cluster_ci": {
+          "bootstrap_reps": 2000,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "n_sources": 129,
+          "n_tasks": 450,
+          "seed": 20261021
+        }
+      }
+    }
+  },
+  "judge_profile": "strict_v2",
+  "schema_version": 1,
+  "track": "1fps"
+}

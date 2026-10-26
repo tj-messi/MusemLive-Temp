@@ -1,0 +1,4 @@
+data/** -text
+source/** -text -diff
+analysis/** -text
+manifests/SHA256SUMS -text -diff

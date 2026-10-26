@@ -1,0 +1,111 @@
+{
+  "bootstrap_reps": 2000,
+  "bootstrap_seed": 20261021,
+  "schema_version": 1,
+  "tasks": "tasks_final450.json",
+  "tasks_sha256": "5e37614d18d900c8c680891ea691911486fabb6d2a4dd575f23604b07648479b",
+  "tracks": {
+    "10fps": {
+      "gander": {
+        "analysis_strict_mean": 0.81232,
+        "branches": 900,
+        "canonicalized_core_rows": [
+          {
+            "judge_id": "OM_V3_CONS_D023_K000_00284::update_constraint::sl_main",
+            "score_after": 0.0,
+            "score_before": 0.0
+          }
+        ],
+        "judge_results": "main_gander/judge_points/results.jsonl",
+        "judge_results_sha256": "5dd497622f45a9b97b4ee94f39665d6bb0e32bf1c6256e7158bfef310af0f1a7",
+        "rubric_sha256": "0579fd1b2b141f9d28ffd8ff6284642a3b27d00aafce42181756c7df87253fd5",
+        "slots": 1250,
+        "strict_mean": 0.81,
+        "summary_api_failed": 0,
+        "summary_slots": 1250
+      },
+      "minicpm": {
+        "analysis_strict_mean": 0.86704,
+        "branches": 900,
+        "canonicalized_core_rows": [],
+        "judge_results": "main_minicpm/judge_points/results.jsonl",
+        "judge_results_sha256": "ad8b27bdf920b0a2aacdb640d621ae65e2bad619ed791775f83e0401106ac676",
+        "rubric_sha256": "3f998b202dc885c433315cf5bc1401177ea6600ebb0fcda76e27da00764d017b",
+        "slots": 1250,
+        "strict_mean": 0.87,
+        "summary_api_failed": 0,
+        "summary_slots": 1250
+      },
+      "moss": {
+        "analysis_strict_mean": 1.45544,
+        "branches": 900,
+        "canonicalized_core_rows": [],
+        "judge_results": "main_moss/judge_points/results.jsonl",
+        "judge_results_sha256": "d866f4c27f1693c1a27d04997997fd4718dc06f30d5047f7367fd59dad304a6e",
+        "rubric_sha256": "3f998b202dc885c433315cf5bc1401177ea6600ebb0fcda76e27da00764d017b",
+        "slots": 1250,
+        "strict_mean": 1.46,
+        "summary_api_failed": 0,
+        "summary_slots": 1250
+      },
+      "venus": {
+        "analysis_strict_mean": 1.08608,
+        "branches": 900,
+        "canonicalized_core_rows": [],
+        "judge_results": "main_venus/judge_points/results.jsonl",
+        "judge_results_sha256": "f750e5245b810639e82b304c684857b4d33a4f0dcba631faad191ee9f310b989",
+        "rubric_sha256": "3f998b202dc885c433315cf5bc1401177ea6600ebb0fcda76e27da00764d017b",
+        "slots": 1250,
+        "strict_mean": 1.09,
+        "summary_api_failed": 0,
+        "summary_slots": 1250
+      }
+    },
+    "1fps": {
+      "gander": {
+        "analysis_strict_mean": 1.23728,
+        "branches": 900,
+        "judge_results": "gander/judge_points/results.jsonl",
+        "judge_results_sha256": "80c46dfe5a6cb2fc270f19d34c19d93dd445f04b883b046c310d4b6f23776e8e",
+        "rubric_sha256": "3f998b202dc885c433315cf5bc1401177ea6600ebb0fcda76e27da00764d017b",
+        "slots": 1250,
+        "strict_mean": 1.24,
+        "summary_api_failed": 0,
+        "summary_slots": 1250
+      },
+      "minicpm": {
+        "analysis_strict_mean": 1.59296,
+        "branches": 900,
+        "judge_results": "minicpm/judge_points/results.jsonl",
+        "judge_results_sha256": "eef8c313d96985a3bab21e62557d13399888139175e171deb41a6120bdc951a6",
+        "rubric_sha256": "3f998b202dc885c433315cf5bc1401177ea6600ebb0fcda76e27da00764d017b",
+        "slots": 1250,
+        "strict_mean": 1.59,
+        "summary_api_failed": 0,
+        "summary_slots": 1250
+      },
+      "moss": {
+        "analysis_strict_mean": 1.93584,
+        "branches": 900,
+        "judge_results": "moss/judge_points/results.jsonl",
+        "judge_results_sha256": "0ec3a343db93423ffcc4ed3914dfd89f6a06c5b8fdb2ad1ba72dd4d6794caff4",
+        "rubric_sha256": "3f998b202dc885c433315cf5bc1401177ea6600ebb0fcda76e27da00764d017b",
+        "slots": 1250,
+        "strict_mean": 1.94,
+        "summary_api_failed": 0,
+        "summary_slots": 1250
+      },
+      "venus": {
+        "analysis_strict_mean": 1.15664,
+        "branches": 900,
+        "judge_results": "venus/judge_points/results.jsonl",
+        "judge_results_sha256": "dfe5cd8e242366b9bf129788f39f355912cde8dcbaacd62a9e413eceeb5a4bc3",
+        "rubric_sha256": "3f998b202dc885c433315cf5bc1401177ea6600ebb0fcda76e27da00764d017b",
+        "slots": 1250,
+        "strict_mean": 1.16,
+        "summary_api_failed": 0,
+        "summary_slots": 1250
+      }
+    }
+  }
+}

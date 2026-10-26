@@ -1,0 +1,107 @@
+{
+ "judge_profile": "lenient_v3",
+ "scoring": {
+  "w_action": 0.4,
+  "w_points": 0.6,
+  "pen_forbid": 0.75,
+  "pen_contra": 0.25,
+  "point_partial": 0.8,
+  "action_partial": 0.7,
+  "w_corr": 0.4,
+  "w_cc_action": 0.25,
+  "w_cc_points": 0.35,
+  "pen_reinforce": 0.5,
+  "corr_partial_must_correct": 0.6,
+  "corr_partial_must_follow": 0.5
+ },
+ "slots": 1250,
+ "scorable_ok": 1250,
+ "not_scorable": 0,
+ "api_failed": 0,
+ "mean": 0.74,
+ "hist": {
+  "[0,1)": 957,
+  "[1,2)": 102,
+  "[2,3)": 38,
+  "[3,4)": 50,
+  "[4,5]": 103
+ },
+ "exact_0": 926,
+ "exact_5": 80,
+ "per_cap": {
+  "constraint_update": {
+   "n": 100,
+   "mean": 0.28,
+   "point_hit_rate": 0.012,
+   "core_hit_rate": 0.006,
+   "action_correct": 0.02,
+   "not_scorable": 0
+  },
+  "context_correction": {
+   "n": 100,
+   "mean": 0.3,
+   "point_hit_rate": 0.014,
+   "core_hit_rate": 0.017,
+   "action_correct": 0.02,
+   "not_scorable": 0
+  },
+  "historical_reference": {
+   "n": 100,
+   "mean": 0.1,
+   "point_hit_rate": 0.0,
+   "core_hit_rate": 0.0,
+   "action_correct": 0.0,
+   "not_scorable": 0
+  },
+  "monitor_cancel": {
+   "n": 100,
+   "mean": 1.68,
+   "point_hit_rate": 0.044,
+   "core_hit_rate": 0.062,
+   "action_correct": 0.31,
+   "not_scorable": 0
+  },
+  "proactive_clarify": {
+   "n": 150,
+   "mean": 1.27,
+   "point_hit_rate": 0.123,
+   "core_hit_rate": 0.14,
+   "action_correct": 0.227,
+   "not_scorable": 0
+  },
+  "proactive_guidance": {
+   "n": 150,
+   "mean": 0.92,
+   "point_hit_rate": 0.06,
+   "core_hit_rate": 0.065,
+   "action_correct": 0.133,
+   "not_scorable": 0
+  },
+  "selective_attention": {
+   "n": 200,
+   "mean": 1.12,
+   "point_hit_rate": 0.007,
+   "core_hit_rate": 0.005,
+   "action_correct": 0.195,
+   "not_scorable": 0
+  },
+  "task_resume": {
+   "n": 200,
+   "mean": 0.35,
+   "point_hit_rate": 0.016,
+   "core_hit_rate": 0.021,
+   "action_correct": 0.025,
+   "not_scorable": 0
+  },
+  "temporal_update": {
+   "n": 150,
+   "mean": 0.47,
+   "point_hit_rate": 0.014,
+   "core_hit_rate": 0.02,
+   "action_correct": 0.04,
+   "not_scorable": 0
+  }
+ },
+ "spent_usd": 1.1411,
+ "calls": 828
+}

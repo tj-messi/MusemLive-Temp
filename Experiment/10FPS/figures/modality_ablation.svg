@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,"Noto Sans CJK SC",sans-serif;fill:#222}.axis{stroke:#333;stroke-width:1}.grid{stroke:#ddd;stroke-width:1}.bar{stroke:#fff;stroke-width:1}</style>
+<text x="550.0" y="35" text-anchor="middle" font-size="24" font-weight="700">模态消融总分</text>
+<line class="grid" x1="90" y1="495.0" x2="1070" y2="495.0"/>
+<text x="78" y="500.0" text-anchor="end" font-size="14">0.0</text>
+<line class="grid" x1="90" y1="413.0" x2="1070" y2="413.0"/>
+<text x="78" y="418.0" text-anchor="end" font-size="14">1.0</text>
+<line class="grid" x1="90" y1="331.0" x2="1070" y2="331.0"/>
+<text x="78" y="336.0" text-anchor="end" font-size="14">2.0</text>
+<line class="grid" x1="90" y1="249.0" x2="1070" y2="249.0"/>
+<text x="78" y="254.0" text-anchor="end" font-size="14">3.0</text>
+<line class="grid" x1="90" y1="167.0" x2="1070" y2="167.0"/>
+<text x="78" y="172.0" text-anchor="end" font-size="14">4.0</text>
+<line class="grid" x1="90" y1="85.0" x2="1070" y2="85.0"/>
+<text x="78" y="90.0" text-anchor="end" font-size="14">5.0</text>
+<line class="axis" x1="90" y1="85" x2="90" y2="495"/>
+<line class="axis" x1="90" y1="495" x2="1070" y2="495"/>
+<text transform="translate(24 290.0) rotate(-90)" text-anchor="middle" font-size="16">0–5</text>
+<text x="171.66666666666669" y="523" text-anchor="middle" font-size="14">MiniCPM完整</text>
+<rect class="bar" x="150.66666666666669" y="415.46000000000004" width="40" height="79.53999999999999" fill="#4472C4"/>
+<text x="170.66666666666669" y="410.46000000000004" text-anchor="middle" font-size="12">0.97</text>
+<text x="335.0" y="523" text-anchor="middle" font-size="14">MiniCPM静音</text>
+<rect class="bar" x="314.0" y="402.34000000000003" width="40" height="92.66" fill="#4472C4"/>
+<text x="334.0" y="397.34000000000003" text-anchor="middle" font-size="12">1.13</text>
+<text x="498.33333333333337" y="523" text-anchor="middle" font-size="14">MiniCPM黑屏</text>
+<rect class="bar" x="477.33333333333337" y="420.38" width="40" height="74.62" fill="#4472C4"/>
+<text x="497.33333333333337" y="415.38" text-anchor="middle" font-size="12">0.91</text>
+<text x="661.6666666666667" y="523" text-anchor="middle" font-size="14">MOSS完整</text>
+<rect class="bar" x="640.6666666666667" y="362.98" width="40" height="132.02" fill="#4472C4"/>
+<text x="660.6666666666667" y="357.98" text-anchor="middle" font-size="12">1.61</text>
+<text x="825.0" y="523" text-anchor="middle" font-size="14">MOSS无转写</text>
+<rect class="bar" x="804.0" y="380.2" width="40" height="114.8" fill="#4472C4"/>
+<text x="824.0" y="375.2" text-anchor="middle" font-size="12">1.40</text>
+<text x="988.3333333333334" y="523" text-anchor="middle" font-size="14">MOSS仅转写</text>
+<rect class="bar" x="967.3333333333334" y="442.52" width="40" height="52.48" fill="#4472C4"/>
+<text x="987.3333333333334" y="437.52" text-anchor="middle" font-size="12">0.64</text>
+<rect x="90" y="565" width="16" height="16" fill="#4472C4"/>
+<text x="112" y="578" font-size="14">总均分</text>
+</svg>

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "track": "10fps",
+  "state": "complete",
+  "finalized_at": "2026-10-21T20:28:53+08:00",
+  "input_contract": {
+    "decision_hz": 1,
+    "visual_fps": 10,
+    "frames_per_tick": 10,
+    "audio_chunk_seconds": 1,
+    "future_frames_sent": false,
+    "future_events_sent": false
+  },
+  "scheduler": {
+    "gpu_ids": [2, 3, 4, 5, 6, 7],
+    "persistent_shards_per_run": 7,
+    "strict_run_priority": true
+  },
+  "scheduled_judge_profile": "lenient_v3",
+  "completion": {
+    "scheduled_runs": 13,
+    "evaluated_branches": 11900,
+    "main_judge_panels": 13,
+    "recent30_judge_panels": 2,
+    "alternate_judge_panels": 16,
+    "offline_upper_bound": true,
+    "aggregate_reports": true,
+    "figures": 6,
+    "validation_passed": true
+  },
+  "runs": [
+    {"order": 1, "name": "main_minicpm", "experiment": "1-4", "model": "MiniCPM-o 4.5", "condition": "full", "task_set": "final450", "expected_branches": 900, "expected_scored_slots": 1250},
+    {"order": 2, "name": "main_venus", "experiment": "1-4", "model": "Venus", "condition": "full", "task_set": "final450", "expected_branches": 900, "expected_scored_slots": 1250},
+    {"order": 3, "name": "main_gander", "experiment": "1-4", "model": "Gander", "condition": "full", "task_set": "final450", "expected_branches": 900, "expected_scored_slots": 1250},
+    {"order": 4, "name": "main_moss", "experiment": "1-4", "model": "MOSS", "condition": "vision_plus_ideal_asr", "task_set": "final450", "expected_branches": 900, "expected_scored_slots": 1250},
+    {"order": 5, "name": "force_venus", "experiment": "5", "model": "Venus", "condition": "forced_answer", "task_set": "final450", "expected_branches": 900, "expected_scored_slots": 1250},
+    {"order": 6, "name": "force_gander", "experiment": "5", "model": "Gander", "condition": "forced_answer", "task_set": "final450", "expected_branches": 900, "expected_scored_slots": 1250},
+    {"order": 7, "name": "force_minicpm", "experiment": "5", "model": "MiniCPM-o 4.5", "condition": "forced_answer", "task_set": "final450", "expected_branches": 900, "expected_scored_slots": 1250},
+    {"order": 8, "name": "mute_minicpm", "experiment": "6", "model": "MiniCPM-o 4.5", "condition": "mute_ambient_audio", "task_set": "final450", "expected_branches": 900, "expected_scored_slots": 1250},
+    {"order": 9, "name": "black_minicpm", "experiment": "6", "model": "MiniCPM-o 4.5", "condition": "black_video", "task_set": "final450", "expected_branches": 900, "expected_scored_slots": 1250},
+    {"order": 10, "name": "notext_moss", "experiment": "6", "model": "MOSS", "condition": "no_scene_transcript", "task_set": "final450", "expected_branches": 900, "expected_scored_slots": 1250},
+    {"order": 11, "name": "black_moss", "experiment": "6", "model": "MOSS", "condition": "transcript_only_black_video", "task_set": "final450", "expected_branches": 900, "expected_scored_slots": 1250},
+    {"order": 12, "name": "blind_minicpm", "experiment": "7", "model": "MiniCPM-o 4.5", "condition": "blind_context", "task_set": "blind1000", "expected_branches": 1000, "expected_scored_slots": 1000},
+    {"order": 13, "name": "blind_moss", "experiment": "7", "model": "MOSS", "condition": "blind_context", "task_set": "blind1000", "expected_branches": 1000, "expected_scored_slots": 1000}
+  ]
+}

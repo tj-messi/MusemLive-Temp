@@ -1,0 +1,99 @@
+{
+ "judge_profile": "lenient_v3",
+ "scoring": {
+  "w_action": 0.4,
+  "w_points": 0.6,
+  "pen_forbid": 0.75,
+  "pen_contra": 0.25,
+  "point_partial": 0.8,
+  "action_partial": 0.7,
+  "w_corr": 0.4,
+  "w_cc_action": 0.25,
+  "w_cc_points": 0.35,
+  "pen_reinforce": 0.5,
+  "corr_partial_must_correct": 0.6,
+  "corr_partial_must_follow": 0.5
+ },
+ "slots": 1000,
+ "scorable_ok": 1000,
+ "not_scorable": 0,
+ "api_failed": 0,
+ "mean": 1.2,
+ "hist": {
+  "[0,1)": 589,
+  "[1,2)": 106,
+  "[2,3)": 102,
+  "[3,4)": 102,
+  "[4,5]": 101
+ },
+ "exact_0": 565,
+ "exact_5": 25,
+ "per_cap": {
+  "constraint_update": {
+   "n": 100,
+   "mean": 0.66,
+   "point_hit_rate": 0.056,
+   "core_hit_rate": 0.071,
+   "action_correct": 0.21,
+   "not_scorable": 0
+  },
+  "context_correction": {
+   "n": 100,
+   "mean": 0.79,
+   "point_hit_rate": 0.092,
+   "core_hit_rate": 0.11,
+   "action_correct": 0.24,
+   "not_scorable": 0
+  },
+  "historical_reference": {
+   "n": 100,
+   "mean": 0.31,
+   "point_hit_rate": 0.006,
+   "core_hit_rate": 0.006,
+   "action_correct": 0.16,
+   "not_scorable": 0
+  },
+  "proactive_clarify": {
+   "n": 150,
+   "mean": 0.75,
+   "point_hit_rate": 0.081,
+   "core_hit_rate": 0.07,
+   "action_correct": 0.2,
+   "not_scorable": 0
+  },
+  "proactive_guidance": {
+   "n": 100,
+   "mean": 1.77,
+   "point_hit_rate": 0.171,
+   "core_hit_rate": 0.163,
+   "action_correct": 0.55,
+   "not_scorable": 0
+  },
+  "selective_attention": {
+   "n": 100,
+   "mean": 1.56,
+   "point_hit_rate": 0.152,
+   "core_hit_rate": 0.168,
+   "action_correct": 0.41,
+   "not_scorable": 0
+  },
+  "task_resume": {
+   "n": 200,
+   "mean": 1.33,
+   "point_hit_rate": 0.132,
+   "core_hit_rate": 0.152,
+   "action_correct": 0.43,
+   "not_scorable": 0
+  },
+  "temporal_update": {
+   "n": 150,
+   "mean": 2.1,
+   "point_hit_rate": 0.163,
+   "core_hit_rate": 0.187,
+   "action_correct": 0.653,
+   "not_scorable": 0
+  }
+ },
+ "spent_usd": 0.5352,
+ "calls": 528
+}

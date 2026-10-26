@@ -1,0 +1,438 @@
+{
+  "version": "museumlive_omnimmi_holistic_v2",
+  "model": "x-ai/grok-4.6",
+  "input_sha256": "ab1d65437cc87ea8091548d44ed4b21fef822eaf906d82fee808bda9e5bfeea5",
+  "system_prompt_sha256": "adad353469687484bb90527f888c578d4b55669e45ee98623e7e8c48e43d2644",
+  "user_template_sha256": "0a18565505cd02c7c15aa6619cabdc125be7fdb5583b3b468180e953487f3224",
+  "official_source_url": "https://github.com/OmniMMI/OmniMMI/blob/2b93f6ad63126581769151df635b2234f25c2c33/evaluations/evaluate.py",
+  "code_sha256": {
+    "run_holistic_benchmark.py": "1bea1ad4099d2f2c833e87b9efc490a418727d6a6b150f4d0db72fc1b98b87ec",
+    "holistic_protocol.py": "b02bc5971bd8572d4513c947c52c8f055270eec78554dec2522e6c27fc7016a6",
+    "run_omnimmi_pilot.py": "2c04c679dc02425f518d538fb0dabe5720f1598e3b0382bc5e80e075b07be00b"
+  },
+  "feedback_summary_sha256": "76bf54af0ade665b653ad1252830f9cf1916c55915b48ac7b37c2259ef78daa7",
+  "feedback_sha256": "120e5b52c3f32a7d102709f48674437779b58e6692bd179271dbb7081c945d67",
+  "items": 240,
+  "clips": 10,
+  "human_review_count": 18,
+  "known_pending_ids": [
+    "N004_K003_full_P06_T2"
+  ],
+  "judge_inputs": [
+    "question",
+    "reference_answer",
+    "candidate_answer"
+  ],
+  "temperature": 0,
+  "max_tokens": 900,
+  "concurrency": 6,
+  "attempt_limit": 3,
+  "score_scale": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "pending_score": null,
+  "references": "machine_authored_pending_human_review",
+  "judge_modality": "text_only",
+  "human_scores_sent_to_judge": false,
+  "old_scores_or_rubric_sent": false,
+  "question_reference_candidate_unchanged": true,
+  "scope": "all 240 saved QA turns across the current ten clips; not the larger video corpus",
+  "created_at_utc": "2026-09-27T16:51:15.978797+00:00",
+  "sample_sha256": "21124753ed879cf977a6f8a56e674e53c122fb0131567a5de0a287b55b532670",
+  "results_sha256": "9da564e4a9de604547b09f02d6e3d87cf3063470cd736b136b5786623ea61da8",
+  "summary_sha256": "6fd69f42b6c3a81bca9da23f6f412e42ccaaef21453e3cbe96af23a250d6884a",
+  "processed_items": 240,
+  "api_completed": 239,
+  "api_failed": 0,
+  "excluded_by_human": 1,
+  "attempts_recorded": 248,
+  "failed_attempts": 9,
+  "reported_cost_usd": 1.7326740000000016,
+  "cost_note": "Only provider-returned usage is included; disconnected calls may have unknown charges.",
+  "elapsed_s": 533.542,
+  "summary": {
+    "raw_judge": {
+      "total_items": 240,
+      "scored_items": 239,
+      "pending_qa_review": 1,
+      "api_failed": 0,
+      "score_sum": 963,
+      "maximum_score": 1195,
+      "mean_score": 4.02928870292887,
+      "normalized_score": 0.8058577405857741,
+      "coverage": 0.9958333333333333,
+      "score_distribution": {
+        "0": 16,
+        "1": 7,
+        "2": 21,
+        "3": 14,
+        "4": 33,
+        "5": 148
+      },
+      "score_bands": {
+        "0–1": 23,
+        "2–3": 35,
+        "4–5": 181
+      },
+      "yes": 181,
+      "no": 58,
+      "yes_rate": 0.7573221757322176
+    },
+    "with_human_review": {
+      "total_items": 240,
+      "scored_items": 239,
+      "pending_qa_review": 1,
+      "api_failed": 0,
+      "score_sum": 962,
+      "maximum_score": 1195,
+      "mean_score": 4.02510460251046,
+      "normalized_score": 0.8050209205020921,
+      "coverage": 0.9958333333333333,
+      "score_distribution": {
+        "0": 15,
+        "1": 9,
+        "2": 20,
+        "3": 15,
+        "4": 32,
+        "5": 148
+      },
+      "score_bands": {
+        "0–1": 24,
+        "2–3": 35,
+        "4–5": 180
+      }
+    },
+    "by_method": {
+      "full": {
+        "raw_judge": {
+          "total_items": 120,
+          "scored_items": 119,
+          "pending_qa_review": 1,
+          "api_failed": 0,
+          "score_sum": 488,
+          "maximum_score": 595,
+          "mean_score": 4.100840336134453,
+          "normalized_score": 0.8201680672268907,
+          "coverage": 0.9916666666666667,
+          "score_distribution": {
+            "0": 6,
+            "1": 6,
+            "2": 8,
+            "3": 6,
+            "4": 17,
+            "5": 76
+          },
+          "score_bands": {
+            "0–1": 12,
+            "2–3": 14,
+            "4–5": 93
+          }
+        },
+        "with_human_review": {
+          "total_items": 120,
+          "scored_items": 119,
+          "pending_qa_review": 1,
+          "api_failed": 0,
+          "score_sum": 487,
+          "maximum_score": 595,
+          "mean_score": 4.092436974789916,
+          "normalized_score": 0.8184873949579832,
+          "coverage": 0.9916666666666667,
+          "score_distribution": {
+            "0": 6,
+            "1": 7,
+            "2": 7,
+            "3": 6,
+            "4": 17,
+            "5": 76
+          },
+          "score_bands": {
+            "0–1": 13,
+            "2–3": 13,
+            "4–5": 93
+          }
+        }
+      },
+      "sparse": {
+        "raw_judge": {
+          "total_items": 120,
+          "scored_items": 120,
+          "pending_qa_review": 0,
+          "api_failed": 0,
+          "score_sum": 475,
+          "maximum_score": 600,
+          "mean_score": 3.9583333333333335,
+          "normalized_score": 0.7916666666666666,
+          "coverage": 1.0,
+          "score_distribution": {
+            "0": 10,
+            "1": 1,
+            "2": 13,
+            "3": 8,
+            "4": 16,
+            "5": 72
+          },
+          "score_bands": {
+            "0–1": 11,
+            "2–3": 21,
+            "4–5": 88
+          }
+        },
+        "with_human_review": {
+          "total_items": 120,
+          "scored_items": 120,
+          "pending_qa_review": 0,
+          "api_failed": 0,
+          "score_sum": 475,
+          "maximum_score": 600,
+          "mean_score": 3.9583333333333335,
+          "normalized_score": 0.7916666666666666,
+          "coverage": 1.0,
+          "score_distribution": {
+            "0": 9,
+            "1": 2,
+            "2": 13,
+            "3": 9,
+            "4": 15,
+            "5": 72
+          },
+          "score_bands": {
+            "0–1": 11,
+            "2–3": 22,
+            "4–5": 87
+          }
+        }
+      }
+    },
+    "by_kind": {
+      "current_view": {
+        "total_items": 110,
+        "scored_items": 110,
+        "pending_qa_review": 0,
+        "api_failed": 0,
+        "score_sum": 420,
+        "maximum_score": 550,
+        "mean_score": 3.8181818181818183,
+        "normalized_score": 0.7636363636363637,
+        "coverage": 1.0,
+        "score_distribution": {
+          "0": 5,
+          "1": 7,
+          "2": 14,
+          "3": 8,
+          "4": 19,
+          "5": 57
+        },
+        "score_bands": {
+          "0–1": 12,
+          "2–3": 22,
+          "4–5": 76
+        }
+      },
+      "follow_up": {
+        "total_items": 44,
+        "scored_items": 44,
+        "pending_qa_review": 0,
+        "api_failed": 0,
+        "score_sum": 172,
+        "maximum_score": 220,
+        "mean_score": 3.909090909090909,
+        "normalized_score": 0.7818181818181819,
+        "coverage": 1.0,
+        "score_distribution": {
+          "0": 5,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 7,
+          "5": 26
+        },
+        "score_bands": {
+          "0–1": 6,
+          "2–3": 5,
+          "4–5": 33
+        }
+      },
+      "identity_boundary": {
+        "total_items": 1,
+        "scored_items": 0,
+        "pending_qa_review": 1,
+        "api_failed": 0,
+        "score_sum": 0,
+        "maximum_score": 0,
+        "mean_score": null,
+        "normalized_score": null,
+        "coverage": 0.0,
+        "score_distribution": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "score_bands": {
+          "0–1": 0,
+          "2–3": 0,
+          "4–5": 0
+        }
+      },
+      "long_memory": {
+        "total_items": 35,
+        "scored_items": 35,
+        "pending_qa_review": 0,
+        "api_failed": 0,
+        "score_sum": 154,
+        "maximum_score": 175,
+        "mean_score": 4.4,
+        "normalized_score": 0.88,
+        "coverage": 1.0,
+        "score_distribution": {
+          "0": 2,
+          "1": 1,
+          "2": 1,
+          "3": 2,
+          "4": 0,
+          "5": 29
+        },
+        "score_bands": {
+          "0–1": 3,
+          "2–3": 3,
+          "4–5": 29
+        }
+      },
+      "ocr": {
+        "total_items": 2,
+        "scored_items": 2,
+        "pending_qa_review": 0,
+        "api_failed": 0,
+        "score_sum": 10,
+        "maximum_score": 10,
+        "mean_score": 5.0,
+        "normalized_score": 1.0,
+        "coverage": 1.0,
+        "score_distribution": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 2
+        },
+        "score_bands": {
+          "0–1": 0,
+          "2–3": 0,
+          "4–5": 2
+        }
+      },
+      "revisit": {
+        "total_items": 1,
+        "scored_items": 1,
+        "pending_qa_review": 0,
+        "api_failed": 0,
+        "score_sum": 2,
+        "maximum_score": 5,
+        "mean_score": 2.0,
+        "normalized_score": 0.4,
+        "coverage": 1.0,
+        "score_distribution": {
+          "0": 0,
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "score_bands": {
+          "0–1": 0,
+          "2–3": 1,
+          "4–5": 0
+        }
+      },
+      "temporal_order": {
+        "total_items": 14,
+        "scored_items": 14,
+        "pending_qa_review": 0,
+        "api_failed": 0,
+        "score_sum": 53,
+        "maximum_score": 70,
+        "mean_score": 3.7857142857142856,
+        "normalized_score": 0.7571428571428571,
+        "coverage": 1.0,
+        "score_distribution": {
+          "0": 2,
+          "1": 0,
+          "2": 1,
+          "3": 1,
+          "4": 2,
+          "5": 8
+        },
+        "score_bands": {
+          "0–1": 2,
+          "2–3": 2,
+          "4–5": 10
+        }
+      },
+      "uncertainty": {
+        "total_items": 33,
+        "scored_items": 33,
+        "pending_qa_review": 0,
+        "api_failed": 0,
+        "score_sum": 151,
+        "maximum_score": 165,
+        "mean_score": 4.575757575757576,
+        "normalized_score": 0.9151515151515152,
+        "coverage": 1.0,
+        "score_distribution": {
+          "0": 1,
+          "1": 0,
+          "2": 1,
+          "3": 1,
+          "4": 4,
+          "5": 26
+        },
+        "score_bands": {
+          "0–1": 1,
+          "2–3": 2,
+          "4–5": 30
+        }
+      }
+    },
+    "multi_turn_raw_judge": {
+      "groups": 120,
+      "eligible_groups": 119,
+      "unscored_groups": 1,
+      "all_yes_groups": 69,
+      "all_yes_rate": 0.5798319327731093,
+      "basis": "raw Judge yes/no; human numeric scores are not converted to yes/no"
+    },
+    "calibration": {
+      "human_scored_items": 17,
+      "comparable_items": 17,
+      "exact_agreement": 14,
+      "differences": [
+        {
+          "id": "N004_K003_sparse_P05_T2",
+          "judge_score": 0,
+          "human_score": 1
+        },
+        {
+          "id": "N004_K004_sparse_P04_T2",
+          "judge_score": 4,
+          "human_score": 3
+        },
+        {
+          "id": "N004_K005_full_P01_T1",
+          "judge_score": 2,
+          "human_score": 1
+        }
+      ],
+      "interpretation": "development/calibration examples, not independent validation"
+    }
+  }
+}

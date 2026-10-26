@@ -1,0 +1,36 @@
+﻿candidate_id,candidate_label,scope,n,mean,sd,exact_zero,exact_five,task_balanced_mean,score_provenance,analysis_eligible
+moss,MOSS,all,625,2.3696,1.4342,73,43,2.3785,batch_calibrated_pseudo_rating,False
+moss,MOSS,wait,75,1.6667,1.8643,30,7,,batch_calibrated_pseudo_rating,False
+moss,MOSS,non_wait,550,2.4655,1.3368,43,36,,batch_calibrated_pseudo_rating,False
+moss,MOSS,speak,515,2.5282,1.3426,40,36,,batch_calibrated_pseudo_rating,False
+moss,MOSS,clarify,35,1.5429,0.8051,3,0,,batch_calibrated_pseudo_rating,False
+minicpm,MiniCPM,all,625,1.7104,1.3952,124,31,1.6781,batch_calibrated_pseudo_rating,False
+minicpm,MiniCPM,wait,75,3.0533,1.8966,13,19,,batch_calibrated_pseudo_rating,False
+minicpm,MiniCPM,non_wait,550,1.5273,1.2008,111,12,,batch_calibrated_pseudo_rating,False
+minicpm,MiniCPM,speak,515,1.5553,1.2237,105,12,,batch_calibrated_pseudo_rating,False
+minicpm,MiniCPM,clarify,35,1.1143,0.6664,6,0,,batch_calibrated_pseudo_rating,False
+gander,Gander,all,625,1.3968,1.4846,227,27,1.4026,batch_calibrated_pseudo_rating,False
+gander,Gander,wait,75,2.52,2.0223,20,15,,batch_calibrated_pseudo_rating,False
+gander,Gander,non_wait,550,1.2436,1.3235,207,12,,batch_calibrated_pseudo_rating,False
+gander,Gander,speak,515,1.2602,1.3461,195,12,,batch_calibrated_pseudo_rating,False
+gander,Gander,clarify,35,1.0,0.8944,12,0,,batch_calibrated_pseudo_rating,False
+venus,Venus,all,625,1.3392,1.4006,218,22,1.2781,batch_calibrated_pseudo_rating,False
+venus,Venus,wait,75,2.36,1.8304,13,10,,batch_calibrated_pseudo_rating,False
+venus,Venus,non_wait,550,1.2,1.2692,205,12,,batch_calibrated_pseudo_rating,False
+venus,Venus,speak,515,1.2291,1.293,191,12,,batch_calibrated_pseudo_rating,False
+venus,Venus,clarify,35,0.7714,0.7205,14,0,,batch_calibrated_pseudo_rating,False
+human_b01,Human B01,all,625,3.1456,1.5757,47,153,3.2496,batch_calibrated_pseudo_rating,False
+human_b01,Human B01,wait,75,4.1333,0.7364,0,23,,batch_calibrated_pseudo_rating,False
+human_b01,Human B01,non_wait,550,3.0109,1.6113,47,130,,batch_calibrated_pseudo_rating,False
+human_b01,Human B01,speak,515,3.0466,1.6434,47,130,,batch_calibrated_pseudo_rating,False
+human_b01,Human B01,clarify,35,2.4857,0.8741,0,0,,batch_calibrated_pseudo_rating,False
+human_b02,Human B02,all,625,3.144,1.6164,51,166,3.2593,batch_calibrated_pseudo_rating,False
+human_b02,Human B02,wait,75,3.9867,1.1014,3,21,,batch_calibrated_pseudo_rating,False
+human_b02,Human B02,non_wait,550,3.0291,1.6412,48,145,,batch_calibrated_pseudo_rating,False
+human_b02,Human B02,speak,515,3.0641,1.6692,47,145,,batch_calibrated_pseudo_rating,False
+human_b02,Human B02,clarify,35,2.5143,1.0246,1,0,,batch_calibrated_pseudo_rating,False
+human_b03,Human B03,all,625,3.0512,1.6022,53,151,3.1822,batch_calibrated_pseudo_rating,False
+human_b03,Human B03,wait,75,4.1733,0.7,0,23,,batch_calibrated_pseudo_rating,False
+human_b03,Human B03,non_wait,550,2.8982,1.6294,53,128,,batch_calibrated_pseudo_rating,False
+human_b03,Human B03,speak,515,2.9146,1.6653,53,128,,batch_calibrated_pseudo_rating,False
+human_b03,Human B03,clarify,35,2.6571,0.9241,0,0,,batch_calibrated_pseudo_rating,False

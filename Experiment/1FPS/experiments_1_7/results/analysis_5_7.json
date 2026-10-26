@@ -1,0 +1,463 @@
+{
+ "force_venus": {
+  "n_silent": 515,
+  "forced_mean_on_silent": 1.21,
+  "ge2": 0.2757281553398058,
+  "zero": 0.5106796116504855,
+  "still_silent": 0.17475728155339806,
+  "spoken_orig": 1.63,
+  "spoken_forcedrun": 1.52,
+  "uq_orig": 0.79,
+  "uq_forced": 1.36,
+  "paired": {
+   "n": 1000,
+   "delta": 0.565,
+   "ci95": [
+    0.457,
+    0.677
+   ]
+  },
+  "by_cap": {
+   "temporal_update": [
+    0.94,
+    2.15
+   ],
+   "task_resume": [
+    0.66,
+    0.93
+   ],
+   "context_correction": [
+    0.36,
+    1.32
+   ],
+   "proactive_clarify": [
+    1.28,
+    1.61
+   ],
+   "constraint_update": [
+    0.75,
+    1.01
+   ],
+   "historical_reference": [
+    0.63,
+    1.08
+   ],
+   "monitor_cancel": [
+    null,
+    null
+   ],
+   "selective_attention": [
+    0.6,
+    1.1
+   ],
+   "proactive_guidance": [
+    0.94,
+    1.56
+   ]
+  }
+ },
+ "force_gander": {
+  "n_silent": 526,
+  "forced_mean_on_silent": 1.5,
+  "ge2": 0.3574144486692015,
+  "zero": 0.4296577946768061,
+  "still_silent": 0.08365019011406843,
+  "spoken_orig": 1.92,
+  "spoken_forcedrun": 1.82,
+  "uq_orig": 0.91,
+  "uq_forced": 1.65,
+  "paired": {
+   "n": 1000,
+   "delta": 0.742,
+   "ci95": [
+    0.614,
+    0.873
+   ]
+  },
+  "by_cap": {
+   "temporal_update": [
+    0.56,
+    2.39
+   ],
+   "task_resume": [
+    0.56,
+    1.51
+   ],
+   "context_correction": [
+    0.61,
+    1.27
+   ],
+   "proactive_clarify": [
+    1.71,
+    1.96
+   ],
+   "constraint_update": [
+    1.0,
+    1.67
+   ],
+   "historical_reference": [
+    0.86,
+    1.17
+   ],
+   "monitor_cancel": [
+    null,
+    null
+   ],
+   "selective_attention": [
+    0.76,
+    1.03
+   ],
+   "proactive_guidance": [
+    1.34,
+    1.81
+   ]
+  }
+ },
+ "force_minicpm": {
+  "n_silent": 187,
+  "forced_mean_on_silent": 1.06,
+  "ge2": 0.23529411764705882,
+  "zero": 0.5401069518716578,
+  "still_silent": 0.18181818181818182,
+  "spoken_orig": 1.61,
+  "spoken_forcedrun": 1.51,
+  "uq_orig": 1.31,
+  "uq_forced": 1.42,
+  "paired": {
+   "n": 1000,
+   "delta": 0.11,
+   "ci95": [
+    0.01,
+    0.214
+   ]
+  },
+  "by_cap": {
+   "temporal_update": [
+    1.57,
+    1.93
+   ],
+   "task_resume": [
+    1.42,
+    1.31
+   ],
+   "context_correction": [
+    1.3,
+    1.65
+   ],
+   "proactive_clarify": [
+    1.39,
+    1.42
+   ],
+   "constraint_update": [
+    1.22,
+    1.29
+   ],
+   "historical_reference": [
+    0.98,
+    1.17
+   ],
+   "monitor_cancel": [
+    null,
+    null
+   ],
+   "selective_attention": [
+    1.11,
+    1.2
+   ],
+   "proactive_guidance": [
+    1.24,
+    1.27
+   ]
+  }
+ },
+ "minicpm_完整": {
+  "total": 1.59,
+  "uq": 1.31,
+  "SPEAK": 0.94,
+  "WAIT": 3.9,
+  "audio_pt": 0.228,
+  "visual_pt": 0.246,
+  "by_cap": {
+   "temporal_update": 1.57,
+   "task_resume": 1.42,
+   "context_correction": 1.3,
+   "proactive_clarify": 1.39,
+   "constraint_update": 1.22,
+   "historical_reference": 0.98,
+   "monitor_cancel": 2.44,
+   "selective_attention": 2.63,
+   "proactive_guidance": 0.95
+  },
+  "paired_vs_full": null
+ },
+ "minicpm_静音": {
+  "total": 1.79,
+  "uq": 1.56,
+  "SPEAK": 0.66,
+  "WAIT": 4.13,
+  "audio_pt": 0.208,
+  "visual_pt": 0.265,
+  "by_cap": {
+   "temporal_update": 2.07,
+   "task_resume": 1.24,
+   "context_correction": 1.56,
+   "proactive_clarify": 1.75,
+   "constraint_update": 1.49,
+   "historical_reference": 1.32,
+   "monitor_cancel": 2.47,
+   "selective_attention": 2.74,
+   "proactive_guidance": 1.24
+  },
+  "paired_vs_full": {
+   "n": 1250,
+   "delta": 0.2,
+   "ci95": [
+    0.094,
+    0.308
+   ]
+  }
+ },
+ "minicpm_黑屏": {
+  "total": 1.28,
+  "uq": 0.86,
+  "SPEAK": 0.71,
+  "WAIT": 4.4,
+  "audio_pt": 0.153,
+  "visual_pt": 0.123,
+  "by_cap": {
+   "temporal_update": 1.04,
+   "task_resume": 0.83,
+   "context_correction": 0.82,
+   "proactive_clarify": 0.95,
+   "constraint_update": 0.92,
+   "historical_reference": 0.73,
+   "monitor_cancel": 2.59,
+   "selective_attention": 2.72,
+   "proactive_guidance": 0.54
+  },
+  "paired_vs_full": {
+   "n": 1250,
+   "delta": -0.318,
+   "ci95": [
+    -0.418,
+    -0.216
+   ]
+  }
+ },
+ "moss_完整（画面+转写）": {
+  "total": 1.94,
+  "uq": 2.01,
+  "SPEAK": 2.3,
+  "WAIT": 1.2,
+  "audio_pt": 0.395,
+  "visual_pt": 0.364,
+  "by_cap": {
+   "temporal_update": 2.29,
+   "task_resume": 1.96,
+   "context_correction": 1.54,
+   "proactive_clarify": 1.62,
+   "constraint_update": 2.46,
+   "historical_reference": 1.61,
+   "monitor_cancel": 2.05,
+   "selective_attention": 1.7,
+   "proactive_guidance": 2.22
+  },
+  "paired_vs_full": null
+ },
+ "moss_无现场转写": {
+  "total": 1.77,
+  "uq": 1.77,
+  "SPEAK": 1.29,
+  "WAIT": 2.07,
+  "audio_pt": 0.185,
+  "visual_pt": 0.38,
+  "by_cap": {
+   "temporal_update": 2.06,
+   "task_resume": 1.75,
+   "context_correction": 1.39,
+   "proactive_clarify": 1.45,
+   "constraint_update": 1.42,
+   "historical_reference": 1.4,
+   "monitor_cancel": 2.38,
+   "selective_attention": 1.56,
+   "proactive_guidance": 2.43
+  },
+  "paired_vs_full": {
+   "n": 1250,
+   "delta": -0.166,
+   "ci95": [
+    -0.286,
+    -0.034
+   ]
+  }
+ },
+ "moss_仅转写文字（黑屏）": {
+  "total": 1.52,
+  "uq": 1.21,
+  "SPEAK": 1.37,
+  "WAIT": 3.63,
+  "audio_pt": 0.359,
+  "visual_pt": 0.141,
+  "by_cap": {
+   "temporal_update": 1.39,
+   "task_resume": 1.43,
+   "context_correction": 1.07,
+   "proactive_clarify": 0.64,
+   "constraint_update": 1.39,
+   "historical_reference": 0.9,
+   "monitor_cancel": 2.37,
+   "selective_attention": 2.84,
+   "proactive_guidance": 1.11
+  },
+  "paired_vs_full": {
+   "n": 1250,
+   "delta": -0.419,
+   "ci95": [
+    -0.574,
+    -0.262
+   ]
+  }
+ },
+ "exp7": {
+  "MiniCPM 全双工": {
+   "all": 1.31,
+   "temporal_update": 1.57,
+   "task_resume": 1.42,
+   "context_correction": 1.3,
+   "proactive_clarify": 1.39,
+   "constraint_update": 1.22,
+   "historical_reference": 0.98,
+   "monitor_cancel": null,
+   "selective_attention": 1.11,
+   "proactive_guidance": 1.24
+  },
+  "MiniCPM 最近30秒": {
+   "all": 1.27,
+   "temporal_update": 1.56,
+   "task_resume": 1.43,
+   "context_correction": 1.25,
+   "proactive_clarify": 1.39,
+   "constraint_update": 1.29,
+   "historical_reference": 0.54,
+   "monitor_cancel": null,
+   "selective_attention": 1.11,
+   "proactive_guidance": 1.24
+  },
+  "MiniCPM 3秒盲基线": {
+   "all": 1.18,
+   "temporal_update": 1.56,
+   "task_resume": 1.39,
+   "context_correction": 0.98,
+   "proactive_clarify": 1.15,
+   "constraint_update": 1.25,
+   "historical_reference": 0.46,
+   "monitor_cancel": null,
+   "selective_attention": 1.09,
+   "proactive_guidance": 1.15
+  },
+  "MOSS 全双工": {
+   "all": 2.01,
+   "temporal_update": 2.29,
+   "task_resume": 1.96,
+   "context_correction": 1.54,
+   "proactive_clarify": 1.62,
+   "constraint_update": 2.46,
+   "historical_reference": 1.61,
+   "monitor_cancel": null,
+   "selective_attention": 2.4,
+   "proactive_guidance": 2.28
+  },
+  "MOSS 最近30秒": {
+   "all": 1.93,
+   "temporal_update": 2.46,
+   "task_resume": 1.95,
+   "context_correction": 1.57,
+   "proactive_clarify": 1.62,
+   "constraint_update": 2.37,
+   "historical_reference": 0.68,
+   "monitor_cancel": null,
+   "selective_attention": 2.41,
+   "proactive_guidance": 2.28
+  },
+  "MOSS 3秒盲基线": {
+   "all": 1.79,
+   "temporal_update": 2.89,
+   "task_resume": 1.94,
+   "context_correction": 1.43,
+   "proactive_clarify": 1.34,
+   "constraint_update": 1.28,
+   "historical_reference": 0.68,
+   "monitor_cancel": null,
+   "selective_attention": 1.93,
+   "proactive_guidance": 2.32
+  },
+  "Venus 全双工": {
+   "all": 0.79,
+   "temporal_update": 0.94,
+   "task_resume": 0.66,
+   "context_correction": 0.36,
+   "proactive_clarify": 1.28,
+   "constraint_update": 0.75,
+   "historical_reference": 0.63,
+   "monitor_cancel": null,
+   "selective_attention": 0.6,
+   "proactive_guidance": 0.94
+  },
+  "Gander 全双工": {
+   "all": 0.91,
+   "temporal_update": 0.56,
+   "task_resume": 0.56,
+   "context_correction": 0.61,
+   "proactive_clarify": 1.71,
+   "constraint_update": 1.0,
+   "historical_reference": 0.86,
+   "monitor_cancel": null,
+   "selective_attention": 0.76,
+   "proactive_guidance": 1.34
+  },
+  "qwen-omni 离线上界": {
+   "all": 3.15,
+   "temporal_update": 3.74,
+   "task_resume": 3.0,
+   "context_correction": 3.39,
+   "proactive_clarify": 2.91,
+   "constraint_update": 2.9,
+   "historical_reference": 3.0,
+   "monitor_cancel": null,
+   "selective_attention": 3.11,
+   "proactive_guidance": 3.14
+  },
+  "MiniCPM-o 4.5 最近30秒配对": {
+   "n": 1000,
+   "delta": -0.043,
+   "ci95": [
+    -0.085,
+    -0.002
+   ]
+  },
+  "MiniCPM-o 4.5 3秒配对": {
+   "n": 1000,
+   "delta": -0.135,
+   "ci95": [
+    -0.237,
+    -0.028
+   ]
+  },
+  "MOSS* 最近30秒配对": {
+   "n": 1000,
+   "delta": -0.076,
+   "ci95": [
+    -0.134,
+    -0.022
+   ]
+  },
+  "MOSS* 3秒配对": {
+   "n": 1000,
+   "delta": -0.224,
+   "ci95": [
+    -0.354,
+    -0.085
+   ]
+  }
+ }
+}

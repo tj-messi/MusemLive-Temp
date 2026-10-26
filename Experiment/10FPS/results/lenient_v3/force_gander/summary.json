@@ -1,0 +1,109 @@
+{
+ "judge_profile": "lenient_v3",
+ "scoring": {
+  "w_action": 0.4,
+  "w_points": 0.6,
+  "pen_forbid": 0.75,
+  "pen_contra": 0.25,
+  "point_partial": 0.8,
+  "action_partial": 0.7,
+  "w_corr": 0.4,
+  "w_cc_action": 0.25,
+  "w_cc_points": 0.35,
+  "pen_reinforce": 0.5,
+  "corr_partial_must_correct": 0.6,
+  "corr_partial_must_follow": 0.5
+ },
+ "slots": 1250,
+ "scorable_ok": 1250,
+ "not_scorable": 0,
+ "api_failed": 0,
+ "mean": 1.59,
+ "hist": {
+  "[0,1)": 622,
+  "[1,2)": 146,
+  "[2,3)": 147,
+  "[3,4)": 112,
+  "[4,5]": 223
+ },
+ "exact_0": 589,
+ "exact_5": 145,
+ "per_cap": {
+  "constraint_update": {
+   "n": 100,
+   "mean": 1.63,
+   "point_hit_rate": 0.113,
+   "core_hit_rate": 0.118,
+   "action_correct": 0.61,
+   "not_scorable": 0
+  },
+  "context_correction": {
+   "n": 100,
+   "mean": 0.98,
+   "point_hit_rate": 0.099,
+   "core_hit_rate": 0.116,
+   "action_correct": 0.31,
+   "not_scorable": 0
+  },
+  "historical_reference": {
+   "n": 100,
+   "mean": 0.34,
+   "point_hit_rate": 0.0,
+   "core_hit_rate": 0.0,
+   "action_correct": 0.14,
+   "not_scorable": 0
+  },
+  "monitor_cancel": {
+   "n": 100,
+   "mean": 2.02,
+   "point_hit_rate": 0.167,
+   "core_hit_rate": 0.198,
+   "action_correct": 0.46,
+   "not_scorable": 0
+  },
+  "proactive_clarify": {
+   "n": 150,
+   "mean": 1.98,
+   "point_hit_rate": 0.286,
+   "core_hit_rate": 0.281,
+   "action_correct": 0.547,
+   "not_scorable": 0
+  },
+  "proactive_guidance": {
+   "n": 150,
+   "mean": 1.47,
+   "point_hit_rate": 0.133,
+   "core_hit_rate": 0.124,
+   "action_correct": 0.433,
+   "not_scorable": 0
+  },
+  "selective_attention": {
+   "n": 200,
+   "mean": 2.3,
+   "point_hit_rate": 0.093,
+   "core_hit_rate": 0.102,
+   "action_correct": 0.525,
+   "not_scorable": 0
+  },
+  "task_resume": {
+   "n": 200,
+   "mean": 1.19,
+   "point_hit_rate": 0.106,
+   "core_hit_rate": 0.107,
+   "action_correct": 0.385,
+   "not_scorable": 0
+  },
+  "temporal_update": {
+   "n": 150,
+   "mean": 1.88,
+   "point_hit_rate": 0.138,
+   "core_hit_rate": 0.139,
+   "action_correct": 0.633,
+   "not_scorable": 0
+  }
+ },
+ "spent_usd": 1.0223,
+ "calls": 1038,
+ "provider_block_fallback_slots": 1,
+ "provider_block_fallback_note": "One task_resume slot was scored offline after provider data-inspection HTTP 400; raw evaluation payload unchanged."
+}

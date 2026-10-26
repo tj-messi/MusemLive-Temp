@@ -1,0 +1,17 @@
+{
+  "html": "Judge_展示版_手机兼容修复版.html",
+  "html_sha256": "02ac11fbaac9bc268f0c5fbcb0df7114c43e28404597bf8b06c7e8cd4a9767c1",
+  "builder_sha256": "ed655136abcb46ffb6ebd2aba3b818a841b39399e44de72e7fc701ccc7c0477a",
+  "template_sha256": "b3ecfade5ac4d0e7878fb02dfbf1f48925b82064d6a95f6056f92771ba410eb1",
+  "results_sha256": "9da564e4a9de604547b09f02d6e3d87cf3063470cd736b136b5786623ea61da8",
+  "summary_sha256": "6fd69f42b6c3a81bca9da23f6f412e42ccaaef21453e3cbe96af23a250d6884a",
+  "items": 240,
+  "display_cases": 8,
+  "zero_score_cases": 4,
+  "five_score_cases": 4,
+  "original_evidence_images": 13,
+  "external_dependencies": [],
+  "original_scores_modified": false,
+  "rendering": "static_html_with_optional_controls",
+  "javascript_required_for_content": false
+}

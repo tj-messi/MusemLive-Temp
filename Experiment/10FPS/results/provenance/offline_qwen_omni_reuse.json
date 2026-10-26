@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "source_run": "external finalized 1 FPS experiment artifact",
+  "reuse_reason": "Offline upper-bound inputs are independent of online decision FPS after at-most-32-frame temporal downsampling. The final450 branch set is identical and all 999 successful response end-times match the 10 FPS MiniCPM timelines.",
+  "formal_branches": 900,
+  "successful_timing_pairs_checked": 999,
+  "timing_mismatches": 0,
+  "cached_generation_errors": 1,
+  "error_policy": "Preserve the original empty response and score it as observed; no external retry was performed.",
+  "source_eval_sha256": "fe3486b5222f2f9639227d481a611f326846c69df500ea980d276a7f3ee754e9",
+  "source_answers_sha256": "b027fc99133ab96d20aeb9a0a81acfde26c4799dbd5db0619e3771192068d24c",
+  "source_judge_results_sha256": "a4fdad24fb8de4a459c73ea7e231c1870ae758289df2b098dd648e3e3f062d8b",
+  "target_profile": "lenient_v3",
+  "external_api_calls": 0
+}

@@ -1,0 +1,140 @@
+{
+  "selection": "Four reviewed zero-score and four full-score examples selected for illustration, not a representative sample.",
+  "results_sha256": "9da564e4a9de604547b09f02d6e3d87cf3063470cd736b136b5786623ea61da8",
+  "cases": [
+    {
+      "id": "N004_K002_sparse_P03_T1",
+      "title": "问配色，准确回答蓝白相间",
+      "score": 5,
+      "evidence": [
+        {
+          "frame_id": "F009",
+          "clip_s": 196.209,
+          "path": "frames/sparse/N004_K002/F009.jpg",
+          "sha256": "bb12a44bb1cabd7c9ea2f1de93cf617d0ad90fc206a797b214be8d16cd4baa0a"
+        },
+        {
+          "frame_id": "F010",
+          "clip_s": 198.211,
+          "path": "frames/sparse/N004_K002/F010.jpg",
+          "sha256": "643631e81acc183687d1357999d31925258c13e69af829fb0f39352ceddea65c"
+        }
+      ]
+    },
+    {
+      "id": "N005_K004_full_P05_T1",
+      "title": "人物站立，却答成骑在动物上",
+      "score": 0,
+      "evidence": [
+        {
+          "frame_id": "N005_K004_F0590",
+          "clip_s": 590.0,
+          "path": "frames/overview/N005_K004/N005_K004_F0590.jpg",
+          "sha256": "c36a27e0bf0ce7c92d864d7ab3e703356cda04cb721d2b43f5b0a3d8a6a6cb2b"
+        }
+      ]
+    },
+    {
+      "id": "N006_K003_sparse_P03_T1",
+      "title": "两幅画的上下关系判断正确",
+      "score": 5,
+      "evidence": [
+        {
+          "frame_id": "F011",
+          "clip_s": 368.0,
+          "path": "frames/sparse/N006_K003/F011.jpg",
+          "sha256": "943cffde65f1b80216dbd49743f3adb9ff10bea9e26a127cee8fd8b48a6c8e43"
+        }
+      ]
+    },
+    {
+      "id": "N006_K001_full_P04_T1",
+      "title": "镂空躯干，被判断为完整封闭",
+      "score": 0,
+      "evidence": [
+        {
+          "frame_id": "N006_K001_F0430",
+          "clip_s": 430.0,
+          "path": "frames/overview/N006_K001/N006_K001_F0430.jpg",
+          "sha256": "3c20ffa1e20b990aa4adbbd5ef8ccfbbb4db76f7050173db027f595b0ef92145"
+        }
+      ]
+    },
+    {
+      "id": "N004_K006_sparse_P03_T1",
+      "title": "正确读出展板英文标题",
+      "score": 5,
+      "evidence": [
+        {
+          "frame_id": "F010",
+          "clip_s": 336.376,
+          "path": "frames/sparse/N004_K006/F010.jpg",
+          "sha256": "497870ac3c47e859e7c7aaf498f349617244cf4b98fac7bd13401b1a9a948c10"
+        }
+      ]
+    },
+    {
+      "id": "N004_K006_sparse_P02_T2",
+      "title": "把地图与隔断的先后顺序颠倒",
+      "score": 0,
+      "evidence": [
+        {
+          "frame_id": "F002",
+          "clip_s": 96.103,
+          "path": "frames/sparse/N004_K006/F002.jpg",
+          "sha256": "1f6155fc242af18dbf170f073b0d6585887e8242813addc98ecec2beb4438f2d"
+        },
+        {
+          "frame_id": "F007",
+          "clip_s": 198.211,
+          "path": "frames/sparse/N004_K006/F007.jpg",
+          "sha256": "404faf2ad16f2d33ad4639116356ea99ddc6a693496f09fc1c10815910fb2333"
+        }
+      ]
+    },
+    {
+      "id": "N004_K001_full_P01_T2",
+      "title": "判断室内布景，并给出依据",
+      "score": 5,
+      "evidence": [
+        {
+          "frame_id": "N004_K001_F0010",
+          "clip_s": 10.011,
+          "path": "frames/overview/N004_K001/N004_K001_F0010.jpg",
+          "sha256": "efea05b958b269ef2d359810d7934f56e127c180ebb82a5b977f5a0a7a71bc82"
+        }
+      ]
+    },
+    {
+      "id": "N006_K002_full_P06_T2",
+      "title": "回忆途中陈列时答错对象",
+      "score": 0,
+      "evidence": [
+        {
+          "frame_id": "N006_K002_F0450",
+          "clip_s": 450.0,
+          "path": "frames/overview/N006_K002/N006_K002_F0450.jpg",
+          "sha256": "c8011041af150df644f807d9083508b8184f1852a3faf59f1666ad258f341ef8"
+        },
+        {
+          "frame_id": "N006_K002_F0570",
+          "clip_s": 570.0,
+          "path": "frames/overview/N006_K002/N006_K002_F0570.jpg",
+          "sha256": "c8c562cab6d35c4ee8f67a36529c912008a981962696acd991cbd19cf4a85fa2"
+        },
+        {
+          "frame_id": "N006_K002_F0630",
+          "clip_s": 630.0,
+          "path": "frames/overview/N006_K002/N006_K002_F0630.jpg",
+          "sha256": "b28382c0489fe6219e42c60fd042d409c622d67356be4a7a3f77d135cfe145b3"
+        },
+        {
+          "frame_id": "N006_K002_F0670",
+          "clip_s": 670.0,
+          "path": "frames/overview/N006_K002/N006_K002_F0670.jpg",
+          "sha256": "3c19ae5243210c04ca63bbb9dcae8cbb2f553d9e78e0c1d99a61f08b9679a4a1"
+        }
+      ]
+    }
+  ]
+}

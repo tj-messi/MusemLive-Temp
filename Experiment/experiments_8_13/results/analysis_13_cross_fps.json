@@ -1,0 +1,417 @@
+{
+  "bootstrap_reps": 2000,
+  "definition": "source-video cluster bootstrap and paired 10 FPS minus 1 FPS deltas under strict_v2",
+  "models": {
+    "gander": {
+      "label": "Gander",
+      "metrics": {
+        "action_accuracy": {
+          "n_tasks": 450,
+          "one_fps_mean": 0.3939,
+          "paired_delta_10_minus_1": -0.1559,
+          "source_cluster_delta_ci": {
+            "bootstrap_reps": 2000,
+            "ci95": [
+              -0.1946,
+              -0.1208
+            ],
+            "mean": -0.1559,
+            "n_sources": 129,
+            "n_tasks": 450,
+            "seed": 20261021
+          },
+          "ten_fps_mean": 0.238
+        },
+        "soft_chain": {
+          "n_tasks": 250,
+          "one_fps_mean": 0.0559,
+          "paired_delta_10_minus_1": -0.0227,
+          "source_cluster_delta_ci": {
+            "bootstrap_reps": 2000,
+            "ci95": [
+              -0.0427,
+              -0.0043
+            ],
+            "mean": -0.0227,
+            "n_sources": 111,
+            "n_tasks": 250,
+            "seed": 20261021
+          },
+          "ten_fps_mean": 0.0332
+        },
+        "soft_cjcs": {
+          "n_tasks": 450,
+          "one_fps_mean": 0.061,
+          "paired_delta_10_minus_1": -0.0356,
+          "source_cluster_delta_ci": {
+            "bootstrap_reps": 2000,
+            "ci95": [
+              -0.0561,
+              -0.0164
+            ],
+            "mean": -0.0356,
+            "n_sources": 129,
+            "n_tasks": 450,
+            "seed": 20261021
+          },
+          "ten_fps_mean": 0.0255
+        },
+        "strict_pair": {
+          "n_tasks": 450,
+          "one_fps_mean": 0.0067,
+          "paired_delta_10_minus_1": -0.0022,
+          "source_cluster_delta_ci": {
+            "bootstrap_reps": 2000,
+            "ci95": [
+              -0.0117,
+              0.0078
+            ],
+            "mean": -0.0022,
+            "n_sources": 129,
+            "n_tasks": 450,
+            "seed": 20261021
+          },
+          "ten_fps_mean": 0.0044
+        },
+        "task_macro_score": {
+          "n_tasks": 450,
+          "one_fps_mean": 1.2016,
+          "paired_delta_10_minus_1": -0.4351,
+          "source_cluster_delta_ci": {
+            "bootstrap_reps": 2000,
+            "ci95": [
+              -0.5459,
+              -0.3372
+            ],
+            "mean": -0.4351,
+            "n_sources": 129,
+            "n_tasks": 450,
+            "seed": 20261021
+          },
+          "ten_fps_mean": 0.7665
+        }
+      }
+    },
+    "minicpm": {
+      "label": "MiniCPM-o 4.5",
+      "metrics": {
+        "action_accuracy": {
+          "n_tasks": 450,
+          "one_fps_mean": 0.5544,
+          "paired_delta_10_minus_1": -0.3081,
+          "source_cluster_delta_ci": {
+            "bootstrap_reps": 2000,
+            "ci95": [
+              -0.3512,
+              -0.2636
+            ],
+            "mean": -0.3081,
+            "n_sources": 129,
+            "n_tasks": 450,
+            "seed": 20261021
+          },
+          "ten_fps_mean": 0.2463
+        },
+        "soft_chain": {
+          "n_tasks": 250,
+          "one_fps_mean": 0.1397,
+          "paired_delta_10_minus_1": -0.1124,
+          "source_cluster_delta_ci": {
+            "bootstrap_reps": 2000,
+            "ci95": [
+              -0.1398,
+              -0.088
+            ],
+            "mean": -0.1124,
+            "n_sources": 111,
+            "n_tasks": 250,
+            "seed": 20261021
+          },
+          "ten_fps_mean": 0.0273
+        },
+        "soft_cjcs": {
+          "n_tasks": 450,
+          "one_fps_mean": 0.1092,
+          "paired_delta_10_minus_1": -0.0856,
+          "source_cluster_delta_ci": {
+            "bootstrap_reps": 2000,
+            "ci95": [
+              -0.1083,
+              -0.0635
+            ],
+            "mean": -0.0856,
+            "n_sources": 129,
+            "n_tasks": 450,
+            "seed": 20261021
+          },
+          "ten_fps_mean": 0.0236
+        },
+        "strict_pair": {
+          "n_tasks": 450,
+          "one_fps_mean": 0.0111,
+          "paired_delta_10_minus_1": -0.0111,
+          "source_cluster_delta_ci": {
+            "bootstrap_reps": 2000,
+            "ci95": [
+              -0.0219,
+              -0.0023
+            ],
+            "mean": -0.0111,
+            "n_sources": 129,
+            "n_tasks": 450,
+            "seed": 20261021
+          },
+          "ten_fps_mean": 0.0
+        },
+        "task_macro_score": {
+          "n_tasks": 450,
+          "one_fps_mean": 1.545,
+          "paired_delta_10_minus_1": -0.7176,
+          "source_cluster_delta_ci": {
+            "bootstrap_reps": 2000,
+            "ci95": [
+              -0.8379,
+              -0.6112
+            ],
+            "mean": -0.7176,
+            "n_sources": 129,
+            "n_tasks": 450,
+            "seed": 20261021
+          },
+          "ten_fps_mean": 0.8274
+        }
+      }
+    },
+    "moss": {
+      "label": "MOSS*",
+      "metrics": {
+        "action_accuracy": {
+          "n_tasks": 450,
+          "one_fps_mean": 0.635,
+          "paired_delta_10_minus_1": -0.2067,
+          "source_cluster_delta_ci": {
+            "bootstrap_reps": 2000,
+            "ci95": [
+              -0.245,
+              -0.1708
+            ],
+            "mean": -0.2067,
+            "n_sources": 129,
+            "n_tasks": 450,
+            "seed": 20261021
+          },
+          "ten_fps_mean": 0.4283
+        },
+        "soft_chain": {
+          "n_tasks": 250,
+          "one_fps_mean": 0.2202,
+          "paired_delta_10_minus_1": -0.0731,
+          "source_cluster_delta_ci": {
+            "bootstrap_reps": 2000,
+            "ci95": [
+              -0.1203,
+              -0.0271
+            ],
+            "mean": -0.0731,
+            "n_sources": 111,
+            "n_tasks": 250,
+            "seed": 20261021
+          },
+          "ten_fps_mean": 0.1471
+        },
+        "soft_cjcs": {
+          "n_tasks": 450,
+          "one_fps_mean": 0.206,
+          "paired_delta_10_minus_1": -0.0779,
+          "source_cluster_delta_ci": {
+            "bootstrap_reps": 2000,
+            "ci95": [
+              -0.1106,
+              -0.0463
+            ],
+            "mean": -0.0779,
+            "n_sources": 129,
+            "n_tasks": 450,
+            "seed": 20261021
+          },
+          "ten_fps_mean": 0.1281
+        },
+        "strict_pair": {
+          "n_tasks": 450,
+          "one_fps_mean": 0.0333,
+          "paired_delta_10_minus_1": -0.0111,
+          "source_cluster_delta_ci": {
+            "bootstrap_reps": 2000,
+            "ci95": [
+              -0.0312,
+              0.0099
+            ],
+            "mean": -0.0111,
+            "n_sources": 129,
+            "n_tasks": 450,
+            "seed": 20261021
+          },
+          "ten_fps_mean": 0.0222
+        },
+        "task_macro_score": {
+          "n_tasks": 450,
+          "one_fps_mean": 1.9405,
+          "paired_delta_10_minus_1": -0.5492,
+          "source_cluster_delta_ci": {
+            "bootstrap_reps": 2000,
+            "ci95": [
+              -0.6778,
+              -0.4248
+            ],
+            "mean": -0.5492,
+            "n_sources": 129,
+            "n_tasks": 450,
+            "seed": 20261021
+          },
+          "ten_fps_mean": 1.3913
+        }
+      }
+    },
+    "venus": {
+      "label": "Venus",
+      "metrics": {
+        "action_accuracy": {
+          "n_tasks": 450,
+          "one_fps_mean": 0.3611,
+          "paired_delta_10_minus_1": -0.0317,
+          "source_cluster_delta_ci": {
+            "bootstrap_reps": 2000,
+            "ci95": [
+              -0.0657,
+              0.0065
+            ],
+            "mean": -0.0317,
+            "n_sources": 129,
+            "n_tasks": 450,
+            "seed": 20261021
+          },
+          "ten_fps_mean": 0.3294
+        },
+        "soft_chain": {
+          "n_tasks": 250,
+          "one_fps_mean": 0.0681,
+          "paired_delta_10_minus_1": 0.0048,
+          "source_cluster_delta_ci": {
+            "bootstrap_reps": 2000,
+            "ci95": [
+              -0.0237,
+              0.0315
+            ],
+            "mean": 0.0048,
+            "n_sources": 111,
+            "n_tasks": 250,
+            "seed": 20261021
+          },
+          "ten_fps_mean": 0.0729
+        },
+        "soft_cjcs": {
+          "n_tasks": 450,
+          "one_fps_mean": 0.0436,
+          "paired_delta_10_minus_1": 0.0191,
+          "source_cluster_delta_ci": {
+            "bootstrap_reps": 2000,
+            "ci95": [
+              -0.002,
+              0.0418
+            ],
+            "mean": 0.0191,
+            "n_sources": 129,
+            "n_tasks": 450,
+            "seed": 20261021
+          },
+          "ten_fps_mean": 0.0627
+        },
+        "strict_pair": {
+          "n_tasks": 450,
+          "one_fps_mean": 0.0,
+          "paired_delta_10_minus_1": 0.0111,
+          "source_cluster_delta_ci": {
+            "bootstrap_reps": 2000,
+            "ci95": [
+              0.0024,
+              0.0214
+            ],
+            "mean": 0.0111,
+            "n_sources": 129,
+            "n_tasks": 450,
+            "seed": 20261021
+          },
+          "ten_fps_mean": 0.0111
+        },
+        "task_macro_score": {
+          "n_tasks": 450,
+          "one_fps_mean": 1.1061,
+          "paired_delta_10_minus_1": -0.06,
+          "source_cluster_delta_ci": {
+            "bootstrap_reps": 2000,
+            "ci95": [
+              -0.1739,
+              0.0652
+            ],
+            "mean": -0.06,
+            "n_sources": 129,
+            "n_tasks": 450,
+            "seed": 20261021
+          },
+          "ten_fps_mean": 1.0461
+        }
+      }
+    }
+  },
+  "rubric_hash_check": {
+    "gander": {
+      "byte_equal": false,
+      "canonicalized_core_rows": 1,
+      "one_fps": "3f998b202dc885c433315cf5bc1401177ea6600ebb0fcda76e27da00764d017b",
+      "ten_fps": "0579fd1b2b141f9d28ffd8ff6284642a3b27d00aafce42181756c7df87253fd5"
+    },
+    "minicpm": {
+      "byte_equal": true,
+      "canonicalized_core_rows": 0,
+      "one_fps": "3f998b202dc885c433315cf5bc1401177ea6600ebb0fcda76e27da00764d017b",
+      "ten_fps": "3f998b202dc885c433315cf5bc1401177ea6600ebb0fcda76e27da00764d017b"
+    },
+    "moss": {
+      "byte_equal": true,
+      "canonicalized_core_rows": 0,
+      "one_fps": "3f998b202dc885c433315cf5bc1401177ea6600ebb0fcda76e27da00764d017b",
+      "ten_fps": "3f998b202dc885c433315cf5bc1401177ea6600ebb0fcda76e27da00764d017b"
+    },
+    "venus": {
+      "byte_equal": true,
+      "canonicalized_core_rows": 0,
+      "one_fps": "3f998b202dc885c433315cf5bc1401177ea6600ebb0fcda76e27da00764d017b",
+      "ten_fps": "3f998b202dc885c433315cf5bc1401177ea6600ebb0fcda76e27da00764d017b"
+    }
+  },
+  "seed": 20261021,
+  "strict_label_harmonization": {
+    "gander": {
+      "changed_rows": 1,
+      "rows": [
+        {
+          "judge_id": "OM_V3_CONS_D023_K000_00284::update_constraint::sl_main",
+          "score_after": 0.0,
+          "score_before": 0.0
+        }
+      ]
+    },
+    "minicpm": {
+      "changed_rows": 0,
+      "rows": []
+    },
+    "moss": {
+      "changed_rows": 0,
+      "rows": []
+    },
+    "venus": {
+      "changed_rows": 0,
+      "rows": []
+    }
+  }
+}
