@@ -63,3 +63,12 @@ model weights, local caches, credentials, or machine-specific run directories.
 Those files are external controlled artifacts. The repository publishes their
 identifiers, relative manifest paths, counts, and available checksums so they
 can be validated when supplied under the applicable source rights.
+
+The complete media archive is available in a
+[Google Drive folder](https://drive.google.com/drive/folders/1oLvh81uQnNHhfwZwm09nU3pxzG8s8Jf3).
+It contains 16 required tar shards (approximately 62.784 GiB) covering the
+25 FPS JPEG timelines, 16 kHz scene audio, Qwen-TTS speech, and protocol
+metadata. The folder is shared read-only and does not require a Google account.
+After download, verify the shards with the Drive copy of
+`manifests/SHA256SUMS` and check the extracted layout against
+`benchmark/media_manifest.json`.

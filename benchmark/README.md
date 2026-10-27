@@ -132,6 +132,14 @@ relative paths. The original videos, 25 FPS extracted frames, mixed audio, TTS
 files, model weights, raw runtime traces, and API caches are intentionally
 external because of size, credentials, or unreviewed redistribution rights.
 
+The complete external media release is hosted in this
+[Google Drive folder](https://drive.google.com/drive/folders/1oLvh81uQnNHhfwZwm09nU3pxzG8s8Jf3).
+It contains the 16 required tar shards (approximately 62.784 GiB) for the full
+25 FPS JPEG timelines, 16 kHz scene audio, Qwen-TTS speech, and protocol
+metadata. The folder is shared read-only and does not require a Google account.
+Verify the downloaded shards with the Drive copy of `manifests/SHA256SUMS`,
+then validate the restored layout against `media_manifest.json`.
+
 ## Citation and license boundary
 
 This anonymous snapshot does not grant rights to third-party videos or model

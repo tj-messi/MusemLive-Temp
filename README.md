@@ -95,6 +95,14 @@ The 1,250 post-Judge candidate records per evaluated model are included under
 paths, frame and audio counts, source IDs, and available hashes so an authorized
 copy can be validated without exposing machine-local storage.
 
+The complete external media release is hosted in a
+[Google Drive folder](https://drive.google.com/drive/folders/1oLvh81uQnNHhfwZwm09nU3pxzG8s8Jf3).
+It contains the 16 required tar shards (approximately 62.784 GiB) for the
+25 FPS JPEG timelines, 16 kHz scene audio, Qwen-TTS speech, and protocol
+metadata. The folder is shared read-only and does not require a Google account.
+Validate downloaded shards against the Drive copy of
+`manifests/SHA256SUMS` and the committed `benchmark/media_manifest.json`.
+
 The 450-task release remains an experimental benchmark snapshot. Independent
 label review and media-redistribution review are separate release gates. The
 source table records `redistribution_status=unreviewed`; inclusion of a source
